@@ -1,3 +1,4 @@
+import time
 import pandas as pd
 import numpy as np
 import json
@@ -106,13 +107,10 @@ if not len(df):
 
 ###############################################################################
 
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.common.keys import Keys
-from pathlib import Path
-import time
+from selenium import webdriver  # noqa: E402
+from selenium.webdriver.support.ui import WebDriverWait  # noqa: E402
+from selenium.webdriver.common.by import By  # noqa: E402
+from pathlib import Path  # noqa: E402
 
 url = "http://127.0.0.1:7860/"
 
@@ -126,7 +124,7 @@ WebDriverWait(driver, 5)
 
 def generate_image(ptext, ntext, stext):
 
-    elements = driver.find_elements(By.XPATH, f"//*[@placeholder]")
+    elements = driver.find_elements(By.XPATH, "//*[@placeholder]")
 
     # First two elements are what we are looking for
     prompt_textbox = elements[0]

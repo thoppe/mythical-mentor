@@ -1,6 +1,9 @@
 # Keyfiles
 API_KEY.txt
 
+# High rez images
+imgs/results/*/*.png
+
 # Temp files
 *~
 results/basic/
