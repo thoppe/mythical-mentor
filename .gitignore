@@ -1,6 +1,10 @@
+# Keyfiles
+API_KEY.txt
+
 # Temp files
 *~
 results/basic/
+cache/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
