@@ -1,10 +1,10 @@
 from pathlib import Path
 from PIL import Image
 
-load_dest = Path('results')
+load_dest = Path("results")
 
-for f_png in load_dest.glob('**/*.png'):
-    f_jpg = f_png.with_suffix('.jpg')
+for f_png in load_dest.glob("**/*.png"):
+    f_jpg = f_png.with_suffix(".jpg")
     if f_jpg.exists():
         continue
 

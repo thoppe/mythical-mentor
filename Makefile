@@ -7,7 +7,8 @@ topic = "Gothic world with very low technology. Vampires and dark spirits roam t
 all:
 	python P0_build_world.py --topic $(topic)
 	python P1_build_cities.py --topic $(topic)
-	cd imgs/ && python P0_generate_images.py
+#	cd imgs/ && python P0_generate_images.py
+	cd imgs/ && python imgs/P1_spindown_images.py
 
 lint:
 	black *.py imgs --line-length 80

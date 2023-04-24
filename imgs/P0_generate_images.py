@@ -137,6 +137,9 @@ def generate_image(ptext, ntext, stext):
     neg_prompt_textbox.clear()
     neg_prompt_textbox.send_keys(ntext.strip())
 
+    WebDriverWait(driver, 1)
+    time.sleep(1)
+
     # Clear the directory
     save_dest = Path(".") / "stable-diffusion-webui" / "log" / "images"
     for f in save_dest.glob("*.png"):
@@ -148,7 +151,7 @@ def generate_image(ptext, ntext, stext):
     inputbox = ID.find_elements(By.TAG_NAME, "button")[2]
     inputbox.click()
     WebDriverWait(driver, 10)
-    time.sleep(8)
+    time.sleep(10)
 
     # Save the image
     ID = driver.find_element(By.ID, "save_txt2img")
