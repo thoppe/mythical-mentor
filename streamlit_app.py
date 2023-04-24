@@ -80,8 +80,13 @@ def write_images(img_key, dx, show_description=True):
         img_key = " ".join(img_key)
     dx2 = dx[dx["key"] == img_key]
     for f, text in zip(dx2.f_save, dx2.prompt):
-        f_png = Path("imgs") / f
-        img = Image.open(f_png)
+
+        f_img = Path("imgs") / f
+
+        if not f_img.exists():
+            f_img = f_img.with_suffix('.jpg')
+        
+        img = Image.open(f_img)
         st.image(img, width=400)
 
         if show_description:
