@@ -7,7 +7,7 @@ import itertools
 from PIL import Image
 
 st.set_page_config(
-    layout="centered", page_icon=":brain:", page_title="Worldbuilder"
+    layout="centered", page_icon=":new_moon_with_face:", page_title="Mythical Mentor"
 )
 
 load_dest = Path("results") / "advanced"
