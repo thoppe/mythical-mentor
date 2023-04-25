@@ -7,7 +7,9 @@ import itertools
 from PIL import Image
 
 st.set_page_config(
-    layout="centered", page_icon=":new_moon_with_face:", page_title="Mythical Mentor"
+    layout="centered",
+    page_icon=":new_moon_with_face:",
+    page_title="Mythical Mentor",
 )
 
 load_dest = Path("results") / "advanced"
@@ -52,6 +54,8 @@ world = js["world"]
 starter_prompt = js["prompts"]["world_names"]
 starter_prompt = starter_prompt.split("designing a")[1]
 starter_prompt = starter_prompt.split("Enumerate names")[0]
+starter_prompt = starter_prompt.strip().strip(".").strip()
+
 
 IGNORED_KEYS = ["name", "description", "basic_city_desc", "residents"]
 
@@ -63,7 +67,7 @@ hi = st.session_state["hierarchy"]
 # Define the app title and description
 world_name = world["name"]
 st.write(f"# {world_name}")
-st.write(f"_{starter_prompt.strip()}_")
+st.write(f"_{starter_prompt}_")
 
 # Check if we have a img picture
 f_world_csv = Path("imgs") / "results" / f"{world_name}.csv"
@@ -84,10 +88,11 @@ def write_images(img_key, dx, show_description=True):
         f_img = Path("imgs") / f
 
         if not f_img.exists():
-            f_img = f_img.with_suffix('.jpg')
-        
-        img = Image.open(f_img)
-        st.image(img, width=400)
+            f_img = f_img.with_suffix(".jpg")
+
+        if f_img.exists():
+            img = Image.open(f_img)
+            st.image(img, width=400)
 
         if show_description:
             st.write(text)

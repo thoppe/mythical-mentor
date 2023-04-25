@@ -17,12 +17,22 @@ style_text = """scifi, futuristic, illustration, high contrast, cinematic, detai
 f_json = "../results/advanced/refugees-that-have-crash-landed-after-their-planet-was-destroyed-by-an-ecological-disaster/Tyrosia.json"
 style_text = """scifi, futuristic, illustration, dark, cinematic, detailed, atmospheric, 8k, by feng zhu, concept art"""
 
-
 f_json = "../results/advanced/gothic-world-with-very-low-technology-vampires-and-dark-spirits-roam-the-world-but-there-is-very-little-magic-for-others-the-humans-live-in-fear-crowded-in-small-filthy-villages/Blackwood.json"
 style_text = """Illustration by Jeffrey Catherine Jones. Evil, forboding, detailed, scary, cinematic"""
 
+f_json = "../results/advanced/a-world-where-everything-is-a-chicken-all-creatures-are-some-form-of-chicken-there-is-no-magic-it-is-a-pre-industrial-world-there-are-no-airships-in-fact-chickens-can-t-fly-there-are-chickens-with-jobs-wild-chicken-creatures-and-cute-chicken-pets/Eggland.json"
+style_text = """Studio Ghibli, illustration, high level of detail and expression. lush, detailed backgrounds, highly expressive characters, emphasis on nature. by Hayao Miyazaki. Chickens. No humans. Just chickens."""
 
 neg_text = """((sfw)), easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry"""
+
+f_json = "../results/advanced/a-world-where-everything-is-a-chicken-all-creatures-are-some-form-of-chicken-there-is-no-magic-it-is-a-pre-industrial-world-it-is-a-world-imagined-werner-herzog-who-thinks-chickens-are-dumb-animials-chickens-can-t-fly-there-are-ch/Clawville.json"
+style_text = """(Chicken:1.1). Not human. Studio Ghibli, illustration, high level of detail and expression. lush, detailed backgrounds, highly expressive characters, emphasis on nature. by Hayao Miyazaki. Chickens heads."""
+neg_text = """((sfw)), (people:1.1), (human:1.1), easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry"""
+
+
+# f_json = "../results/advanced/a-hedonistic-world-individuals-may-become-addicted-to-pleasure-seeking-behaviors-romantic-relationships-are-the-exchange-of-pleasure-with-individuals-seeking-out-partners-who-can-provide-them-with-the-most-enjoyable-experiences/Hedonia Prime.json"
+# style_text = """nsfw, sexy, Antoine Blanchard, (masterpiece:1.1), (best quality:1.1), dreamlikeart, absurdres, highres, beautiful, photorealistic, real, close up, contrast lighting, by Anders Zorn"""
+# neg_text = """easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry"""
 
 
 def load_world(f_json):
@@ -150,7 +160,7 @@ def generate_image(ptext, ntext, stext):
     ID = driver.find_element(By.ID, "txt2img_generate_box")
     inputbox = ID.find_elements(By.TAG_NAME, "button")[2]
     inputbox.click()
-    WebDriverWait(driver, 10)
+    WebDriverWait(driver, 12)
     time.sleep(10)
 
     # Save the image

@@ -35,6 +35,8 @@ def get_inhabitants(item):
     q = f"""Describe in great visual detail this character in {city_name}. {resident}"""
 
     messages = [
+        base_q0,
+        base_q1,
         {"role": "user", "content": QW["races"]},
         {"role": "assistant", "content": world["races"]},
         {"role": "user", "content": Q["description"]},
@@ -72,6 +74,8 @@ def get_city_detail(item):
         "residents"
     ] = f"""Using a bulleted list denoted by dashes, help imagine some of the famous residents and characters and what makes each of them unique in {basic_city_desc} Give them each a character name, their race, and a backstory."""
     messages = [
+        base_q0,
+        base_q1,
         {"role": "user", "content": QW["races"]},
         {"role": "assistant", "content": world["races"]},
         {"role": "user", "content": Q["description"]},
@@ -147,7 +151,7 @@ def ASK(messages, n=1, expect_list=False, force=False):
 
 # Load the prior results
 
-load_dest = Path("results") / "basic" / slugify(main_topic)
+load_dest = Path("results") / "basic" / slugify(main_topic)[:230]
 f_world = list(load_dest.glob("*.json"))[0]
 
 with open(f_world) as FIN:
@@ -156,7 +160,12 @@ with open(f_world) as FIN:
     QW = js["prompts"]
 
 
-cache = dc.Cache(f"cache/{slugify(main_topic)}/worldbuilding/{world['name']}")
+base_q0 = {"role": "user", "content": "Tell me who you are."}
+base_q1 = {"role": "assistant", "content": QW["description"]}
+
+cache = dc.Cache(
+    f"cache/{slugify(main_topic)[:230]}/worldbuilding/{world['name']}"
+)
 
 ITR = [
     (basic_city_desc, world, QW)
@@ -188,7 +197,7 @@ js = {
     "prompts": QW,
 }
 
-save_dest = Path("results") / "advanced" / slugify(main_topic)
+save_dest = Path("results") / "advanced" / slugify(main_topic)[:230]
 save_dest.mkdir(exist_ok=True, parents=True)
 
 f_save = save_dest / f"{world['name']}.json"

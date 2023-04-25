@@ -26,7 +26,7 @@ main_topic = args.topic
 max_tokens = args.MAX_TOKENS
 NUM_QUERY_THREADS = 1
 
-cache = dc.Cache(f"cache/{slugify(main_topic)}/worldbuilding")
+cache = dc.Cache(f"cache/{slugify(main_topic)[:230]}/worldbuilding")
 
 
 @cache.memoize()
@@ -147,7 +147,7 @@ js = {
     "prompts": Q,
 }
 
-save_dest = Path("results") / "basic" / slugify(main_topic)
+save_dest = Path("results") / "basic" / slugify(main_topic)[:230]
 save_dest.mkdir(exist_ok=True, parents=True)
 
 f_save = save_dest / f"{world['name']}.json"
