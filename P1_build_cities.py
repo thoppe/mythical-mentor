@@ -59,7 +59,7 @@ def get_city_detail(item):
 
     Q[
         "description"
-    ] = f"""Describe in great detail {basic_city_desc} Include the history, arts, culture, major events. Do not list any specific residents."""
+    ] = f"""{main_topic} Describe in great detail {basic_city_desc} Include the history, arts, culture, major events. Do not list any specific residents."""
     messages = [
         {"role": "user", "content": QW["description"]},
         {"role": "assistant", "content": world["description"]},
@@ -72,7 +72,7 @@ def get_city_detail(item):
 
     Q[
         "residents"
-    ] = f"""Using a bulleted list denoted by dashes, help imagine some of the famous residents and characters and what makes each of them unique in {basic_city_desc} Give them each a character name, their race, and a backstory."""
+    ] = f"""{main_topic} Using a bulleted list denoted by dashes, help imagine some of the famous residents and characters and what makes each of them unique in {basic_city_desc} Give them each a character name, their race, and a backstory."""
     messages = [
         base_q0,
         base_q1,
@@ -87,7 +87,7 @@ def get_city_detail(item):
 
     Q[
         "lore"
-    ] = f"""Using a bulleted list denoted by dashes, help imagine some of the major historical events and drama in {basic_city_desc} Use the famous residents and characters in each item."""
+    ] = f"""{main_topic} Using a bulleted list denoted by dashes, help imagine some of the major historical events and drama in {basic_city_desc} Use the famous residents and characters in each item."""
 
     messages = [
         {"role": "user", "content": QW["races"]},

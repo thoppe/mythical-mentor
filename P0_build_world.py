@@ -8,9 +8,9 @@ from slugify import slugify
 
 
 parser = argparse.ArgumentParser(
-    description="Generate an world from a base idea."
+    description="Generate an world from a base prompt."
 )
-parser.add_argument("--topic", type=str, help="Base idea")
+parser.add_argument("--topic", type=str, help="Base prompt")
 
 parser.add_argument(
     "--MAX_TOKENS",
@@ -22,7 +22,7 @@ parser.add_argument(
 # Parse the arguments
 args = parser.parse_args()
 
-main_topic = args.topic
+main_topic = args.topic.strip() + " "
 max_tokens = args.MAX_TOKENS
 NUM_QUERY_THREADS = 1
 
@@ -62,7 +62,12 @@ Q[
 names = recover_bulleted_list(recover_content(SIMPLE_ASK(Q["world_names"])))
 
 # Choose the last name in the list
-world = {"name": names[-1]}
+print("Choose a world name:")
+for i, option in enumerate(names):
+    print(f"{i}. {option}")
+world_selection_index = int(input("> "))
+
+world = {"name": names[world_selection_index]}
 MSG.info(f"Building the world {world['name']}")
 
 # Describe the world
@@ -73,9 +78,10 @@ world["description"] = recover_content(SIMPLE_ASK(Q["description"]))
 print(world["description"])
 
 # Describe some of the races
-Q[
-    "races"
-] = f"""List some of the races in the world of {world['name']} in a bulleted list. Do not use any previously known names for the races. Describe their interaction with the technology and culture of {world['name']}. Return the results in a bulleted list only."""
+Q["races"] = (
+    main_topic
+    + f"""List some of the races in the world of {world['name']} in a bulleted list. Do not use any previously known names for the races. Describe their interaction with the technology and culture of {world['name']}. Return the results in a bulleted list only."""
+)
 messages = [
     {"role": "user", "content": Q["description"]},
     {"role": "assistant", "content": world["description"]},
@@ -99,9 +105,10 @@ world["creatures"] = recover_content(ASK(messages))
 print(world["creatures"])
 
 # Describe some of the major cities and what races live there
-Q[
-    "cities"
-] = f"""List some of the major cities, towns, or villages that are in the world of {world['name']} in a bulleted list. Do not use any previously known names. Do not use any names found in books or games. Describe what races live in them. Return the results in a bulleted list only."""
+Q["cities"] = (
+    main_topic
+    + f"""List some of the major cities, towns, or villages that are in the world of {world['name']} in a bulleted list. Do not use any previously known names. Do not use any names found in books or games. Describe what races live in them. Return the results in a bulleted list only."""
+)
 messages = [
     {"role": "user", "content": Q["description"]},
     {"role": "assistant", "content": world["description"]},
@@ -113,9 +120,10 @@ world["cities"] = recover_content(ASK(messages))
 print(recover_bulleted_list(world["cities"]))
 
 # Describe the languages of each race
-Q[
-    "languages"
-] = """For each of the races, describe their language in a bulleted list. Do not use any previously known names. Return the results in a bulleted list only."""
+Q["languages"] = (
+    main_topic
+    + """For each of the races, describe their language in a bulleted list. Do not use any previously known names. Return the results in a bulleted list only."""
+)
 messages = [
     {"role": "user", "content": Q["description"]},
     {"role": "assistant", "content": world["description"]},

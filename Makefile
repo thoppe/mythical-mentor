@@ -7,6 +7,7 @@
 #topic = "A hedonistic world. Individuals may become addicted to pleasure-seeking behaviors. Romantic relationships are the exchange of pleasure, with individuals seeking out partners who can provide them with the most enjoyable experiences."
 #topic = "Spaceport in space, on the edge the galaxy where hope has died. Miners work dangerous shifts, alien races are hostile. A dying sun is nearby. No magic."
 topic = "A world where everything is a chicken. All creatures are some form of chicken. There is no magic. It is a pre-industrial world. It is a world imagined werner herzog who thinks chickens are dumb animials. Chickens can't fly. There are chickens with jobs, wild chicken creatures, and cute chicken pets"
+topic = "A preindustrial temple of bellydancing amazonian queens who practice polyamory. They worship Athena and strive for a more just society. Outside the temple the other cities are falling to the encroaching patriarchal system. The women love conscious sexy men who adore them for their whole person."
 
 all:
 	python P0_build_world.py --topic $(topic)
