@@ -1,11 +1,13 @@
 import json
+import yaml
 from dspipe import Pipe
 import argparse
 import diskcache as dc
-from utils import recover_bulleted_list, Cached_ChatGPT
 from wasabi import msg as MSG
 from pathlib import Path
 from slugify import slugify
+import copy
+from worldbuilder import WorldBuilder, Cached_ChatGPT
 
 parser = argparse.ArgumentParser(
     description="Generate an world from a base idea."
@@ -26,163 +28,86 @@ main_topic = args.topic
 max_tokens = args.MAX_TOKENS
 NUM_QUERY_THREADS = 4
 
-
-def get_inhabitants(item):
-    resident, basic_city_desc, world, city, Q, QS = item
-
-    city_name = basic_city_desc.split(":")[0]
-
-    q = f"""Describe in great visual detail this character in {city_name}. {resident}"""
-
-    messages = [
-        base_q0,
-        base_q1,
-        {"role": "user", "content": QS["races"]},
-        {"role": "assistant", "content": world["races"]},
-        {"role": "user", "content": Q["description"]},
-        {"role": "assistant", "content": city["description"]},
-        {"role": "user", "content": Q["residents"]},
-        {"role": "assistant", "content": city["residents"]},
-        {"role": "user", "content": Q["lore"]},
-        {"role": "assistant", "content": city["lore"]},
-        {"role": "user", "content": q},
-    ]
-    x = GPT.ASK(messages, expect_list=False)
-    return x, resident, q
-
-
-def get_city_detail(item):
-    basic_city_desc, world, QS = item
-
-    Q = {}
-    city = {"basic_city_desc": basic_city_desc}
-
-    Q[
-        "description"
-    ] = f"""{main_topic}. Describe in great detail {basic_city_desc} Include the history, arts, culture, major events. Do not list any specific residents."""
-    messages = [
-        {"role": "user", "content": QS["description"]},
-        {"role": "assistant", "content": world["description"]},
-        {"role": "user", "content": QS["races"]},
-        {"role": "assistant", "content": world["races"]},
-        {"role": "user", "content": Q["description"]},
-    ]
-
-    # Shorten the description
-    Q[
-        "description"
-    ] = "Describe the city. Include the history, arts, culture, major events."
-
-    city["description"] = GPT.ASK(messages, expect_list=False)
-    print(city["description"])
-
-    Q[
-        "residents"
-    ] = f"""{main_topic}. Using a bulleted list denoted by dashes, help imagine some of the famous residents and characters and what makes each of them unique in {basic_city_desc} Give them each a character name, their race, and a backstory."""
-    messages = [
-        base_q0,
-        base_q1,
-        {"role": "user", "content": QS["races"]},
-        {"role": "assistant", "content": world["races"]},
-        {"role": "user", "content": Q["description"]},
-        {"role": "assistant", "content": city["description"]},
-        {"role": "user", "content": Q["residents"]},
-    ]
-    # Shorten the description
-    Q["residents"] = "Describe some of the famous residents and characters."
-
-    city["residents"] = GPT.ASK(messages, expect_list=True)
-    print(city["residents"])
-
-    Q[
-        "lore"
-    ] = f"""{main_topic}. Using a bulleted list denoted by dashes, help imagine some of the major historical events and drama in {basic_city_desc} Use the famous residents and characters in each item."""
-
-    messages = [
-        {"role": "user", "content": QS["races"]},
-        {"role": "assistant", "content": world["races"]},
-        {"role": "user", "content": Q["description"]},
-        {"role": "assistant", "content": city["description"]},
-        {"role": "user", "content": Q["residents"]},
-        {"role": "assistant", "content": city["residents"]},
-        {"role": "user", "content": Q["lore"]},
-    ]
-
-    city["lore"] = GPT.ASK(messages, expect_list=True)
-    print(city["lore"])
-
-    city["inhabitants"] = {}
-    Q["inhabitants"] = {}
-
-    ITR = [
-        (resident, basic_city_desc, world, city, Q, QS)
-        for resident in recover_bulleted_list(city["residents"])
-    ]
-
-    for x, resident, qx in Pipe(ITR)(get_inhabitants, NUM_QUERY_THREADS):
-
-        resident_name = resident.split(",")[0].split(":")[0]
-        city["inhabitants"][resident_name] = x
-        Q["inhabitants"][resident_name] = qx
-
-    return basic_city_desc, Q, city
-
-
-# Load the prior results, load only the first world in the list
+#########################################################################
 
 load_dest = Path("results") / "basic" / slugify(main_topic)[:230]
+
+# Load only the first world
 f_world = list(load_dest.glob("*.json"))[0]
 
 with open(f_world) as FIN:
     js = json.load(FIN)
-    world = js["world"]
-    # QW = js["prompts"]
-    QS = js["short_prompts"]
+    world_name = js["meta"]["world_name"]
 
+#########################################################################
 
-base_q0 = {"role": "user", "content": QS["description"]}
-base_q1 = {"role": "assistant", "content": world["description"]}
-
+# Load a cache, a GPT query, and world builder
 cache = dc.Cache(
-    f"cache/{slugify(main_topic)[:230]}/worldbuilding/{world['name']}"
+    f"cache/{slugify(main_topic)[:230]}/worldbuilding/{world_name}"
 )
 GPT = Cached_ChatGPT(cache, max_tokens)
 
-ITR = [
-    (basic_city_desc, world, QS)
-    for basic_city_desc in recover_bulleted_list(world["cities"])
-]
+f_yaml_schema = "schema/cities.yaml"
+stream = open(f_yaml_schema, "r")
+schema = {}
+for item in yaml.load_all(stream, yaml.FullLoader):
+    schema[item["key"]] = item
 
-world["city_details"] = {}
-QS["city_details"] = {}
+#######################################################################
 
-for basic_city_desc, city_Q, city in Pipe(ITR)(
-    get_city_detail,
-    NUM_QUERY_THREADS,
-):
+
+def process_resident(item):
+    CITY, basic_resident_desc = item
+    RESIDENT = copy.deepcopy(CITY)
+    resident_name = basic_resident_desc.split(":")[0]
+    RESIDENT.build_args["resident_name"] = resident_name
+    RESIDENT.build_args["basic_resident_desc"] = basic_resident_desc
+
+    resident = RESIDENT(schema["residents"], is_list=False)
+    return resident, resident_name
+
+
+WORLD = WorldBuilder(GPT, main_topic=main_topic, world_name=world_name)
+WORLD.prompts = js["prompts"]
+WORLD.short_prompts = js["short_prompts"]
+WORLD.content = js["content"]
+
+WORLD.content["cities"] = {}
+
+for basic_city_desc in WORLD.get("basic_cities"):
+    CITY = copy.deepcopy(WORLD)
 
     city_name = basic_city_desc.split(":")[0]
+    CITY.build_args["basic_city_desc"] = basic_city_desc
+    CITY.build_args["city_name"] = city_name
 
-    world["city_details"][basic_city_desc] = city
-    QS["city_details"][basic_city_desc] = city_Q
+    print(CITY(schema["city_description"], is_list=False))
+    CITY(schema["basic_residents"])
+    CITY(schema["lore"])
 
+    CITY.content["residents"] = {}
 
-# Remove the basic city details
-del world["cities"]
-world["cities"] = world["city_details"]
-del world["city_details"]
+    ITR = [(CITY, x) for x in CITY.get("basic_residents")]
+    for item in Pipe(ITR)(process_resident, NUM_QUERY_THREADS):
+        resident, resident_name = item
+        CITY.content["residents"][resident_name] = resident
+        print(resident)
 
+    WORLD.content["cities"][city_name] = CITY.content
 
 js = {
-    "world": world,
-    "prompts": QS,
+    "content": WORLD.content,
+    "prompts": WORLD.prompts,
+    "short_prompts": WORLD.short_prompts,
     "meta": js["meta"],
 }
+
+#######################################################################
 
 save_dest = Path("results") / "advanced" / slugify(main_topic)[:230]
 save_dest.mkdir(exist_ok=True, parents=True)
 
-f_save = save_dest / f"{world['name']}.json"
+f_save = save_dest / f"{world_name}.json"
 
 with open(f_save, "w") as FOUT:
     FOUT.write(json.dumps(js, indent=2))

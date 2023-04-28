@@ -15,7 +15,7 @@ topic = "everything is a chicken. All creatures are some form of chicken. There 
 
 all:
 	python P0_build_world.py --topic $(topic) --world_selection_index 6
-#	python P1_build_cities.py --topic $(topic)
+	python P1_build_cities.py --topic $(topic)
 #	cd imgs/ && python P0_generate_images.py
 #	cd imgs/ && python imgs/P1_spindown_images.py
 

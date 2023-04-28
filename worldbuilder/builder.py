@@ -6,7 +6,7 @@ class WorldBuilder:
         self.build_args = kwargs
         self.GPT = GPT
 
-        self.world = {}
+        self.content = {}
         self.prompts = {}
         self.short_prompts = {}
 
@@ -14,7 +14,7 @@ class WorldBuilder:
         messages = []
         for k in q["messages"]:
             messages.append({"role": "user", "content": self.short_prompts[k]})
-            messages.append({"role": "assistant", "content": self.world[k]})
+            messages.append({"role": "assistant", "content": self.content[k]})
 
         messages.append({"role": "user", "content": prompt})
         return messages
@@ -31,7 +31,12 @@ class WorldBuilder:
         messages = self.build_message_chain(q, prompt)
         result = self.GPT.ASK(messages)
 
-        self.world[name] = result
+        self.content[name] = result
+
+        return self.get(name, is_list=is_list)
+
+    def get(self, key, is_list=True):
+        result = self.content[key]
 
         if is_list:
             result = recover_bulleted_list(result)

@@ -28,12 +28,6 @@ parser.add_argument(
     help="Pre-select the world to use",
 )
 
-f_yaml_schema = "schema/world.yaml"
-stream = open(f_yaml_schema, "r")
-SCHEMA = {}
-for item in yaml.load_all(stream, yaml.FullLoader):
-    SCHEMA[item["key"]] = item
-
 # Parse the arguments
 args = parser.parse_args()
 
@@ -47,12 +41,22 @@ NUM_QUERY_THREADS = 1
 # Load a cache, a GPT query, and world builder
 cache = dc.Cache(f"cache/{slugify(main_topic)[:230]}/worldbuilding")
 GPT = Cached_ChatGPT(cache, max_tokens)
-BUILDER = WorldBuilder(GPT, main_topic=main_topic)
+WORLD = WorldBuilder(GPT, main_topic=main_topic)
+
+f_yaml_schema = "schema/world.yaml"
+stream = open(f_yaml_schema, "r")
+schema = {}
+for item in yaml.load_all(stream, yaml.FullLoader):
+    schema[item["key"]] = item
+
+f_yaml_meta = "schema/meta.yaml"
+with open(f_yaml_meta, "r") as file:
+    meta = yaml.load(file, Loader=yaml.FullLoader)
 
 #########################################################################
 
 # Query GPT to get a list of names
-names = BUILDER(SCHEMA["world_names"])
+names = WORLD(schema["world_names"])
 
 # Ask the user for a specific name or choose one from the cmd args
 if world_selection_index is None:
@@ -64,29 +68,29 @@ if world_selection_index is None:
 world_name = names[world_selection_index]
 MSG.info(f"Building the world {world_name}")
 
-BUILDER.build_args["world_name"] = world_name
+WORLD.build_args["world_name"] = world_name
 
 ######################################################################
 
-print(BUILDER(SCHEMA["description"], is_list=False))
-print(BUILDER(SCHEMA["races"]))
-print(BUILDER(SCHEMA["creatures"]))
-print(BUILDER(SCHEMA["cities"]))
-print(BUILDER(SCHEMA["deities"]))
-print(BUILDER(SCHEMA["landmarks"]))
-print(BUILDER(SCHEMA["beliefs"]))
+print(WORLD(schema["world_description"], is_list=False))
+print(WORLD(schema["races"]))
+print(WORLD(schema["creatures"]))
+print(WORLD(schema["basic_cities"]))
+print(WORLD(schema["deities"]))
+print(WORLD(schema["landmarks"]))
+print(WORLD(schema["beliefs"]))
 
 ############################################################################
 # Save the output to the "basic" folder for the next round
 
+meta["main_topic"] = main_topic
+meta["world_name"] = world_name
+
 js = {
-    "world": BUILDER.world,
-    "prompts": BUILDER.prompts,
-    "short_prompts": BUILDER.short_prompts,
-    "meta": {
-        "mythical_mentor_schema_version": mythical_mentor_schema_version,
-        "main_topic": main_topic,
-    },
+    "content": WORLD.content,
+    "prompts": WORLD.prompts,
+    "short_prompts": WORLD.short_prompts,
+    "meta": meta,
 }
 
 save_dest = Path("results") / "basic" / slugify(main_topic)[:230]
