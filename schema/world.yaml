@@ -1,0 +1,55 @@
+---
+
+key: world_names
+prompt: "You are an expert worldbuilder, and are designing a {main_topic}. Enumerate names for this world in a bulleted list. Do not use any known names. Do not include a description."
+short_prompt: "You are an expert worldbuilder and are designing {main_topic}. What is the name of this world?"
+messages: []
+
+---
+
+key: description
+prompt: "You are an expert worldbuilder, and are designing {main_topic}. The name of the world is {world_name}. Describe this world for me. Be extremely high level and be specific technology, magic, and culture that are available."
+short_prompt: "Describe the world of {world_name}. It is a {main_topic}"
+messages: []
+
+---
+
+"key": "races"
+"prompt": "{main_topic}. List some of the races in the world of {world_name} in a bulleted list. Do not use any commonly known names for the races. Describe their interaction with the technology and culture of {world_name}. Return the results in a bulleted list only."
+"short_prompt": "List some of the races in {world_name}"
+"messages": ["description"]
+
+---
+
+"key": "creatures"
+"prompt": "List some of the creatures that inhabit the world of {world_name} in a bulleted list. Do not use any previously known names for the creatures. Do not use any names found in books or games. Describe their interaction with the known races {world_name}. Return the results in a bulleted list only."
+"short_prompt": "List some of the creatures that inhabit {world_name}"
+"messages": ["description", "races"]
+
+---
+
+"key": "cities"
+"prompt": "{main_topic}. List some of the major cities, towns, or villages that are in the world of {world_name} in a bulleted list. Do not use any previously known names. Do not use any names found in books or games. Describe what races live in them. Return the results in a bulleted list only."
+"short_prompt": "List some of the major cities, towns, or villages that are in the world of {world_name}"
+"messages": ["description", "races"]
+
+---
+
+"key": "deities"
+"prompt": "{main_topic}. List some of the deities of the {world_name} in a bulleted list. The deities may be active or long forgotten. They may be good or evil. Some of them care about their interaction with the world, others do not. Do not use any previously known names for the deities. The names of the deities must be long. Describe their interaction with the world {world_name}. Return the results in a bulleted list only."
+"short_prompt": "List some of the deities of the {world_name}"
+"messages": ["description", "races"]
+
+---
+
+"key": "landmarks"
+"prompt": "List some of the major landmarks or ruins in the world of {world_name} in a bulleted list. Do not include places where any of the races live like towns or villages. Do not use any names found in books or games. Make the names of the places evocative, but not cheesy. The names of the places must be long. Let a few of the places be connected to the deities already mentioned. Describe the history of the place and how the races interact with it. Return the results in a bulleted list only."
+"short_prompt": "List some of the major landmarks or ruins in {world_name}"
+"messages": ["description", "races", "deities"]
+
+---
+
+"key": "beliefs"
+"prompt": "List some of the major beliefs or religions that the races of {world_name} follow in a bulleted list. Do not include places where any of the beliefs found in books, games, or real-life. Give each beliefs system a name. Connect the beliefs to the deities previously mentioned. Describe the history of the belief and how the races interact with it. Return the results in a bulleted list only."
+"short_prompt": "List some of the major beliefs or religions that the races of {world_name}"
+"messages": ["description", "races", "deities"]

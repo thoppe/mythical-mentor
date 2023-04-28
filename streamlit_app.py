@@ -31,7 +31,7 @@ def button_go_back():
 
 with st.sidebar:
 
-    starting_index = 0
+    starting_index = 3
 
     category = st.selectbox(
         "World", NAMES, on_change=reset_all, index=starting_index
@@ -51,10 +51,16 @@ def load_data(f_json):
 js = load_data(f_json)
 world = js["world"]
 
-starter_prompt = js["prompts"]["world_names"]
-starter_prompt = starter_prompt.split("designing a")[1]
-starter_prompt = starter_prompt.split("Enumerate names")[0]
-starter_prompt = starter_prompt.strip().strip(".").strip()
+if "meta" in js:
+    starter_prompt = js["meta"]["main_topic"]
+    schema_version = int(js["meta"]["mythical_mentor_schema_version"])
+else:
+    # Old code to remove
+    starter_prompt = js["prompts"]["world_names"]
+    starter_prompt = starter_prompt.split("designing a")[1]
+    starter_prompt = starter_prompt.split("Enumerate names")[0]
+    starter_prompt = starter_prompt.strip().strip(".").strip()
+    schema_version = 1
 
 
 IGNORED_KEYS = ["name", "description", "basic_city_desc", "residents"]
@@ -167,4 +173,10 @@ st.write(
    Made with 💙 by [@metasemantic](https://twitter.com/metasemantic),
 """
 )
+
+
+with st.sidebar.expander("meta"):
+    st.write(f"_Mythical schema version: {schema_version:d}_")
+
+
 #   [code](https://github.com/thoppe/autology).

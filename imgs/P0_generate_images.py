@@ -35,6 +35,14 @@ neg_text = """easynegative, badhandv4, greyscale, monochrome, water mark, signat
 # style_text = """nsfw, sexy, Antoine Blanchard, (masterpiece:1.1), (best quality:1.1), dreamlikeart, absurdres, highres, beautiful, photorealistic, real, close up, contrast lighting, by Anders Zorn"""
 # neg_text = """easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry"""
 
+f_json = "../results/advanced/gothic-world-with-very-low-technology-vampires-and-dark-spirits-roam-the-world-but-there-is-very-little-magic-for-others-the-humans-live-in-fear-crowded-in-small-filthy-villages/Sablehaven.json"
+style_text = """Illustration by Jeffrey Catherine Jones. Evil, foreboding, detailed, scary, highres"""
+neg_text = """easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry"""
+
+f_json = "../results/advanced/preindustrial-world-of-bellydancing-amazonian-queens-who-practice-polyamory-magic-and-mysticism-abound-they-worship-athena-and-strive-for-a-more-just-society-outside-the-temple-the-other-cities-are-falling-to-the-encroaching-patri/Bellamoria.json"
+style_text = """Illustration by Zindy S. D. Nielsen. Light on colors, beautiful. High quality, detailed, concept art"""
+neg_text = """easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry"""
+
 
 def load_world(f_json):
     with open(f_json) as FIN:
@@ -76,7 +84,8 @@ def world_step(d, prior_keys=None):
             yield x
 
 
-subareas = ["races", "creatures", "landmarks", "lore"]
+CLOSEUP_KEYS = ["races", "creatures", "inhabitants"]
+subareas = ["races", "creatures", "landmarks", "lore", "deities", "beliefs"]
 ITR = []
 
 
@@ -99,6 +108,15 @@ save_dest.mkdir(exist_ok=True, parents=True)
 df = pd.DataFrame(data=ITR, columns=["key", "prompt"])
 df["f_save"] = [save_dest / f"{k:06d}.png" for k in range(len(df))]
 
+# Mark the close-ups
+df["is_closeup"] = [any([x in CLOSEUP_KEYS for x in z]) for z in df["key"]]
+df["negative_prompt"] = neg_text
+df["style_prompt"] = style_text
+
+df.loc[df.is_closeup, "style_prompt"] = (
+    "closeup, " + df.loc[df.is_closeup]["style_prompt"]
+)
+
 # Save the result
 f_csv = Path("results") / (world["name"] + ".csv")
 df.to_csv(f_csv, index=False)
@@ -107,9 +125,6 @@ df.to_csv(f_csv, index=False)
 # Only generate the new images
 idx = np.array([x.exists() for x in df.f_save])
 df = df[~idx]
-df["negative_prompt"] = neg_text
-df["style_prompt"] = style_text
-
 
 # Exit peacefully if no work is needed
 if not len(df):
@@ -134,7 +149,6 @@ WebDriverWait(driver, 5)
 
 
 def generate_image(ptext, ntext, stext):
-
     elements = driver.find_elements(By.XPATH, "//*[@placeholder]")
 
     # First two elements are what we are looking for
@@ -177,8 +191,10 @@ def generate_image(ptext, ntext, stext):
     return f_png
 
 
-for f_save, prompt in tqdm(zip(df.f_save, df.prompt), total=len(df)):
-    f_png = generate_image(prompt, neg_text, style_text)
+for f_save, prompt, stext in tqdm(
+    zip(df.f_save, df.prompt, df.style_prompt), total=len(df)
+):
+    f_png = generate_image(prompt, neg_text, stext)
     f_png.rename(f_save)
     print(f_save)
 

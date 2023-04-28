@@ -1,5 +1,5 @@
 # Mythical Mentor
-Use AI to generate works and mythos automatically
+Use AI to generate worlds and mythos automatically
 
 ```mermaid
 flowchart TD
@@ -7,16 +7,11 @@ flowchart TD
     WorldDesc --> Races
     Races --> Creatures
     Races --> Cities
-    Races --> Languages
     WorldDesc --> Deities
-    style Deities fill:#f9f
-
+    
+    Deities --> Beliefs
     Deities --> Landmarks
     Races --> Landmarks
-
-    Deities --> Beliefs
-    Languages --> Beliefs
-    style Beliefs fill:#f9f
 
     subgraph city [ ]
       Cities --> CITY1(City Description)
