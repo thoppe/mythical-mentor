@@ -1,0 +1,13 @@
+---
+key : chickens
+world_name : Henhaven
+prompt : "everything is a chicken. All creatures are some form of chicken. There is no magic. There are no humans. It is a pre-industrial. Chickens are dumb animials. Chickens can't fly. There are chickens with jobs, wild chicken creatures, and cute chicken pets"
+style_prompt : "(Chicken:1.1). Not human. Studio Ghibli, illustration, high level of detail and expression. lush, detailed backgrounds, highly expressive characters, emphasis on nature. by Hayao Miyazaki. Chickens heads."
+negative_prompt : "((sfw)), (people:1.1), (human:1.1), easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry"
+
+---
+key : template
+world_name : 
+prompt : ""
+style_prompt : ""
+negative_prompt : ""

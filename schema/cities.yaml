@@ -1,0 +1,23 @@
+---
+key : "city_description"
+prompt : "{main_topic}. Describe in great detail {basic_city_desc} Include the history, arts, culture, major events. Do not list any specific residents."
+short_prompt : "Describe the city {city_name}"
+messages : ["world_description", "races"]
+
+---
+key : "basic_residents"
+prompt : "{main_topic}. Using a bulleted list denoted by dashes, help imagine some of the famous residents and characters and what makes each of them unique in {basic_city_desc} Give them each a character name, their race, and a backstory."
+short_prompt : "Describe some of the famous residents and characters."
+messages : ["races", "city_description"]
+
+---
+key : "lore"
+prompt : "{main_topic}. Using a bulleted list denoted by dashes, help imagine some of the major historical events and drama in {basic_city_desc} Use the famous residents and characters in each item."
+short_prompt : "Imagine some of the major historical events and drama in {city_name}"
+messages : ["races", "city_description", "basic_residents"]
+
+---
+key : "residents"
+prompt : "Describe in great visual detail this character in {city_name}. {basic_resident_desc}"
+short_prompt : "Describe in great visual detail this character {basic_resident_desc}"
+messages : ["world_description", "races", "city_description", "basic_residents", "lore"]

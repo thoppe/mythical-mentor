@@ -1,5 +1,6 @@
 import requests
 from wasabi import msg as MSG
+import yaml
 
 requests.adapters.DEFAULT_RETRIES = 4
 
@@ -91,3 +92,19 @@ class Cached_ChatGPT:
     def SIMPLE_ASK(self, q):
         messages = [{"role": "user", "content": q}]
         return self.ASK(messages)
+
+
+f_yaml_schema = "schema/world.yaml"
+
+
+def load_multi_yaml(f_yaml):
+    stream = open(f_yaml, "r")
+    data = {}
+    for item in yaml.load_all(stream, yaml.FullLoader):
+        data[item["key"]] = item
+    return data
+
+
+def load_single_yaml(f_yaml):
+    with open(f_yaml, "r") as FIN:
+        return yaml.load(FIN, Loader=yaml.FullLoader)

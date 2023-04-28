@@ -1,4 +1,3 @@
-import yaml
 import json
 import argparse
 import diskcache as dc
@@ -6,8 +5,7 @@ from wasabi import msg as MSG
 from pathlib import Path
 from slugify import slugify
 from worldbuilder import WorldBuilder, Cached_ChatGPT
-
-mythical_mentor_schema_version = 2.0
+from worldbuilder.utils import load_multi_yaml, load_single_yaml
 
 parser = argparse.ArgumentParser(
     description="Generate an world from a base prompt."
@@ -21,20 +19,21 @@ parser.add_argument(
     help="Limit on number of tokens to use",
 )
 
-parser.add_argument(
-    "--world_selection_index",
-    type=int,
-    default=None,
-    help="Pre-select the world to use",
-)
-
 # Parse the arguments
 args = parser.parse_args()
 
-main_topic = args.topic
+args_topic = args.topic
 max_tokens = args.MAX_TOKENS
-world_selection_index = args.world_selection_index
 NUM_QUERY_THREADS = 1
+
+f_yaml_templates = "templates.yaml"
+topics = load_multi_yaml(f_yaml_templates)
+
+try:
+    main_topic = topics[args_topic]["prompt"]
+except KeyError as EX:
+    print(f"Topic {args_topic} not found in {f_yaml_templates}")
+    raise EX
 
 #########################################################################
 
@@ -44,14 +43,10 @@ GPT = Cached_ChatGPT(cache, max_tokens)
 WORLD = WorldBuilder(GPT, main_topic=main_topic)
 
 f_yaml_schema = "schema/world.yaml"
-stream = open(f_yaml_schema, "r")
-schema = {}
-for item in yaml.load_all(stream, yaml.FullLoader):
-    schema[item["key"]] = item
+schema = load_multi_yaml(f_yaml_schema)
 
 f_yaml_meta = "schema/meta.yaml"
-with open(f_yaml_meta, "r") as file:
-    meta = yaml.load(file, Loader=yaml.FullLoader)
+meta = load_single_yaml(f_yaml_meta)
 
 #########################################################################
 
@@ -59,15 +54,19 @@ with open(f_yaml_meta, "r") as file:
 names = WORLD(schema["world_names"])
 
 # Ask the user for a specific name or choose one from the cmd args
-if world_selection_index is None:
+prefixed_name = topics[args_topic]["world_name"]
+if prefixed_name is not None and prefixed_name.strip():
+    world_name = prefixed_name
+
+else:
+    print(f"Edit the yaml file {f_yaml_templates} to fix the name")
     print("Choose a world name:")
     for i, option in enumerate(names):
         print(f"{i}. {option}")
     world_selection_index = int(input("> "))
+    world_name = names[world_selection_index]
 
-world_name = names[world_selection_index]
 MSG.info(f"Building the world {world_name}")
-
 WORLD.build_args["world_name"] = world_name
 
 ######################################################################
@@ -93,12 +92,13 @@ js = {
     "meta": meta,
 }
 
-save_dest = Path("results") / "basic" / slugify(main_topic)[:230]
+save_dest = Path("results") / "worldbuilding"
 save_dest.mkdir(exist_ok=True, parents=True)
 
-f_save = save_dest / f"{world_name}.json"
+f_save = save_dest / f"{args_topic}.json"
 
 with open(f_save, "w") as FOUT:
     FOUT.write(json.dumps(js, indent=2))
 
 MSG.info(f"Saved to {f_save}")
+MSG.info(f"Make sure to update {f_yaml_templates} with world_name")

@@ -1,5 +1,4 @@
 import json
-import yaml
 from dspipe import Pipe
 import argparse
 import diskcache as dc
@@ -8,6 +7,7 @@ from pathlib import Path
 from slugify import slugify
 import copy
 from worldbuilder import WorldBuilder, Cached_ChatGPT
+from worldbuilder.utils import load_multi_yaml
 
 parser = argparse.ArgumentParser(
     description="Generate an world from a base idea."
@@ -24,20 +24,22 @@ parser.add_argument(
 # Parse the arguments
 args = parser.parse_args()
 
-main_topic = args.topic
+args_topic = args.topic
 max_tokens = args.MAX_TOKENS
 NUM_QUERY_THREADS = 4
 
+f_yaml_templates = "templates.yaml"
+topics = load_multi_yaml(f_yaml_templates)
+main_topic = topics[args_topic]["prompt"]
+
 #########################################################################
 
-load_dest = Path("results") / "basic" / slugify(main_topic)[:230]
-
-# Load only the first world
-f_world = list(load_dest.glob("*.json"))[0]
+f_world = Path("results") / "worldbuilding" / f"{args_topic}.json"
 
 with open(f_world) as FIN:
     js = json.load(FIN)
-    world_name = js["meta"]["world_name"]
+
+world_name = js["meta"]["world_name"]
 
 #########################################################################
 
@@ -48,12 +50,14 @@ cache = dc.Cache(
 GPT = Cached_ChatGPT(cache, max_tokens)
 
 f_yaml_schema = "schema/cities.yaml"
-stream = open(f_yaml_schema, "r")
-schema = {}
-for item in yaml.load_all(stream, yaml.FullLoader):
-    schema[item["key"]] = item
+schema = load_multi_yaml(f_yaml_schema)
 
 #######################################################################
+
+
+def clean_prior(A, B):
+    for key in A.content.keys():
+        del B.content[key]
 
 
 def process_resident(item):
@@ -91,8 +95,8 @@ for basic_city_desc in WORLD.get("basic_cities"):
     for item in Pipe(ITR)(process_resident, NUM_QUERY_THREADS):
         resident, resident_name = item
         CITY.content["residents"][resident_name] = resident
-        print(resident)
 
+    clean_prior(WORLD, CITY)
     WORLD.content["cities"][city_name] = CITY.content
 
 js = {
@@ -104,12 +108,7 @@ js = {
 
 #######################################################################
 
-save_dest = Path("results") / "advanced" / slugify(main_topic)[:230]
-save_dest.mkdir(exist_ok=True, parents=True)
-
-f_save = save_dest / f"{world_name}.json"
-
-with open(f_save, "w") as FOUT:
+with open(f_world, "w") as FOUT:
     FOUT.write(json.dumps(js, indent=2))
 
-MSG.info(f"Saved to {f_save}")
+MSG.info(f"Saved to {f_world}")

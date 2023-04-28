@@ -31,7 +31,7 @@ def button_go_back():
 
 with st.sidebar:
 
-    starting_index = 3
+    starting_index = 4
 
     category = st.selectbox(
         "World", NAMES, on_change=reset_all, index=starting_index
@@ -49,11 +49,11 @@ def load_data(f_json):
 
 
 js = load_data(f_json)
-world = js["world"]
+world = js["content"]
+starter_prompt = js["meta"]["main_topic"]
+schema_version = int(js["meta"]["mythical_mentor_schema_version"])
 
-if "meta" in js:
-    starter_prompt = js["meta"]["main_topic"]
-    schema_version = int(js["meta"]["mythical_mentor_schema_version"])
+TBREMOVED = """
 else:
     # Old code to remove
     starter_prompt = js["prompts"]["world_names"]
@@ -61,7 +61,7 @@ else:
     starter_prompt = starter_prompt.split("Enumerate names")[0]
     starter_prompt = starter_prompt.strip().strip(".").strip()
     schema_version = 1
-
+"""
 
 IGNORED_KEYS = ["name", "description", "basic_city_desc", "residents"]
 
@@ -71,9 +71,10 @@ if "hierarchy" not in st.session_state:
 hi = st.session_state["hierarchy"]
 
 # Define the app title and description
-world_name = world["name"]
+world_name = js["meta"]["world_name"]
+
 st.write(f"# {world_name}")
-st.write(f"_{starter_prompt}_")
+st.write(f"_{starter_prompt.capitalize()}_")
 
 # Check if we have a img picture
 f_world_csv = Path("imgs") / "results" / f"{world_name}.csv"
