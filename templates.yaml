@@ -21,8 +21,8 @@ negative_prompt : ((sfw)), easynegative, badhandv4, greyscale, monochrome, water
 
 ---
 key : crashland
-world_name : 
-prompt : Outer worldly human refugees have crash landed. Their home planet was destroyed by an ecological disaster and they are making a new home on this world.
+world_name : Fyremere
+prompt : Human refugees from another planet have crash landed here. Their home planet was destroyed by an ecological disaster and they are making a new home on this world
 style_prompt : scifi, futuristic, illustration, dark, cinematic, detailed, atmospheric, 8k, by feng zhu, concept art
 negative_prompt : ((sfw)), easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry
 
@@ -36,7 +36,7 @@ negative_prompt : ((sfw)), easynegative, badhandv4, greyscale, monochrome, water
 ---
 key : steampunk_time
 world_name : 
-prompt : Steampunk world that has advanced tech and time travel, but is always at war with the past. Automations but no robots 
+prompt : Steampunk world that has advanced tech and time travel, but is always at war with the past. Automations but no robots
 style_prompt : scifi, futuristic, illustration, high contrast, cinematic, detailed, atmospheric, 8k, by Jim Burns
 negative_prompt : ((sfw)), easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry
 

@@ -87,7 +87,6 @@ def write_images(img_key, dx, show_description=True):
     if not isinstance(img_key, str):
         img_key = " ".join(img_key)
 
-    # st.write(img_key)
     dx2 = dx[dx["key"] == img_key]
 
     for f_img, text in zip(dx2.f_save, dx2.prompt):
@@ -106,6 +105,8 @@ def write_images(img_key, dx, show_description=True):
             st.write(text)
 
 
+extended_hi = " : ".join([world_name] + hi)
+
 if len(hi) > 0:
     st.button(":arrow_left: Go back", type="secondary", on_click=button_go_back)
     st.sidebar.button(
@@ -114,13 +115,10 @@ if len(hi) > 0:
         on_click=button_go_back,
         key="go_back_button_key",
     )
+    st.sidebar.write(f"_{extended_hi}_")
 
+st.write(f"### {extended_hi}")
 for k, key in enumerate(hi):
-    header = "#" * (k + 2)
-    text_key = key
-    if len(text_key.split()) == 1:
-        text_key = text_key.title()
-    st.write(f"{header} {text_key}")
     world = world[key]
 
 if not any([x in world for x in DESCRIPTION_KEYS]):
@@ -137,10 +135,8 @@ if not isinstance(world, str):
 
     for col, key in zip(cols, keys):
 
-        if len(hi) == 0:  # or (len(hi) >= 2 and hi[-2] == "cities"):
+        if len(hi) == 0 or (len(hi) >= 2 and hi[-2] == "cities"):
             location = col
-
-        # st.write(key)
 
         img_key = ""
 
@@ -148,18 +144,15 @@ if not isinstance(world, str):
             if hi[-1] == "cities":
                 img_key = " ".join(hi + [key, "city_description"])
             elif hi[-1] == "residents":
-                img_key = " ".join(hi + [key, "resident_description"])
+                img_key = " ".join(
+                    hi
+                    + [
+                        key,
+                    ]
+                )
 
         write_images(img_key, dx, show_description=False)
 
-        HOLD = """
-        if len(hi) >= 2 and hi[-1] == "inhabitants":
-            write_images(
-                hi + [key],
-                dx,
-                show_description=False,
-            )
-        """
         button = location.button(
             key,
             on_click=nav_button_callback,
@@ -170,13 +163,11 @@ if not isinstance(world, str):
 
 else:
     if len(dx) == 0:
-        st.write("DEBUG")
         world
 
 
 for key in DESCRIPTION_KEYS:
     if key in world:
-
         # Look for an image
         write_images(hi + [key], dx)
         st.write(world[key])

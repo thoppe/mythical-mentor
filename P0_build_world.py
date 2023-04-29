@@ -61,11 +61,10 @@ if prefixed_name is not None and prefixed_name.strip():
 else:
     print(f"Edit the yaml file {f_yaml_templates} to fix the name")
     print("Choose a world name:")
-    for i, option in enumerate(names):
-        print(f"{i}. {option}")
-    world_selection_index = int(input("> "))
-    world_name = names[world_selection_index]
-    exit()
+    print(names)
+    # world_selection_index = int(input("> "))
+    # world_name = names[world_selection_index]
+    exit(2)
 
 MSG.info(f"Building the world {world_name}")
 WORLD.build_args["world_name"] = world_name

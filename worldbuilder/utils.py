@@ -45,7 +45,7 @@ def recover_content(response):
 def recover_bulleted_list(content):
     # Only pulls out the bulleted lists
     items = [x for x in content.split("\n") if x and x[0] in ["-", "+"]]
-    items = [x.strip(" -").strip(" -") for x in items]
+    items = [x.strip(" -").strip(" +") for x in items]
     return items
 
 
@@ -79,10 +79,19 @@ class Cached_ChatGPT:
                     is_list=is_list,
                     force=force,
                 )
-                exit(2)
 
             for row in recover_bulleted_list(recover_content(js)):
+
+                # Require a min length
                 if len(row) < 100:
+                    return self.ASK(
+                        messages,
+                        is_list=is_list,
+                        force=force,
+                    )
+
+                # Require : separated lists
+                if ":" not in row:
                     return self.ASK(
                         messages,
                         is_list=is_list,
@@ -96,13 +105,6 @@ class Cached_ChatGPT:
             return recover_content(self.cache[messages])
         else:
             return self.cache[messages]
-
-    def SIMPLE_ASK(self, q):
-        messages = [{"role": "user", "content": q}]
-        return self.ASK(messages)
-
-
-f_yaml_schema = "schema/world.yaml"
 
 
 def load_multi_yaml(f_yaml):

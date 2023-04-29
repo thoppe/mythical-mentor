@@ -89,14 +89,6 @@ df.loc[df.is_closeup, "style_prompt"] = (
     "closeup, " + df.loc[df.is_closeup]["style_prompt"]
 )
 
-# Force the main topic into the images
-IGNORE_FORCE_PROMPT = ["creatures"]
-idx = [not any([x in IGNORE_FORCE_PROMPT for x in z]) for z in df["key"]]
-
-main_text = main_topic.replace("(", " ").replace(")", " ")
-main_text = main_text.replace("[", " ").replace("]", " ")
-df.loc[idx, "prompt"] = df.loc[idx, "prompt"] + f" ({main_text} : 0.75)"
-
 # Save the result
 f_csv = Path("results") / "images" / (world_name + ".csv")
 df.to_csv(f_csv, index=False)
@@ -104,6 +96,15 @@ df.to_csv(f_csv, index=False)
 # Only generate the new images
 idx = np.array([x.exists() for x in df.f_save])
 df = df[~idx]
+
+# Force the main topic into the images
+IGNORE_FORCE_PROMPT = ["creatures"]
+idx = [not any([x in IGNORE_FORCE_PROMPT for x in z]) for z in df["key"]]
+
+main_text = main_topic.replace("(", " ").replace(")", " ")
+main_text = main_text.replace("[", " ").replace("]", " ")
+df.loc[idx, "prompt"] = df.loc[idx, "prompt"] + f" ({main_text} : 0.90)"
+
 
 # Exit peacefully if no work is needed
 if not len(df):

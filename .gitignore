@@ -4,6 +4,9 @@ API_KEY.txt
 # High rez images
 imgs/results/*/*.png
 
+# Old files
+imgs/results/*
+
 # Temp files
 *~
 results/basic/
