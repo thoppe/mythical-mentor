@@ -16,7 +16,7 @@ negative_prompt : easynegative, badhandv4, greyscale, monochrome, water mark, si
 key : gothic
 world_name : Sablehaven
 prompt : gothic world with very low technology. Vampires and dark spirits roam the world, but there is very little magic for others. The humans live in fear crowded in small, filthy, villages
-style_prompt : Illustration by Jeffrey Catherine Jones. Evil, forboding, detailed, scary, cinematic
+style_prompt : Illustration by Jeffrey Catherine Jones. Evil, foreboding, detailed, scary, cinematic
 negative_prompt : ((sfw)), easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry
 
 ---
@@ -25,6 +25,29 @@ world_name :
 prompt : Outer worldly human refugees have crash landed. Their home planet was destroyed by an ecological disaster and they are making a new home on this world.
 style_prompt : scifi, futuristic, illustration, dark, cinematic, detailed, atmospheric, 8k, by feng zhu, concept art
 negative_prompt : ((sfw)), easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry
+
+---
+key : sundering
+world_name : Solandria
+prompt : High fantasy world recovering after the great sundering
+style_prompt : Antoine Blanchard, (masterpiece:1.1), (best quality:1.1), dreamlikeart, absurdres, highres, photorealistic, real, contrast lighting, by Anders Zorn
+negative_prompt : ((sfw)), easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry
+
+---
+key : steampunk_time
+world_name : 
+prompt : Steampunk world that has advanced tech and time travel, but is always at war with the past. Automations but no robots 
+style_prompt : scifi, futuristic, illustration, high contrast, cinematic, detailed, atmospheric, 8k, by Jim Burns
+negative_prompt : ((sfw)), easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry
+
+---
+key : archipelago
+world_name : 
+prompt : Magical world set on an archipelago with perpetual auroras, geopolitics, magic weather, fanatical religious sects, freeholders, and gangs
+style_prompt : painterly style, flat colours, illustration, bright and colourful, high contrast, Mythology, cinematic, detailed, atmospheric, 8k, corona render
+negative_prompt : ((sfw)), easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry
+
+
 
 ---
 key : template

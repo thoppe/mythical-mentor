@@ -1,11 +1,7 @@
-#topic = "High fantasy world recovering after the great sundering"
-#topic = "Steampunk world that has advanced tech and time travel, but is always at war with the past "
-#topic = "Refugees that have crash landed after their planet was destroyed by an ecological disaster."
-#topic = "Magical world set on an archipelago with perpetual auroras, geopolitics, magic weather, fanatical religious sects, freeholders, and gangs."
-
 
 topic = "chickens"
 #topic = "amazonian_justice"
+topic = "gothic"
 
 all:
 	python P0_build_world.py --topic $(topic) 

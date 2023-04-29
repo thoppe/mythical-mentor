@@ -8,6 +8,7 @@ imgs/results/*/*.png
 *~
 results/basic/
 cache/
+geckodriver.log
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

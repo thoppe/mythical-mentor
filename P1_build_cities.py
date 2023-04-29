@@ -26,7 +26,7 @@ args = parser.parse_args()
 
 args_topic = args.topic
 max_tokens = args.MAX_TOKENS
-NUM_QUERY_THREADS = 8
+NUM_QUERY_THREADS = 4
 
 f_yaml_templates = "templates.yaml"
 topics = load_multi_yaml(f_yaml_templates)

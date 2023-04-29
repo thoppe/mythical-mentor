@@ -29,7 +29,7 @@ class WorldBuilder:
         self.short_prompts[name] = short_prompt
 
         messages = self.build_message_chain(q, prompt)
-        result = self.GPT.ASK(messages, force=force)
+        result = self.GPT.ASK(messages, force=force, is_list=is_list)
 
         self.content[name] = result
 

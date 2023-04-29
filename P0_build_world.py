@@ -51,7 +51,7 @@ meta = load_single_yaml(f_yaml_meta)
 #########################################################################
 
 # Query GPT to get a list of names
-names = WORLD(schema["world_names"])
+names = WORLD(schema["world_names"], is_list=False)
 
 # Ask the user for a specific name or choose one from the cmd args
 prefixed_name = topics[args_topic]["world_name"]

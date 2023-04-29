@@ -54,7 +54,7 @@ class Cached_ChatGPT:
         self.cache = cache
         self.max_tokens = max_tokens
 
-    def ASK(self, messages, expect_list=True, force=False, recover_con=True):
+    def ASK(self, messages, is_list=True, force=False, recover_con=True):
 
         if messages in self.cache and not force:
             if recover_con:
@@ -68,7 +68,7 @@ class Cached_ChatGPT:
         token_cost = js["usage"]["total_tokens"]
         MSG.fail(f"TOKENS USED {token_cost}")
 
-        if expect_list:
+        if is_list:
             content = recover_content(js)
             try:
                 assert len(recover_bulleted_list(content)) > 1
@@ -76,17 +76,16 @@ class Cached_ChatGPT:
                 print("FAILED NOT BULLETED", EX, content)
                 return self.ASK(
                     messages,
-                    expect_list=expect_list,
+                    is_list=is_list,
                     force=force,
                 )
                 exit(2)
 
-        if expect_list:
             for row in recover_bulleted_list(recover_content(js)):
                 if len(row) < 100:
                     return self.ASK(
                         messages,
-                        expect_list=expect_list,
+                        is_list=is_list,
                         force=force,
                     )
 
