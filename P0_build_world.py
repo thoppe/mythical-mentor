@@ -65,6 +65,7 @@ else:
         print(f"{i}. {option}")
     world_selection_index = int(input("> "))
     world_name = names[world_selection_index]
+    exit()
 
 MSG.info(f"Building the world {world_name}")
 WORLD.build_args["world_name"] = world_name

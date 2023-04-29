@@ -6,7 +6,7 @@ messages : ["world_description", "races"]
 
 ---
 key : "basic_residents"
-prompt : "{main_topic}. Using a bulleted list denoted by dashes, help imagine some of the famous residents and characters and what makes each of them unique in {basic_city_desc} Give them each a character name, their race, and a backstory."
+prompt : "{main_topic}. Using a bulleted list denoted by dashes, help imagine some of the famous residents and characters and what makes each of them unique in {basic_city_desc} They may be good or evil. Give them each a character name, their race, and a backstory."
 short_prompt : "Describe some of the famous residents and characters."
 messages : ["races", "city_description"]
 
@@ -17,7 +17,7 @@ short_prompt : "Imagine some of the major historical events and drama in {city_n
 messages : ["races", "city_description", "basic_residents"]
 
 ---
-key : "residents"
+key : "resident_description"
 prompt : "Describe in great visual detail this character in {city_name}. {basic_resident_desc}"
 short_prompt : "Describe in great visual detail this character {basic_resident_desc}"
 messages : ["world_description", "races", "city_description", "basic_residents", "lore"]

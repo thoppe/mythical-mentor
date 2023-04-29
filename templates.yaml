@@ -6,6 +6,27 @@ style_prompt : "(Chicken:1.1). Not human. Studio Ghibli, illustration, high leve
 negative_prompt : "((sfw)), (people:1.1), (human:1.1), easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry"
 
 ---
+key : amazonian_justice
+world_name : Sapphira 
+prompt : preindustrial world of bellydancing amazonian queens who practice polyamory. Magic and mysticism abound. They worship Athena and strive for a more just society. The women love sexy men who adore them for their whole person. Outside the temple the other cities are falling to the encroaching barbarians hordes governed by the patriarchal system
+style_prompt : Illustration by Zindy S. D. Nielsen. Light on colors, beautiful. High quality, detailed, concept art
+negative_prompt : easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry
+
+---
+key : gothic
+world_name : Sablehaven
+prompt : gothic world with very low technology. Vampires and dark spirits roam the world, but there is very little magic for others. The humans live in fear crowded in small, filthy, villages
+style_prompt : Illustration by Jeffrey Catherine Jones. Evil, forboding, detailed, scary, cinematic
+negative_prompt : ((sfw)), easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry
+
+---
+key : crashland
+world_name : 
+prompt : Outer worldly human refugees have crash landed. Their home planet was destroyed by an ecological disaster and they are making a new home on this world.
+style_prompt : scifi, futuristic, illustration, dark, cinematic, detailed, atmospheric, 8k, by feng zhu, concept art
+negative_prompt : ((sfw)), easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry
+
+---
 key : template
 world_name : 
 prompt : ""

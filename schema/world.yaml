@@ -29,7 +29,7 @@ messages: ["world_description", "races"]
 ---
 
 key: "basic_cities"
-prompt: "{main_topic}. List some of the major cities, towns, or villages that are in the world of {world_name} in a bulleted list. Do not use any previously known names. Do not use any names found in books or games. Describe what races live in them. Return the results in a bulleted list only."
+prompt: "{main_topic}. List some of the major cities, towns, or villages that are in the world of {world_name} in a bulleted list. Do not use any previously known names. Do not use any names found in books or games. Do not reference any new races. Describe what races live in them. Return the results in a bulleted list only."
 short_prompt: "List some of the major cities, towns, or villages that are in the world of {world_name}"
 messages: ["world_description", "races"]
 

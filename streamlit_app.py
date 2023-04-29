@@ -12,9 +12,17 @@ st.set_page_config(
     page_title="Mythical Mentor",
 )
 
-load_dest = Path("results") / "advanced"
+load_dest = Path("results") / "worldbuilding"
 F_JSON = sorted(list(load_dest.glob("**/*.json")))
-NAMES = sorted(list(set([x.stem.split("_")[0] for x in F_JSON]))[::-1])
+
+# @st.cache_resource
+def load_data(F_JSON):
+    JS = [json.load(open(f)) for f in F_JSON]
+    return JS
+
+
+JS = load_data(F_JSON)
+NAMES = [js["meta"]["world_name"] for js in JS]
 
 
 def reset_all():
@@ -30,40 +38,28 @@ def button_go_back():
 
 
 with st.sidebar:
-
-    starting_index = 4
+    starting_index = 1
 
     category = st.selectbox(
         "World", NAMES, on_change=reset_all, index=starting_index
     )
-    f_json = [x for x in F_JSON if category in str(x)][0]
 
-
-# @st.cache_resource
-def load_data(f_json):
-
-    with open(f_json) as FIN:
-        js = json.load(FIN)
-
-    return js
-
-
-js = load_data(f_json)
+js = JS[NAMES.index(category)]
 world = js["content"]
 starter_prompt = js["meta"]["main_topic"]
 schema_version = int(js["meta"]["mythical_mentor_schema_version"])
 
-TBREMOVED = """
-else:
-    # Old code to remove
-    starter_prompt = js["prompts"]["world_names"]
-    starter_prompt = starter_prompt.split("designing a")[1]
-    starter_prompt = starter_prompt.split("Enumerate names")[0]
-    starter_prompt = starter_prompt.strip().strip(".").strip()
-    schema_version = 1
-"""
-
-IGNORED_KEYS = ["name", "description", "basic_city_desc", "residents"]
+IGNORED_KEYS = [
+    "world_description",
+    "world_names",
+    "basic_cities",
+    "city_description",
+    "basic_residents",
+]
+DESCRIPTION_KEYS = [
+    "world_description",
+    "city_description",
+]
 
 if "hierarchy" not in st.session_state:
     st.session_state["hierarchy"] = []
@@ -77,7 +73,7 @@ st.write(f"# {world_name}")
 st.write(f"_{starter_prompt.capitalize()}_")
 
 # Check if we have a img picture
-f_world_csv = Path("imgs") / "results" / f"{world_name}.csv"
+f_world_csv = Path("results") / "images" / f"{world_name}.csv"
 if f_world_csv.exists():
     dx = pd.read_csv(f_world_csv)
     dx = dx.sort_values("key")
@@ -87,12 +83,17 @@ else:
 
 
 def write_images(img_key, dx, show_description=True):
+
     if not isinstance(img_key, str):
         img_key = " ".join(img_key)
-    dx2 = dx[dx["key"] == img_key]
-    for f, text in zip(dx2.f_save, dx2.prompt):
 
-        f_img = Path("imgs") / f
+    # st.write(img_key)
+    dx2 = dx[dx["key"] == img_key]
+
+    for f_img, text in zip(dx2.f_save, dx2.prompt):
+        f_img = Path(f_img)
+
+        # st.write("HERE", f_img)
 
         if not f_img.exists():
             f_img = f_img.with_suffix(".jpg")
@@ -111,7 +112,7 @@ if len(hi) > 0:
         ":arrow_left: Go back",
         type="secondary",
         on_click=button_go_back,
-        key="GOBACK2",
+        key="go_back_button_key",
     )
 
 for k, key in enumerate(hi):
@@ -122,9 +123,10 @@ for k, key in enumerate(hi):
     st.write(f"{header} {text_key}")
     world = world[key]
 
-
-if "description" not in world:
+if not any([x in world for x in DESCRIPTION_KEYS]):
     write_images(hi, dx)
+
+####################################################################
 
 if not isinstance(world, str):
     cols = itertools.cycle(st.columns(3))
@@ -135,19 +137,29 @@ if not isinstance(world, str):
 
     for col, key in zip(cols, keys):
 
-        if len(hi) == 0 or (len(hi) >= 2 and hi[-2] == "cities"):
+        if len(hi) == 0:  # or (len(hi) >= 2 and hi[-2] == "cities"):
             location = col
 
-        img_key = " ".join(hi + [key, "description"])
+        # st.write(key)
+
+        img_key = ""
+
+        if hi:
+            if hi[-1] == "cities":
+                img_key = " ".join(hi + [key, "city_description"])
+            elif hi[-1] == "residents":
+                img_key = " ".join(hi + [key, "resident_description"])
+
         write_images(img_key, dx, show_description=False)
 
+        HOLD = """
         if len(hi) >= 2 and hi[-1] == "inhabitants":
             write_images(
                 hi + [key],
                 dx,
                 show_description=False,
             )
-
+        """
         button = location.button(
             key,
             on_click=nav_button_callback,
@@ -157,15 +169,17 @@ if not isinstance(world, str):
         buttons.append(button)
 
 else:
-    if len(dx) == 0 or hi[-1] == "languages":
+    if len(dx) == 0:
+        st.write("DEBUG")
         world
 
 
-if "description" in world:
+for key in DESCRIPTION_KEYS:
+    if key in world:
 
-    # Look for an image
-    write_images(hi + ["description"], dx)
-    st.write(world["description"])
+        # Look for an image
+        write_images(hi + [key], dx)
+        st.write(world[key])
 
 
 st.write(
@@ -175,9 +189,6 @@ st.write(
 """
 )
 
-
-with st.sidebar.expander("meta"):
-    st.write(f"_Mythical schema version: {schema_version:d}_")
-
-
+# with st.sidebar.expander("meta"):
+#    st.write(f"_Mythical schema version: {schema_version:d}_")
 #   [code](https://github.com/thoppe/autology).

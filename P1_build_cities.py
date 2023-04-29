@@ -26,7 +26,7 @@ args = parser.parse_args()
 
 args_topic = args.topic
 max_tokens = args.MAX_TOKENS
-NUM_QUERY_THREADS = 4
+NUM_QUERY_THREADS = 8
 
 f_yaml_templates = "templates.yaml"
 topics = load_multi_yaml(f_yaml_templates)
@@ -67,7 +67,7 @@ def process_resident(item):
     RESIDENT.build_args["resident_name"] = resident_name
     RESIDENT.build_args["basic_resident_desc"] = basic_resident_desc
 
-    resident = RESIDENT(schema["residents"], is_list=False)
+    resident = RESIDENT(schema["resident_description"], is_list=False)
     return resident, resident_name
 
 

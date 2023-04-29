@@ -19,7 +19,7 @@ class WorldBuilder:
         messages.append({"role": "user", "content": prompt})
         return messages
 
-    def __call__(self, q, is_list=True):
+    def __call__(self, q, is_list=True, force=False):
 
         prompt = q["prompt"].format(**self.build_args)
         short_prompt = q["short_prompt"].format(**self.build_args)
@@ -29,7 +29,7 @@ class WorldBuilder:
         self.short_prompts[name] = short_prompt
 
         messages = self.build_message_chain(q, prompt)
-        result = self.GPT.ASK(messages)
+        result = self.GPT.ASK(messages, force=force)
 
         self.content[name] = result
 

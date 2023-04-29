@@ -54,7 +54,7 @@ IGNORED_KEYS = [
     "basic_residents",
 ]
 
-CLOSEUP_KEYS = ["races", "creatures", "residents"]
+CLOSEUP_KEYS = ["races", "creatures", "resident_description"]
 subareas = ["races", "creatures", "landmarks", "lore", "deities", "beliefs"]
 ITR = []
 
@@ -89,6 +89,14 @@ df.loc[df.is_closeup, "style_prompt"] = (
     "closeup, " + df.loc[df.is_closeup]["style_prompt"]
 )
 
+# Force the main topic into the images
+IGNORE_FORCE_PROMPT = ["creatures"]
+idx = [not any([x in IGNORE_FORCE_PROMPT for x in z]) for z in df["key"]]
+
+main_text = main_topic.replace("(", " ").replace(")", " ")
+main_text = main_text.replace("[", " ").replace("]", " ")
+df.loc[idx, "prompt"] = df.loc[idx, "prompt"] + f" ({main_text} : 0.75)"
+
 # Save the result
 f_csv = Path("results") / "images" / (world_name + ".csv")
 df.to_csv(f_csv, index=False)
@@ -116,6 +124,7 @@ driver = webdriver.Firefox()
 # navigate to the webpage that contains the form
 driver.get(url)
 WebDriverWait(driver, 5)
+
 
 def generate_image(ptext, ntext, stext):
     elements = driver.find_elements(By.XPATH, "//*[@placeholder]")
