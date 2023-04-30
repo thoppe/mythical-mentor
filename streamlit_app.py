@@ -39,7 +39,7 @@ def button_go_back():
 
 
 with st.sidebar:
-    starting_index = 1
+    starting_index = NAMES.index("Sablehaven")
 
     category = st.selectbox(
         "World", NAMES, on_change=reset_all, index=starting_index
