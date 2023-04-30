@@ -51,6 +51,8 @@ for k, v in world_step(world, []):
         name = k[-1].split(":")[0].strip()
         linkables[name] = k
 
+print(linkables)
+"""
 data = {}
 
 for k, v in world_step(world, []):
@@ -63,9 +65,10 @@ for k, v in world_step(world, []):
             if k == linkables[lk]:
                 continue
 
-            data[hi_name].append((linkables[lk], idx))
+            data[hi_name].append((lk, linkables[lk], idx))
+"""
 
-js = json.dumps(data, indent=2)
+js = json.dumps(linkables, indent=2)
 
 save_dest = Path("results") / "images" / world_name
 save_dest.mkdir(exist_ok=True, parents=True)

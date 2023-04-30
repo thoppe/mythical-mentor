@@ -16,7 +16,7 @@ load_dest = Path("results") / "worldbuilding"
 F_JSON = sorted(list(load_dest.glob("**/*.json")))
 
 
-#@st.cache_resource
+# @st.cache_resource
 def load_data(F_JSON):
     JS = [json.load(open(f)) for f in F_JSON]
     return JS
@@ -82,6 +82,14 @@ if f_world_csv.exists():
 else:
     dx = pd.DataFrame(columns=["key", "f_save", "prompt"])
 
+f_world_hyperlinks = Path("results") / "images" / f"{world_name}_links.json"
+assert f_world_hyperlinks.exists()
+
+if f_world_hyperlinks.exists():
+    with open(f_world_hyperlinks) as FIN:
+        hyperlinks = json.load(FIN)
+
+
 def write_images(img_key, dx, show_description=True):
 
     if not isinstance(img_key, str):
@@ -92,8 +100,6 @@ def write_images(img_key, dx, show_description=True):
     for f_img, text in zip(dx2.f_save, dx2.prompt):
         f_img = Path(f_img)
 
-        # st.write("HERE", f_img)
-
         if not f_img.exists():
             f_img = f_img.with_suffix(".jpg")
 
@@ -102,6 +108,19 @@ def write_images(img_key, dx, show_description=True):
             st.image(img, width=400)
 
         if show_description:
+            # hyperlinks
+            for k, v in hyperlinks.items():
+
+                k = k.replace("The", "").strip()
+
+                if k not in text:
+                    continue
+
+                v_hi = " ".join(v)
+                if v_hi == " ".join(hi):
+                    continue
+                text = text.replace(k, f"**{k}**")
+
             st.write(text)
 
 
@@ -181,12 +200,10 @@ st.write(
 )
 
 if len(hi) == 0:
-    js['meta']['negative_prompt'] = dx['negative_prompt'].values[0]
-    js['meta']['style_prompt'] = dx['style_prompt'].values[0]
-    with st.expander('Worldbuilding parameters'):
-        st.write(js['meta'])
-
-    
+    js["meta"]["negative_prompt"] = dx["negative_prompt"].values[0]
+    js["meta"]["style_prompt"] = dx["style_prompt"].values[0]
+    with st.expander("Worldbuilding parameters"):
+        st.write(js["meta"])
 
 
 # with st.sidebar.expander("meta"):

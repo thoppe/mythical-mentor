@@ -2,7 +2,7 @@
 #topic = "chickens"
 #topic = "amazonian_justice"
 #topic = "gothic"
-topic = "archipelago"
+topic = "steampunk_time"
 
 all:
 	python P0_build_world.py --topic $(topic) 

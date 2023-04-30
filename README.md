@@ -19,3 +19,5 @@ flowchart TD
       CITY2 --> CITY3(City Lore)
     end
 ```
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://thoppe-mythical-mentor-streamlit-app-4taw1v.streamlit.app/)

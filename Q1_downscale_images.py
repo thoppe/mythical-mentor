@@ -9,7 +9,7 @@ for f_png in load_dest.glob("**/*.png"):
     f_jpg = f_png.with_suffix(".jpg")
     if f_jpg.exists():
         continue
-    F_TARGET.append(f_jpg)
+    F_TARGET.append(f_png)
 
 
 def compute(f_png):
@@ -19,8 +19,9 @@ def compute(f_png):
     rgb_image = png_image.convert("RGB")
 
     # Save the image as a JPEG file with high quality
+    f_jpg = f_png.with_suffix(".jpg")
     rgb_image.save(f_jpg, quality=85)
     print(f_jpg)
 
 
-Pipe(F_TARGET)(compute, 1)
+Pipe(F_TARGET)(compute, -1)
