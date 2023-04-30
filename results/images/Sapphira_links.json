@@ -1,1006 +1,320 @@
 {
-  "world_names": [
-    [
-      "Zephyr",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Zephyr"
-      ],
-      14
-    ]
+  "The Luminari": [
+    "races"
   ],
-  "world_description": [],
-  "races": [],
-  "creatures": [],
-  "basic_cities": [],
-  "deities": [],
-  "landmarks": [
-    [
-      "The Fae",
-      [
-        "races"
-      ],
-      1440
-    ],
-    [
-      "The Khepri",
-      [
-        "races"
-      ],
-      1795
-    ],
-    [
-      "The Sylphs",
-      [
-        "races"
-      ],
-      803
-    ]
+  "The Dromites": [
+    "races"
   ],
-  "beliefs": [
-    [
-      "The Luminari",
-      [
-        "races"
-      ],
-      813
-    ],
-    [
-      "The Dromites",
-      [
-        "races"
-      ],
-      1217
-    ],
-    [
-      "The Fae",
-      [
-        "races"
-      ],
-      1623
-    ],
-    [
-      "The Khepri",
-      [
-        "races"
-      ],
-      1977
-    ],
-    [
-      "The Sylphs",
-      [
-        "races"
-      ],
-      2362
-    ]
+  "The Fae": [
+    "races"
   ],
-  "cities Zalara city_description": [
-    [
-      "The Khepri",
-      [
-        "races"
-      ],
-      398
-    ]
+  "The Khepri": [
+    "races"
   ],
-  "cities Zalara basic_residents": [
-    [
-      "Queen Nefertari",
-      [
-        "cities",
-        "Zalara",
-        "residents",
-        "Queen Nefertari"
-      ],
-      2
-    ],
-    [
-      "Dax the Blacksmith",
-      [
-        "cities",
-        "Zalara",
-        "residents",
-        "Dax the Blacksmith"
-      ],
-      436
-    ],
-    [
-      "Lady Aria",
-      [
-        "cities",
-        "Zalara",
-        "residents",
-        "Lady Aria"
-      ],
-      753
-    ],
-    [
-      "Zara the Enchantress",
-      [
-        "cities",
-        "Zalara",
-        "residents",
-        "Zara the Enchantress"
-      ],
-      1105
-    ],
-    [
-      "Kael the Barbarian",
-      [
-        "cities",
-        "Zalara",
-        "residents",
-        "Kael the Barbarian"
-      ],
-      1425
-    ],
-    [
-      "Amara the Silk Weaver",
-      [
-        "cities",
-        "Zalara",
-        "residents",
-        "Amara the Silk Weaver"
-      ],
-      1815
-    ],
-    [
-      "Kael",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Kael"
-      ],
-      1425
-    ]
+  "The Sylphs": [
+    "races"
   ],
-  "cities Zalara lore": [
-    [
-      "Queen Nefertari",
-      [
-        "cities",
-        "Zalara",
-        "residents",
-        "Queen Nefertari"
-      ],
-      133
-    ],
-    [
-      "Dax the Blacksmith",
-      [
-        "cities",
-        "Zalara",
-        "residents",
-        "Dax the Blacksmith"
-      ],
-      429
-    ],
-    [
-      "Lady Aria",
-      [
-        "cities",
-        "Zalara",
-        "residents",
-        "Lady Aria"
-      ],
-      181
-    ],
-    [
-      "Zara the Enchantress",
-      [
-        "cities",
-        "Zalara",
-        "residents",
-        "Zara the Enchantress"
-      ],
-      594
-    ],
-    [
-      "Kael the Barbarian",
-      [
-        "cities",
-        "Zalara",
-        "residents",
-        "Kael the Barbarian"
-      ],
-      314
-    ],
-    [
-      "Amara the Silk Weaver",
-      [
-        "cities",
-        "Zalara",
-        "residents",
-        "Amara the Silk Weaver"
-      ],
-      866
-    ],
-    [
-      "Kael",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Kael"
-      ],
-      314
-    ]
+  "Glowing Mushrooms": [
+    "creatures"
   ],
-  "cities Zalara residents Queen Nefertari": [],
-  "cities Zalara residents Dax the Blacksmith": [],
-  "cities Zalara residents Lady Aria": [],
-  "cities Zalara residents Zara the Enchantress": [],
-  "cities Zalara residents Kael the Barbarian": [
-    [
-      "Kael",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Kael"
-      ],
-      0
-    ]
+  "Skyfish": [
+    "creatures"
   ],
-  "cities Zalara residents Amara the Silk Weaver": [],
-  "cities Valtara city_description": [],
-  "cities Valtara basic_residents": [
-    [
-      "Queen Calliope",
-      [
-        "cities",
-        "Valtara",
-        "residents",
-        "Queen Calliope"
-      ],
-      2
-    ],
-    [
-      "Kassandra",
-      [
-        "cities",
-        "Valtara",
-        "residents",
-        "Kassandra"
-      ],
-      396
-    ],
-    [
-      "Thalia",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Thalia"
-      ],
-      768
-    ],
-    [
-      "Apollo",
-      [
-        "cities",
-        "Valtara",
-        "residents",
-        "Apollo"
-      ],
-      1169
-    ],
-    [
-      "Eurydice",
-      [
-        "cities",
-        "Valtara",
-        "residents",
-        "Eurydice"
-      ],
-      1507
-    ],
-    [
-      "Hermes",
-      [
-        "cities",
-        "Valtara",
-        "residents",
-        "Hermes"
-      ],
-      1924
-    ],
-    [
-      "Ares",
-      [
-        "cities",
-        "Valtara",
-        "residents",
-        "Ares"
-      ],
-      2368
-    ],
-    [
-      "Demeter",
-      [
-        "cities",
-        "Valtara",
-        "residents",
-        "Demeter"
-      ],
-      2730
-    ]
+  "Shadow Wraiths": [
+    "creatures"
   ],
-  "cities Valtara lore": [
-    [
-      "Queen Calliope",
-      [
-        "cities",
-        "Valtara",
-        "residents",
-        "Queen Calliope"
-      ],
-      137
-    ],
-    [
-      "Kassandra",
-      [
-        "cities",
-        "Valtara",
-        "residents",
-        "Kassandra"
-      ],
-      241
-    ],
-    [
-      "Thalia",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Thalia"
-      ],
-      655
-    ],
-    [
-      "Apollo",
-      [
-        "cities",
-        "Valtara",
-        "residents",
-        "Apollo"
-      ],
-      1056
-    ],
-    [
-      "Eurydice",
-      [
-        "cities",
-        "Valtara",
-        "residents",
-        "Eurydice"
-      ],
-      725
-    ],
-    [
-      "Hermes",
-      [
-        "cities",
-        "Valtara",
-        "residents",
-        "Hermes"
-      ],
-      1125
-    ],
-    [
-      "Ares",
-      [
-        "cities",
-        "Valtara",
-        "residents",
-        "Ares"
-      ],
-      323
-    ],
-    [
-      "Demeter",
-      [
-        "cities",
-        "Valtara",
-        "residents",
-        "Demeter"
-      ],
-      542
-    ]
+  "Fire Salamanders": [
+    "creatures"
   ],
-  "cities Valtara residents Queen Calliope": [],
-  "cities Valtara residents Kassandra": [],
-  "cities Valtara residents Thalia": [
-    [
-      "Thalia",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Thalia"
-      ],
-      0
-    ]
+  "Night Hounds": [
+    "creatures"
   ],
-  "cities Valtara residents Apollo": [],
-  "cities Valtara residents Eurydice": [],
-  "cities Valtara residents Hermes": [],
-  "cities Valtara residents Ares": [],
-  "cities Valtara residents Demeter": [],
-  "cities Seraphia city_description": [
-    [
-      "The Fae",
-      [
-        "races"
-      ],
-      811
-    ]
+  "Crystal Beetles": [
+    "creatures"
   ],
-  "cities Seraphia basic_residents": [
-    [
-      "Thalia",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Thalia"
-      ],
-      1161
-    ],
-    [
-      "Kiera, Amazonian Queen",
-      [
-        "cities",
-        "Seraphia",
-        "residents",
-        "Kiera, Amazonian Queen"
-      ],
-      2
-    ],
-    [
-      "Lirien, Fae Musician",
-      [
-        "cities",
-        "Seraphia",
-        "residents",
-        "Lirien, Fae Musician"
-      ],
-      287
-    ],
-    [
-      "Darian, Human Artisan",
-      [
-        "cities",
-        "Seraphia",
-        "residents",
-        "Darian, Human Artisan"
-      ],
-      547
-    ],
-    [
-      "Riven, Khepri Blacksmith",
-      [
-        "cities",
-        "Seraphia",
-        "residents",
-        "Riven, Khepri Blacksmith"
-      ],
-      876
-    ],
-    [
-      "Thalia, Sylph Weather Mage",
-      [
-        "cities",
-        "Seraphia",
-        "residents",
-        "Thalia, Sylph Weather Mage"
-      ],
-      1161
-    ],
-    [
-      "Zephyr, Dromite Tinkerer",
-      [
-        "cities",
-        "Seraphia",
-        "residents",
-        "Zephyr, Dromite Tinkerer"
-      ],
-      1413
-    ],
-    [
-      "Ophelia, Luminari Advisor",
-      [
-        "cities",
-        "Seraphia",
-        "residents",
-        "Ophelia, Luminari Advisor"
-      ],
-      1713
-    ],
-    [
-      "Zephyr",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Zephyr"
-      ],
-      1413
-    ]
+  "Sea Serpents": [
+    "creatures"
   ],
-  "cities Seraphia lore": [
-    [
-      "The Fae",
-      [
-        "races"
-      ],
-      631
-    ],
-    [
-      "Thalia",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Thalia"
-      ],
-      92
-    ],
-    [
-      "Zephyr",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Zephyr"
-      ],
-      319
-    ]
+  "Thunderbirds": [
+    "creatures"
   ],
-  "cities Seraphia residents Kiera, Amazonian Queen": [],
-  "cities Seraphia residents Lirien, Fae Musician": [],
-  "cities Seraphia residents Darian, Human Artisan": [],
-  "cities Seraphia residents Riven, Khepri Blacksmith": [],
-  "cities Seraphia residents Thalia, Sylph Weather Mage": [
-    [
-      "Thalia",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Thalia"
-      ],
-      0
-    ]
+  "The Great Mother of the Earth": [
+    "deities"
   ],
-  "cities Seraphia residents Zephyr, Dromite Tinkerer": [
-    [
-      "Zephyr",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Zephyr"
-      ],
-      0
-    ]
+  "The Celestial Weaver": [
+    "deities"
   ],
-  "cities Seraphia residents Ophelia, Luminari Advisor": [],
-  "cities Solara city_description": [],
-  "cities Solara basic_residents": [
-    [
-      "Thalia",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Thalia"
-      ],
-      2045
-    ],
-    [
-      "Queen Anara",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Queen Anara"
-      ],
-      2
-    ],
-    [
-      "Captain Lirien",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Captain Lirien"
-      ],
-      333
-    ],
-    [
-      "Sylphie",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Sylphie"
-      ],
-      684
-    ],
-    [
-      "Jarek",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Jarek"
-      ],
-      952
-    ],
-    [
-      "Zephyr",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Zephyr"
-      ],
-      1257
-    ],
-    [
-      "Kael",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Kael"
-      ],
-      1541
-    ],
-    [
-      "Lyra",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Lyra"
-      ],
-      1815
-    ]
+  "The Keeper of Secrets": [
+    "deities"
   ],
-  "cities Solara lore": [
-    [
-      "Thalia",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Thalia"
-      ],
-      331
-    ],
-    [
-      "Queen Anara",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Queen Anara"
-      ],
-      2
-    ],
-    [
-      "Captain Lirien",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Captain Lirien"
-      ],
-      65
-    ],
-    [
-      "Sylphie",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Sylphie"
-      ],
-      168
-    ],
-    [
-      "Jarek",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Jarek"
-      ],
-      218
-    ],
-    [
-      "Zephyr",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Zephyr"
-      ],
-      291
-    ],
-    [
-      "Kael",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Kael"
-      ],
-      228
-    ],
-    [
-      "Lyra",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Lyra"
-      ],
-      488
-    ]
+  "The Star-Maker": [
+    "deities"
   ],
-  "cities Solara residents Queen Anara": [],
-  "cities Solara residents Captain Lirien": [
-    [
-      "Queen Anara",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Queen Anara"
-      ],
-      1060
-    ]
+  "The River-Maiden": [
+    "deities"
   ],
-  "cities Solara residents Sylphie": [
-    [
-      "Jarek",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Jarek"
-      ],
-      1258
-    ]
+  "The Forgotten Fortress of the Celestial Weaver": [
+    "landmarks"
   ],
-  "cities Solara residents Jarek": [
-    [
-      "Sylphie",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Sylphie"
-      ],
-      750
-    ]
+  "The Caverns of the Great Mother": [
+    "landmarks"
   ],
-  "cities Solara residents Zephyr": [],
-  "cities Solara residents Kael": [],
-  "cities Solara residents Lyra": [],
-  "cities Solara residents Thalia": [],
-  "cities Meloria city_description": [],
-  "cities Meloria basic_residents": [
-    [
-      "Thalia",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Thalia"
-      ],
-      1228
-    ],
-    [
-      "Kael",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Kael"
-      ],
-      580
-    ],
-    [
-      "Lyra",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Lyra"
-      ],
-      2051
-    ],
-    [
-      "Selene, Luminari",
-      [
-        "cities",
-        "Meloria",
-        "residents",
-        "Selene, Luminari"
-      ],
-      2
-    ],
-    [
-      "Nyla, Amazonian Queen",
-      [
-        "cities",
-        "Meloria",
-        "residents",
-        "Nyla, Amazonian Queen"
-      ],
-      265
-    ],
-    [
-      "Kael, Human",
-      [
-        "cities",
-        "Meloria",
-        "residents",
-        "Kael, Human"
-      ],
-      580
-    ],
-    [
-      "Zara, Human",
-      [
-        "cities",
-        "Meloria",
-        "residents",
-        "Zara, Human"
-      ],
-      943
-    ],
-    [
-      "Thalia, Luminari",
-      [
-        "cities",
-        "Meloria",
-        "residents",
-        "Thalia, Luminari"
-      ],
-      1228
-    ],
-    [
-      "Aria, Amazonian Queen",
-      [
-        "cities",
-        "Meloria",
-        "residents",
-        "Aria, Amazonian Queen"
-      ],
-      1501
-    ],
-    [
-      "Orion, Human",
-      [
-        "cities",
-        "Meloria",
-        "residents",
-        "Orion, Human"
-      ],
-      1803
-    ],
-    [
-      "Lyra, Luminari",
-      [
-        "cities",
-        "Meloria",
-        "residents",
-        "Lyra, Luminari"
-      ],
-      2051
-    ],
-    [
-      "Dante, Human",
-      [
-        "cities",
-        "Meloria",
-        "residents",
-        "Dante, Human"
-      ],
-      2282
-    ],
-    [
-      "Sable, Amazonian Queen",
-      [
-        "cities",
-        "Meloria",
-        "residents",
-        "Sable, Amazonian Queen"
-      ],
-      2528
-    ]
+  "The Tower of the Star-Maker": [
+    "landmarks"
   ],
-  "cities Meloria lore": [
-    [
-      "Thalia",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Thalia"
-      ],
-      1159
-    ],
-    [
-      "Kael",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Kael"
-      ],
-      300
-    ],
-    [
-      "Lyra",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Lyra"
-      ],
-      309
-    ]
+  "The Temple of the River-Maiden": [
+    "landmarks"
   ],
-  "cities Meloria residents Selene, Luminari": [],
-  "cities Meloria residents Nyla, Amazonian Queen": [],
-  "cities Meloria residents Kael, Human": [
-    [
-      "Kael",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Kael"
-      ],
-      0
-    ]
+  "The Tomb of the Keeper of Secrets": [
+    "landmarks"
   ],
-  "cities Meloria residents Zara, Human": [],
-  "cities Meloria residents Thalia, Luminari": [
-    [
-      "Thalia",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Thalia"
-      ],
-      0
-    ]
+  "The Ruins of the Celestial Observatory": [
+    "landmarks"
   ],
-  "cities Meloria residents Aria, Amazonian Queen": [],
-  "cities Meloria residents Orion, Human": [],
-  "cities Meloria residents Lyra, Luminari": [
-    [
-      "Lyra",
-      [
-        "cities",
-        "Solara",
-        "residents",
-        "Lyra"
-      ],
-      0
-    ]
+  "The Way of the Amazonian Queens": [
+    "beliefs"
   ],
-  "cities Meloria residents Dante, Human": [],
-  "cities Meloria residents Sable, Amazonian Queen": []
+  "The Cult of the Luminari": [
+    "beliefs"
+  ],
+  "The Order of the Celestial Weaver": [
+    "beliefs"
+  ],
+  "The Way of the Fae": [
+    "beliefs"
+  ],
+  "The Path of the Khepri": [
+    "beliefs"
+  ],
+  "The Faith of the Sylphs": [
+    "beliefs"
+  ],
+  "Queen Nefertari": [
+    "cities",
+    "Zalara",
+    "residents",
+    "Queen Nefertari"
+  ],
+  "Dax the Blacksmith": [
+    "cities",
+    "Zalara",
+    "residents",
+    "Dax the Blacksmith"
+  ],
+  "Lady Aria": [
+    "cities",
+    "Zalara",
+    "residents",
+    "Lady Aria"
+  ],
+  "Zara the Enchantress": [
+    "cities",
+    "Zalara",
+    "residents",
+    "Zara the Enchantress"
+  ],
+  "Kael the Barbarian": [
+    "cities",
+    "Zalara",
+    "residents",
+    "Kael the Barbarian"
+  ],
+  "Amara the Silk Weaver": [
+    "cities",
+    "Zalara",
+    "residents",
+    "Amara the Silk Weaver"
+  ],
+  "Queen Calliope": [
+    "cities",
+    "Valtara",
+    "residents",
+    "Queen Calliope"
+  ],
+  "Kassandra": [
+    "cities",
+    "Valtara",
+    "residents",
+    "Kassandra"
+  ],
+  "Thalia": [
+    "cities",
+    "Solara",
+    "residents",
+    "Thalia"
+  ],
+  "Apollo": [
+    "cities",
+    "Valtara",
+    "residents",
+    "Apollo"
+  ],
+  "Eurydice": [
+    "cities",
+    "Valtara",
+    "residents",
+    "Eurydice"
+  ],
+  "Hermes": [
+    "cities",
+    "Valtara",
+    "residents",
+    "Hermes"
+  ],
+  "Ares": [
+    "cities",
+    "Valtara",
+    "residents",
+    "Ares"
+  ],
+  "Demeter": [
+    "cities",
+    "Valtara",
+    "residents",
+    "Demeter"
+  ],
+  "Kiera, Amazonian Queen": [
+    "cities",
+    "Seraphia",
+    "residents",
+    "Kiera, Amazonian Queen"
+  ],
+  "Lirien, Fae Musician": [
+    "cities",
+    "Seraphia",
+    "residents",
+    "Lirien, Fae Musician"
+  ],
+  "Darian, Human Artisan": [
+    "cities",
+    "Seraphia",
+    "residents",
+    "Darian, Human Artisan"
+  ],
+  "Riven, Khepri Blacksmith": [
+    "cities",
+    "Seraphia",
+    "residents",
+    "Riven, Khepri Blacksmith"
+  ],
+  "Thalia, Sylph Weather Mage": [
+    "cities",
+    "Seraphia",
+    "residents",
+    "Thalia, Sylph Weather Mage"
+  ],
+  "Zephyr, Dromite Tinkerer": [
+    "cities",
+    "Seraphia",
+    "residents",
+    "Zephyr, Dromite Tinkerer"
+  ],
+  "Ophelia, Luminari Advisor": [
+    "cities",
+    "Seraphia",
+    "residents",
+    "Ophelia, Luminari Advisor"
+  ],
+  "Queen Anara": [
+    "cities",
+    "Solara",
+    "residents",
+    "Queen Anara"
+  ],
+  "Captain Lirien": [
+    "cities",
+    "Solara",
+    "residents",
+    "Captain Lirien"
+  ],
+  "Sylphie": [
+    "cities",
+    "Solara",
+    "residents",
+    "Sylphie"
+  ],
+  "Jarek": [
+    "cities",
+    "Solara",
+    "residents",
+    "Jarek"
+  ],
+  "Zephyr": [
+    "cities",
+    "Solara",
+    "residents",
+    "Zephyr"
+  ],
+  "Kael": [
+    "cities",
+    "Solara",
+    "residents",
+    "Kael"
+  ],
+  "Lyra": [
+    "cities",
+    "Solara",
+    "residents",
+    "Lyra"
+  ],
+  "Selene, Luminari": [
+    "cities",
+    "Meloria",
+    "residents",
+    "Selene, Luminari"
+  ],
+  "Nyla, Amazonian Queen": [
+    "cities",
+    "Meloria",
+    "residents",
+    "Nyla, Amazonian Queen"
+  ],
+  "Kael, Human": [
+    "cities",
+    "Meloria",
+    "residents",
+    "Kael, Human"
+  ],
+  "Zara, Human": [
+    "cities",
+    "Meloria",
+    "residents",
+    "Zara, Human"
+  ],
+  "Thalia, Luminari": [
+    "cities",
+    "Meloria",
+    "residents",
+    "Thalia, Luminari"
+  ],
+  "Aria, Amazonian Queen": [
+    "cities",
+    "Meloria",
+    "residents",
+    "Aria, Amazonian Queen"
+  ],
+  "Orion, Human": [
+    "cities",
+    "Meloria",
+    "residents",
+    "Orion, Human"
+  ],
+  "Lyra, Luminari": [
+    "cities",
+    "Meloria",
+    "residents",
+    "Lyra, Luminari"
+  ],
+  "Dante, Human": [
+    "cities",
+    "Meloria",
+    "residents",
+    "Dante, Human"
+  ],
+  "Sable, Amazonian Queen": [
+    "cities",
+    "Meloria",
+    "residents",
+    "Sable, Amazonian Queen"
+  ]
 }

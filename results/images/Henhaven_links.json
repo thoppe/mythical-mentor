@@ -1,2049 +1,419 @@
 {
-  "world_names": [],
-  "world_description": [],
-  "races": [],
-  "creatures": [
-    [
-      "Fluffy",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Fluffy"
-      ],
-      201
-    ]
-  ],
-  "basic_cities": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      109
-    ],
-    [
-      "Beaked Birds",
-      [
-        "races"
-      ],
-      128
-    ],
-    [
-      "Crested Chickens",
-      [
-        "races"
-      ],
-      476
-    ],
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      302
-    ],
-    [
-      "Taloned Turkeys",
-      [
-        "races"
-      ],
-      456
-    ],
-    [
-      "Wattle-Winged",
-      [
-        "races"
-      ],
-      668
-    ]
-  ],
-  "deities": [
-    [
-      "Wattle-Winged",
-      [
-        "races"
-      ],
-      917
-    ]
-  ],
-  "landmarks": [
-    [
-      "Wattle-Winged",
-      [
-        "races"
-      ],
-      378
-    ],
-    [
-      "The Great Feathered One",
-      [
-        "deities"
-      ],
-      130
-    ],
-    [
-      "The Taloned Tempest",
-      [
-        "deities"
-      ],
-      538
-    ]
-  ],
-  "beliefs": [
-    [
-      "Wattle-Winged",
-      [
-        "races"
-      ],
-      550
-    ],
-    [
-      "The Great Feathered One",
-      [
-        "deities"
-      ],
-      154
-    ],
-    [
-      "The Clucking Oracle",
-      [
-        "deities"
-      ],
-      1006
-    ],
-    [
-      "The Plumed Protector",
-      [
-        "deities"
-      ],
-      575
-    ],
-    [
-      "The Taloned Tempest",
-      [
-        "deities"
-      ],
-      982
-    ],
-    [
-      "The Wattle-Winged Weaver",
-      [
-        "deities"
-      ],
-      546
-    ],
-    [
-      "The Crested Counselor",
-      [
-        "deities"
-      ],
-      1535
-    ]
-  ],
-  "cities Cluckingham city_description": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      935
-    ],
-    [
-      "Beaked Birds",
-      [
-        "races"
-      ],
-      954
-    ]
-  ],
-  "cities Cluckingham basic_residents": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      63
-    ],
-    [
-      "Colonel Sanders",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Colonel Sanders"
-      ],
-      2
-    ],
-    [
-      "Blackbeak",
-      [
-        "cities",
-        "Cluckingham",
-        "residents",
-        "Blackbeak"
-      ],
-      293
-    ],
-    [
-      "Henrietta",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Henrietta"
-      ],
-      531
-    ],
-    [
-      "Sir Cluckles",
-      [
-        "cities",
-        "Cluckingham",
-        "residents",
-        "Sir Cluckles"
-      ],
-      772
-    ],
-    [
-      "Pecky",
-      [
-        "cities",
-        "Cluckingham",
-        "residents",
-        "Pecky"
-      ],
-      1052
-    ],
-    [
-      "Fluffy",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Fluffy"
-      ],
-      1349
-    ],
-    [
-      "Eggbert",
-      [
-        "cities",
-        "Cluckingham",
-        "residents",
-        "Eggbert"
-      ],
-      1575
-    ],
-    [
-      "Lady Cluckington",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Lady Cluckington"
-      ],
-      1858
-    ]
-  ],
-  "cities Cluckingham lore": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      287
-    ],
-    [
-      "Beaked Birds",
-      [
-        "races"
-      ],
-      270
-    ],
-    [
-      "Colonel Sanders",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Colonel Sanders"
-      ],
-      106
-    ],
-    [
-      "Blackbeak",
-      [
-        "cities",
-        "Cluckingham",
-        "residents",
-        "Blackbeak"
-      ],
-      520
-    ],
-    [
-      "Henrietta",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Henrietta"
-      ],
-      140
-    ],
-    [
-      "Sir Cluckles",
-      [
-        "cities",
-        "Cluckingham",
-        "residents",
-        "Sir Cluckles"
-      ],
-      357
-    ],
-    [
-      "Pecky",
-      [
-        "cities",
-        "Cluckingham",
-        "residents",
-        "Pecky"
-      ],
-      683
-    ],
-    [
-      "Fluffy",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Fluffy"
-      ],
-      1022
-    ],
-    [
-      "Eggbert",
-      [
-        "cities",
-        "Cluckingham",
-        "residents",
-        "Eggbert"
-      ],
-      438
-    ],
-    [
-      "Lady Cluckington",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Lady Cluckington"
-      ],
-      907
-    ]
-  ],
-  "cities Cluckingham residents Colonel Sanders": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      53
-    ],
-    [
-      "Colonel Sanders",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Colonel Sanders"
-      ],
-      0
-    ]
-  ],
-  "cities Cluckingham residents Blackbeak": [
-    [
-      "Beaked Birds",
-      [
-        "races"
-      ],
-      54
-    ]
-  ],
-  "cities Cluckingham residents Henrietta": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      24
-    ],
-    [
-      "Henrietta",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Henrietta"
-      ],
-      0
-    ]
-  ],
-  "cities Cluckingham residents Sir Cluckles": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      30
-    ],
-    [
-      "Beaked Birds",
-      [
-        "races"
-      ],
-      825
-    ]
-  ],
-  "cities Cluckingham residents Pecky": [],
-  "cities Cluckingham residents Fluffy": [
-    [
-      "Fluffy",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Fluffy"
-      ],
-      0
-    ]
-  ],
-  "cities Cluckingham residents Eggbert": [],
-  "cities Cluckingham residents Lady Cluckington": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      66
-    ],
-    [
-      "Lady Cluckington",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Lady Cluckington"
-      ],
-      0
-    ]
-  ],
-  "cities Roosterville city_description": [
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      208
-    ]
-  ],
-  "cities Roosterville basic_residents": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      24
-    ],
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      1267
-    ],
-    [
-      "Henrietta",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Henrietta"
-      ],
-      251
-    ],
-    [
-      "Cluckington the Wise, Feathered Fowl",
-      [
-        "cities",
-        "Roosterville",
-        "residents",
-        "Cluckington the Wise, Feathered Fowl"
-      ],
-      2
-    ],
-    [
-      "Henrietta the Huntress, Beaked Bird",
-      [
-        "cities",
-        "Roosterville",
-        "residents",
-        "Henrietta the Huntress, Beaked Bird"
-      ],
-      251
-    ],
-    [
-      "Igor the Inventor, Feathered Fowl",
-      [
-        "cities",
-        "Roosterville",
-        "residents",
-        "Igor the Inventor, Feathered Fowl"
-      ],
-      489
-    ],
-    [
-      "Mildred the Matchmaker, Crested Chicken",
-      [
-        "cities",
-        "Roosterville",
-        "residents",
-        "Mildred the Matchmaker, Crested Chicken"
-      ],
-      750
-    ],
-    [
-      "Slash the Scavenger, Feathered Fowl",
-      [
-        "cities",
-        "Roosterville",
-        "residents",
-        "Slash the Scavenger, Feathered Fowl"
-      ],
-      981
-    ],
-    [
-      "Ferdinand the Farmer, Plumed Poultry",
-      [
-        "cities",
-        "Roosterville",
-        "residents",
-        "Ferdinand the Farmer, Plumed Poultry"
-      ],
-      1245
-    ],
-    [
-      "Greta the Gossip, Feathered Fowl",
-      [
-        "cities",
-        "Roosterville",
-        "residents",
-        "Greta the Gossip, Feathered Fowl"
-      ],
-      1481
-    ],
-    [
-      "Sparky the Adventurer, Taloned Turkey",
-      [
-        "cities",
-        "Roosterville",
-        "residents",
-        "Sparky the Adventurer, Taloned Turkey"
-      ],
-      1707
-    ],
-    [
-      "Bubbles the Beauty, Plumed Poultry",
-      [
-        "cities",
-        "Roosterville",
-        "residents",
-        "Bubbles the Beauty, Plumed Poultry"
-      ],
-      1958
-    ],
-    [
-      "Ziggy the Zen, Feathered Fowl",
-      [
-        "cities",
-        "Roosterville",
-        "residents",
-        "Ziggy the Zen, Feathered Fowl"
-      ],
-      2168
-    ]
-  ],
-  "cities Roosterville lore": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      1229
-    ],
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      820
-    ],
-    [
-      "Henrietta",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Henrietta"
-      ],
-      525
-    ]
-  ],
-  "cities Roosterville residents Cluckington the Wise, Feathered Fowl": [],
-  "cities Roosterville residents Henrietta the Huntress, Beaked Bird": [
-    [
-      "Henrietta",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Henrietta"
-      ],
-      0
-    ]
-  ],
-  "cities Roosterville residents Igor the Inventor, Feathered Fowl": [],
-  "cities Roosterville residents Mildred the Matchmaker, Crested Chicken": [],
-  "cities Roosterville residents Slash the Scavenger, Feathered Fowl": [],
-  "cities Roosterville residents Ferdinand the Farmer, Plumed Poultry": [
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      1708
-    ]
-  ],
-  "cities Roosterville residents Greta the Gossip, Feathered Fowl": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      35
-    ]
-  ],
-  "cities Roosterville residents Sparky the Adventurer, Taloned Turkey": [],
-  "cities Roosterville residents Bubbles the Beauty, Plumed Poultry": [
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      24
-    ]
-  ],
-  "cities Roosterville residents Ziggy the Zen, Feathered Fowl": [],
-  "cities Talon Town city_description": [
-    [
-      "Crested Chickens",
-      [
-        "races"
-      ],
-      264
-    ],
-    [
-      "Taloned Turkeys",
-      [
-        "races"
-      ],
-      145
-    ]
-  ],
-  "cities Talon Town basic_residents": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      1190
-    ],
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      1769
-    ],
-    [
-      "Henrietta",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Henrietta"
-      ],
-      640
-    ],
-    [
-      "Fluffy",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Fluffy"
-      ],
-      1744
-    ],
-    [
-      "Cluckbeard the Wise - Crested Chicken",
-      [
-        "cities",
-        "Talon Town",
-        "residents",
-        "Cluckbeard the Wise - Crested Chicken"
-      ],
-      2
-    ],
-    [
-      "Fang the Fierce - Taloned Turkey",
-      [
-        "cities",
-        "Talon Town",
-        "residents",
-        "Fang the Fierce - Taloned Turkey"
-      ],
-      304
-    ],
-    [
-      "Henrietta the Healer - Crested Chicken",
-      [
-        "cities",
-        "Talon Town",
-        "residents",
-        "Henrietta the Healer - Crested Chicken"
-      ],
-      640
-    ],
-    [
-      "Scratchy the Scavenger - Taloned Turkey",
-      [
-        "cities",
-        "Talon Town",
-        "residents",
-        "Scratchy the Scavenger - Taloned Turkey"
-      ],
-      894
-    ],
-    [
-      "Peepers the Pet - Feathered Fowl",
-      [
-        "cities",
-        "Talon Town",
-        "residents",
-        "Peepers the Pet - Feathered Fowl"
-      ],
-      1172
-    ],
-    [
-      "Squawk the Scoundrel - Taloned Turkey",
-      [
-        "cities",
-        "Talon Town",
-        "residents",
-        "Squawk the Scoundrel - Taloned Turkey"
-      ],
-      1439
-    ],
-    [
-      "Fluffy the Fashionista - Plumed Poultry",
-      [
-        "cities",
-        "Talon Town",
-        "residents",
-        "Fluffy the Fashionista - Plumed Poultry"
-      ],
-      1744
-    ],
-    [
-      "Gobbles the Gourmet - Taloned Turkey",
-      [
-        "cities",
-        "Talon Town",
-        "residents",
-        "Gobbles the Gourmet - Taloned Turkey"
-      ],
-      2034
-    ]
-  ],
-  "cities Talon Town lore": [
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      1608
-    ],
-    [
-      "Taloned Turkeys",
-      [
-        "races"
-      ],
-      1251
-    ],
-    [
-      "Henrietta",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Henrietta"
-      ],
-      458
-    ],
-    [
-      "Fluffy",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Fluffy"
-      ],
-      1743
-    ]
-  ],
-  "cities Talon Town residents Cluckbeard the Wise - Crested Chicken": [],
-  "cities Talon Town residents Fang the Fierce - Taloned Turkey": [],
-  "cities Talon Town residents Henrietta the Healer - Crested Chicken": [
-    [
-      "Henrietta",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Henrietta"
-      ],
-      0
-    ]
-  ],
-  "cities Talon Town residents Scratchy the Scavenger - Taloned Turkey": [],
-  "cities Talon Town residents Peepers the Pet - Feathered Fowl": [],
-  "cities Talon Town residents Squawk the Scoundrel - Taloned Turkey": [],
-  "cities Talon Town residents Fluffy the Fashionista - Plumed Poultry": [
-    [
-      "Fluffy",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Fluffy"
-      ],
-      0
-    ]
-  ],
-  "cities Talon Town residents Gobbles the Gourmet - Taloned Turkey": [
-    [
-      "Taloned Turkeys",
-      [
-        "races"
-      ],
-      76
-    ]
-  ],
-  "cities Wattleburg city_description": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      197
-    ],
-    [
-      "Wattle-Winged",
-      [
-        "races"
-      ],
-      179
-    ]
-  ],
-  "cities Wattleburg basic_residents": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      384
-    ],
-    [
-      "Wattle-Winged",
-      [
-        "races"
-      ],
-      24
-    ],
-    [
-      "Colonel Sanders",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Colonel Sanders"
-      ],
-      2350
-    ],
-    [
-      "Henrietta",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Henrietta"
-      ],
-      2
-    ],
-    [
-      "Henrietta the Wise",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Henrietta the Wise"
-      ],
-      2
-    ],
-    [
-      "Colonel Cluck",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Colonel Cluck"
-      ],
-      367
-    ],
-    [
-      "Professor Peck",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Professor Peck"
-      ],
-      675
-    ],
-    [
-      "Chickadee the Thief",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Chickadee the Thief"
-      ],
-      1045
-    ],
-    [
-      "Mayor Cluckington",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Mayor Cluckington"
-      ],
-      1400
-    ],
-    [
-      "Henny Penny",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Henny Penny"
-      ],
-      1747
-    ],
-    [
-      "Clucky the Adventurer",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Clucky the Adventurer"
-      ],
-      2064
-    ]
-  ],
-  "cities Wattleburg lore": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      2260
-    ],
-    [
-      "Wattle-Winged",
-      [
-        "races"
-      ],
-      2351
-    ],
-    [
-      "Colonel Sanders",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Colonel Sanders"
-      ],
-      1525
-    ],
-    [
-      "Blackbeak",
-      [
-        "cities",
-        "Cluckingham",
-        "residents",
-        "Blackbeak"
-      ],
-      2320
-    ],
-    [
-      "Henrietta",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Henrietta"
-      ],
-      156
-    ],
-    [
-      "Henrietta the Wise",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Henrietta the Wise"
-      ],
-      156
-    ],
-    [
-      "Colonel Cluck",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Colonel Cluck"
-      ],
-      488
-    ],
-    [
-      "Professor Peck",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Professor Peck"
-      ],
-      1920
-    ],
-    [
-      "Chickadee the Thief",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Chickadee the Thief"
-      ],
-      611
-    ],
-    [
-      "Mayor Cluckington",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Mayor Cluckington"
-      ],
-      728
-    ],
-    [
-      "Henny Penny",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Henny Penny"
-      ],
-      1275
-    ],
-    [
-      "Clucky the Adventurer",
-      [
-        "cities",
-        "Wattleburg",
-        "residents",
-        "Clucky the Adventurer"
-      ],
-      1090
-    ]
-  ],
-  "cities Wattleburg residents Henrietta the Wise": [
-    [
-      "Wattle-Winged",
-      [
-        "races"
-      ],
-      24
-    ],
-    [
-      "Henrietta",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Henrietta"
-      ],
-      0
-    ]
-  ],
-  "cities Wattleburg residents Colonel Cluck": [],
-  "cities Wattleburg residents Professor Peck": [
-    [
-      "Wattle-Winged",
-      [
-        "races"
-      ],
-      594
-    ],
-    [
-      "Professor Peck",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Professor Peck"
-      ],
-      0
-    ]
-  ],
-  "cities Wattleburg residents Chickadee the Thief": [],
-  "cities Wattleburg residents Mayor Cluckington": [
-    [
-      "Wattle-Winged",
-      [
-        "races"
-      ],
-      37
-    ]
-  ],
-  "cities Wattleburg residents Henny Penny": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      38
-    ]
-  ],
-  "cities Wattleburg residents Clucky the Adventurer": [],
-  "cities Wattleburg residents Colonel Sanders": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      100
-    ]
-  ],
-  "cities Beaksville city_description": [
-    [
-      "Beaked Birds",
-      [
-        "races"
-      ],
-      103
-    ]
-  ],
-  "cities Beaksville basic_residents": [
-    [
-      "Beaked Birds",
-      [
-        "races"
-      ],
-      257
-    ],
-    [
-      "Professor Peck",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Professor Peck"
-      ],
-      1448
-    ],
-    [
-      "Captain Cluckbeard",
-      [
-        "cities",
-        "Beaksville",
-        "residents",
-        "Captain Cluckbeard"
-      ],
-      2
-    ],
-    [
-      "Lady Featherbottom",
-      [
-        "cities",
-        "Beaksville",
-        "residents",
-        "Lady Featherbottom"
-      ],
-      404
-    ],
-    [
-      "Mayor Scratch",
-      [
-        "cities",
-        "Beaksville",
-        "residents",
-        "Mayor Scratch"
-      ],
-      784
-    ],
-    [
-      "Baroness Cluckington",
-      [
-        "cities",
-        "Beaksville",
-        "residents",
-        "Baroness Cluckington"
-      ],
-      1117
-    ]
-  ],
-  "cities Beaksville lore": [
-    [
-      "Beaked Birds",
-      [
-        "races"
-      ],
-      62
-    ],
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      97
-    ],
-    [
-      "Professor Peck",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Professor Peck"
-      ],
-      570
-    ],
-    [
-      "Captain Cluckbeard",
-      [
-        "cities",
-        "Beaksville",
-        "residents",
-        "Captain Cluckbeard"
-      ],
-      603
-    ],
-    [
-      "Lady Featherbottom",
-      [
-        "cities",
-        "Beaksville",
-        "residents",
-        "Lady Featherbottom"
-      ],
-      269
-    ],
-    [
-      "Mayor Scratch",
-      [
-        "cities",
-        "Beaksville",
-        "residents",
-        "Mayor Scratch"
-      ],
-      395
-    ],
-    [
-      "Baroness Cluckington",
-      [
-        "cities",
-        "Beaksville",
-        "residents",
-        "Baroness Cluckington"
-      ],
-      728
-    ]
-  ],
-  "cities Beaksville residents Captain Cluckbeard": [
-    [
-      "Beaked Birds",
-      [
-        "races"
-      ],
-      679
-    ]
-  ],
-  "cities Beaksville residents Lady Featherbottom": [],
-  "cities Beaksville residents Mayor Scratch": [
-    [
-      "Beaked Birds",
-      [
-        "races"
-      ],
-      876
-    ]
-  ],
-  "cities Beaksville residents Baroness Cluckington": [
-    [
-      "Beaked Birds",
-      [
-        "races"
-      ],
-      876
-    ]
-  ],
-  "cities Beaksville residents Professor Peck": [
-    [
-      "Beaked Birds",
-      [
-        "races"
-      ],
-      1384
-    ],
-    [
-      "Professor Peck",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Professor Peck"
-      ],
-      0
-    ]
-  ],
-  "cities Crested Heights city_description": [
-    [
-      "Crested Chickens",
-      [
-        "races"
-      ],
-      109
-    ],
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      264
-    ]
-  ],
-  "cities Crested Heights basic_residents": [
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      330
-    ],
-    [
-      "Redbeak",
-      [
-        "cities",
-        "Crested Heights",
-        "residents",
-        "Redbeak"
-      ],
-      2
-    ],
-    [
-      "Goldfeather",
-      [
-        "cities",
-        "Crested Heights",
-        "residents",
-        "Goldfeather"
-      ],
-      315
-    ],
-    [
-      "Nightwing",
-      [
-        "cities",
-        "Crested Heights",
-        "residents",
-        "Nightwing"
-      ],
-      607
-    ],
-    [
-      "Thunderstrike",
-      [
-        "cities",
-        "Crested Heights",
-        "residents",
-        "Thunderstrike"
-      ],
-      913
-    ],
-    [
-      "Princess Plumage",
-      [
-        "cities",
-        "Crested Heights",
-        "residents",
-        "Princess Plumage"
-      ],
-      1210
-    ],
-    [
-      "Blackheart",
-      [
-        "cities",
-        "Crested Heights",
-        "residents",
-        "Blackheart"
-      ],
-      1507
-    ],
-    [
-      "Lightning Talon",
-      [
-        "cities",
-        "Crested Heights",
-        "residents",
-        "Lightning Talon"
-      ],
-      1813
-    ],
-    [
-      "Shadowclaw",
-      [
-        "cities",
-        "Crested Heights",
-        "residents",
-        "Shadowclaw"
-      ],
-      2098
-    ]
-  ],
-  "cities Crested Heights lore": [
-    [
-      "Crested Chickens",
-      [
-        "races"
-      ],
-      1062
-    ],
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      912
-    ],
-    [
-      "Redbeak",
-      [
-        "cities",
-        "Crested Heights",
-        "residents",
-        "Redbeak"
-      ],
-      531
-    ],
-    [
-      "Goldfeather",
-      [
-        "cities",
-        "Crested Heights",
-        "residents",
-        "Goldfeather"
-      ],
-      98
-    ],
-    [
-      "Nightwing",
-      [
-        "cities",
-        "Crested Heights",
-        "residents",
-        "Nightwing"
-      ],
-      209
-    ],
-    [
-      "Thunderstrike",
-      [
-        "cities",
-        "Crested Heights",
-        "residents",
-        "Thunderstrike"
-      ],
-      317
-    ],
-    [
-      "Princess Plumage",
-      [
-        "cities",
-        "Crested Heights",
-        "residents",
-        "Princess Plumage"
-      ],
-      972
-    ],
-    [
-      "Lightning Talon",
-      [
-        "cities",
-        "Crested Heights",
-        "residents",
-        "Lightning Talon"
-      ],
-      1492
-    ],
-    [
-      "Shadowclaw",
-      [
-        "cities",
-        "Crested Heights",
-        "residents",
-        "Shadowclaw"
-      ],
-      1617
-    ]
-  ],
-  "cities Crested Heights residents Redbeak": [],
-  "cities Crested Heights residents Goldfeather": [
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      38
-    ]
-  ],
-  "cities Crested Heights residents Nightwing": [],
-  "cities Crested Heights residents Thunderstrike": [
-    [
-      "Crested Chickens",
-      [
-        "races"
-      ],
-      59
-    ]
-  ],
-  "cities Crested Heights residents Princess Plumage": [
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      126
-    ]
-  ],
-  "cities Crested Heights residents Blackheart": [],
-  "cities Crested Heights residents Lightning Talon": [],
-  "cities Crested Heights residents Shadowclaw": [],
-  "cities Cluckington city_description": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      1090
-    ],
-    [
-      "Taloned Turkeys",
-      [
-        "races"
-      ],
-      1109
-    ]
-  ],
-  "cities Cluckington basic_residents": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      42
-    ],
-    [
-      "Taloned Turkeys",
-      [
-        "races"
-      ],
-      1214
-    ],
-    [
-      "Henrietta",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Henrietta"
-      ],
-      538
-    ],
-    [
-      "Fluffy",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Fluffy"
-      ],
-      1333
-    ],
-    [
-      "Sir Cluckington",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Sir Cluckington"
-      ],
-      2
-    ],
-    [
-      "Rusty",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Rusty"
-      ],
-      286
-    ],
-    [
-      "The Chicken Bandits",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "The Chicken Bandits"
-      ],
-      797
-    ],
-    [
-      "Colonel Strut",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Colonel Strut"
-      ],
-      1049
-    ]
-  ],
-  "cities Cluckington lore": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      1516
-    ],
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      971
-    ],
-    [
-      "Taloned Turkeys",
-      [
-        "races"
-      ],
-      1492
-    ],
-    [
-      "Henrietta",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Henrietta"
-      ],
-      418
-    ],
-    [
-      "Fluffy",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Fluffy"
-      ],
-      1056
-    ],
-    [
-      "Sir Cluckington",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Sir Cluckington"
-      ],
-      153
-    ],
-    [
-      "Rusty",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Rusty"
-      ],
-      816
-    ],
-    [
-      "Colonel Strut",
-      [
-        "cities",
-        "Cluckington",
-        "residents",
-        "Colonel Strut"
-      ],
-      885
-    ]
-  ],
-  "cities Cluckington residents Sir Cluckington": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      1309
-    ]
-  ],
-  "cities Cluckington residents Rusty": [],
-  "cities Cluckington residents Henrietta": [],
-  "cities Cluckington residents The Chicken Bandits": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      57
-    ]
-  ],
-  "cities Cluckington residents Colonel Strut": [],
-  "cities Cluckington residents Fluffy": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      28
-    ]
-  ],
-  "cities Feather Falls city_description": [
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      140
-    ]
-  ],
-  "cities Feather Falls basic_residents": [
-    [
-      "Feathered Fowl",
-      [
-        "races"
-      ],
-      563
-    ],
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      304
-    ],
-    [
-      "Taloned Turkeys",
-      [
-        "races"
-      ],
-      185
-    ],
-    [
-      "Lady Cluckington",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Lady Cluckington"
-      ],
-      1111
-    ],
-    [
-      "Professor Peck",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Professor Peck"
-      ],
-      545
-    ],
-    [
-      "Captain Cluckbeak",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Captain Cluckbeak"
-      ],
-      2
-    ],
-    [
-      "Madame Feathers",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Madame Feathers"
-      ],
-      285
-    ],
-    [
-      "The Chickening",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "The Chickening"
-      ],
-      827
-    ],
-    [
-      "Doctor Rooster",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Doctor Rooster"
-      ],
-      1400
-    ],
-    [
-      "The Feathered Bandit",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "The Feathered Bandit"
-      ],
-      1681
-    ],
-    [
-      "Mayor Clucksworth",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Mayor Clucksworth"
-      ],
-      1930
-    ]
-  ],
-  "cities Feather Falls lore": [
-    [
-      "Beaked Birds",
-      [
-        "races"
-      ],
-      58
-    ],
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      441
-    ],
-    [
-      "Taloned Turkeys",
-      [
-        "races"
-      ],
-      79
-    ],
-    [
-      "Lady Cluckington",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Lady Cluckington"
-      ],
-      819
-    ],
-    [
-      "Professor Peck",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Professor Peck"
-      ],
-      759
-    ],
-    [
-      "Captain Cluckbeak",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Captain Cluckbeak"
-      ],
-      142
-    ],
-    [
-      "Madame Feathers",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Madame Feathers"
-      ],
-      386
-    ],
-    [
-      "The Chickening",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "The Chickening"
-      ],
-      600
-    ],
-    [
-      "Doctor Rooster",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Doctor Rooster"
-      ],
-      164
-    ],
-    [
-      "Mayor Clucksworth",
-      [
-        "cities",
-        "Feather Falls",
-        "residents",
-        "Mayor Clucksworth"
-      ],
-      1131
-    ]
-  ],
-  "cities Feather Falls residents Captain Cluckbeak": [
-    [
-      "Beaked Birds",
-      [
-        "races"
-      ],
-      61
-    ],
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      1230
-    ],
-    [
-      "Taloned Turkeys",
-      [
-        "races"
-      ],
-      597
-    ]
-  ],
-  "cities Feather Falls residents Madame Feathers": [
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      1699
-    ]
-  ],
-  "cities Feather Falls residents Professor Peck": [
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      1160
-    ]
-  ],
-  "cities Feather Falls residents The Chickening": [
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      847
-    ]
-  ],
-  "cities Feather Falls residents Lady Cluckington": [
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      22
-    ]
-  ],
-  "cities Feather Falls residents Doctor Rooster": [
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      81
-    ]
-  ],
-  "cities Feather Falls residents The Feathered Bandit": [
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      42
-    ]
-  ],
-  "cities Feather Falls residents Mayor Clucksworth": [
-    [
-      "Plumed Poultry",
-      [
-        "races"
-      ],
-      32
-    ]
+  "Feathered Fowl": [
+    "races"
+  ],
+  "Beaked Birds": [
+    "races"
+  ],
+  "Crested Chickens": [
+    "races"
+  ],
+  "Plumed Poultry": [
+    "races"
+  ],
+  "Taloned Turkeys": [
+    "races"
+  ],
+  "Wattle-Winged": [
+    "races"
+  ],
+  "Feathered Rodents": [
+    "creatures"
+  ],
+  "Fluffy Grazers": [
+    "creatures"
+  ],
+  "Sharp-Toothed Predators": [
+    "creatures"
+  ],
+  "Feathered Flyers": [
+    "creatures"
+  ],
+  "Coiled Reptiles": [
+    "creatures"
+  ],
+  "Burrowing Insects": [
+    "creatures"
+  ],
+  "Web-Spinning Arachnids": [
+    "creatures"
+  ],
+  "The Great Feathered One": [
+    "deities"
+  ],
+  "The Clucking Oracle": [
+    "deities"
+  ],
+  "The Plumed Protector": [
+    "deities"
+  ],
+  "The Taloned Tempest": [
+    "deities"
+  ],
+  "The Wattle-Winged Weaver": [
+    "deities"
+  ],
+  "The Crested Counselor": [
+    "deities"
+  ],
+  "The Temple of the Great Feathered One": [
+    "landmarks"
+  ],
+  "The Wattle-Winged Wasteland": [
+    "landmarks"
+  ],
+  "The Plumed Palace": [
+    "landmarks"
+  ],
+  "The Clucking Catacombs": [
+    "landmarks"
+  ],
+  "The Taloned Tower": [
+    "landmarks"
+  ],
+  "The Crested Citadel": [
+    "landmarks"
+  ],
+  "Feathered Faith": [
+    "beliefs"
+  ],
+  "Plumed Pantheon": [
+    "beliefs"
+  ],
+  "Taloned Tradition": [
+    "beliefs"
+  ],
+  "Crested Creed": [
+    "beliefs"
+  ],
+  "Colonel Sanders": [
+    "cities",
+    "Wattleburg",
+    "residents",
+    "Colonel Sanders"
+  ],
+  "Blackbeak": [
+    "cities",
+    "Cluckingham",
+    "residents",
+    "Blackbeak"
+  ],
+  "Henrietta": [
+    "cities",
+    "Cluckington",
+    "residents",
+    "Henrietta"
+  ],
+  "Sir Cluckles": [
+    "cities",
+    "Cluckingham",
+    "residents",
+    "Sir Cluckles"
+  ],
+  "Pecky": [
+    "cities",
+    "Cluckingham",
+    "residents",
+    "Pecky"
+  ],
+  "Fluffy": [
+    "cities",
+    "Cluckington",
+    "residents",
+    "Fluffy"
+  ],
+  "Eggbert": [
+    "cities",
+    "Cluckingham",
+    "residents",
+    "Eggbert"
+  ],
+  "Lady Cluckington": [
+    "cities",
+    "Feather Falls",
+    "residents",
+    "Lady Cluckington"
+  ],
+  "Cluckington the Wise, Feathered Fowl": [
+    "cities",
+    "Roosterville",
+    "residents",
+    "Cluckington the Wise, Feathered Fowl"
+  ],
+  "Henrietta the Huntress, Beaked Bird": [
+    "cities",
+    "Roosterville",
+    "residents",
+    "Henrietta the Huntress, Beaked Bird"
+  ],
+  "Igor the Inventor, Feathered Fowl": [
+    "cities",
+    "Roosterville",
+    "residents",
+    "Igor the Inventor, Feathered Fowl"
+  ],
+  "Mildred the Matchmaker, Crested Chicken": [
+    "cities",
+    "Roosterville",
+    "residents",
+    "Mildred the Matchmaker, Crested Chicken"
+  ],
+  "Slash the Scavenger, Feathered Fowl": [
+    "cities",
+    "Roosterville",
+    "residents",
+    "Slash the Scavenger, Feathered Fowl"
+  ],
+  "Ferdinand the Farmer, Plumed Poultry": [
+    "cities",
+    "Roosterville",
+    "residents",
+    "Ferdinand the Farmer, Plumed Poultry"
+  ],
+  "Greta the Gossip, Feathered Fowl": [
+    "cities",
+    "Roosterville",
+    "residents",
+    "Greta the Gossip, Feathered Fowl"
+  ],
+  "Sparky the Adventurer, Taloned Turkey": [
+    "cities",
+    "Roosterville",
+    "residents",
+    "Sparky the Adventurer, Taloned Turkey"
+  ],
+  "Bubbles the Beauty, Plumed Poultry": [
+    "cities",
+    "Roosterville",
+    "residents",
+    "Bubbles the Beauty, Plumed Poultry"
+  ],
+  "Ziggy the Zen, Feathered Fowl": [
+    "cities",
+    "Roosterville",
+    "residents",
+    "Ziggy the Zen, Feathered Fowl"
+  ],
+  "Cluckbeard the Wise - Crested Chicken": [
+    "cities",
+    "Talon Town",
+    "residents",
+    "Cluckbeard the Wise - Crested Chicken"
+  ],
+  "Fang the Fierce - Taloned Turkey": [
+    "cities",
+    "Talon Town",
+    "residents",
+    "Fang the Fierce - Taloned Turkey"
+  ],
+  "Henrietta the Healer - Crested Chicken": [
+    "cities",
+    "Talon Town",
+    "residents",
+    "Henrietta the Healer - Crested Chicken"
+  ],
+  "Scratchy the Scavenger - Taloned Turkey": [
+    "cities",
+    "Talon Town",
+    "residents",
+    "Scratchy the Scavenger - Taloned Turkey"
+  ],
+  "Peepers the Pet - Feathered Fowl": [
+    "cities",
+    "Talon Town",
+    "residents",
+    "Peepers the Pet - Feathered Fowl"
+  ],
+  "Squawk the Scoundrel - Taloned Turkey": [
+    "cities",
+    "Talon Town",
+    "residents",
+    "Squawk the Scoundrel - Taloned Turkey"
+  ],
+  "Fluffy the Fashionista - Plumed Poultry": [
+    "cities",
+    "Talon Town",
+    "residents",
+    "Fluffy the Fashionista - Plumed Poultry"
+  ],
+  "Gobbles the Gourmet - Taloned Turkey": [
+    "cities",
+    "Talon Town",
+    "residents",
+    "Gobbles the Gourmet - Taloned Turkey"
+  ],
+  "Henrietta the Wise": [
+    "cities",
+    "Wattleburg",
+    "residents",
+    "Henrietta the Wise"
+  ],
+  "Colonel Cluck": [
+    "cities",
+    "Wattleburg",
+    "residents",
+    "Colonel Cluck"
+  ],
+  "Professor Peck": [
+    "cities",
+    "Feather Falls",
+    "residents",
+    "Professor Peck"
+  ],
+  "Chickadee the Thief": [
+    "cities",
+    "Wattleburg",
+    "residents",
+    "Chickadee the Thief"
+  ],
+  "Mayor Cluckington": [
+    "cities",
+    "Wattleburg",
+    "residents",
+    "Mayor Cluckington"
+  ],
+  "Henny Penny": [
+    "cities",
+    "Wattleburg",
+    "residents",
+    "Henny Penny"
+  ],
+  "Clucky the Adventurer": [
+    "cities",
+    "Wattleburg",
+    "residents",
+    "Clucky the Adventurer"
+  ],
+  "Captain Cluckbeard": [
+    "cities",
+    "Beaksville",
+    "residents",
+    "Captain Cluckbeard"
+  ],
+  "Lady Featherbottom": [
+    "cities",
+    "Beaksville",
+    "residents",
+    "Lady Featherbottom"
+  ],
+  "Mayor Scratch": [
+    "cities",
+    "Beaksville",
+    "residents",
+    "Mayor Scratch"
+  ],
+  "Baroness Cluckington": [
+    "cities",
+    "Beaksville",
+    "residents",
+    "Baroness Cluckington"
+  ],
+  "Redbeak": [
+    "cities",
+    "Crested Heights",
+    "residents",
+    "Redbeak"
+  ],
+  "Goldfeather": [
+    "cities",
+    "Crested Heights",
+    "residents",
+    "Goldfeather"
+  ],
+  "Nightwing": [
+    "cities",
+    "Crested Heights",
+    "residents",
+    "Nightwing"
+  ],
+  "Thunderstrike": [
+    "cities",
+    "Crested Heights",
+    "residents",
+    "Thunderstrike"
+  ],
+  "Princess Plumage": [
+    "cities",
+    "Crested Heights",
+    "residents",
+    "Princess Plumage"
+  ],
+  "Blackheart": [
+    "cities",
+    "Crested Heights",
+    "residents",
+    "Blackheart"
+  ],
+  "Lightning Talon": [
+    "cities",
+    "Crested Heights",
+    "residents",
+    "Lightning Talon"
+  ],
+  "Shadowclaw": [
+    "cities",
+    "Crested Heights",
+    "residents",
+    "Shadowclaw"
+  ],
+  "Sir Cluckington": [
+    "cities",
+    "Cluckington",
+    "residents",
+    "Sir Cluckington"
+  ],
+  "Rusty": [
+    "cities",
+    "Cluckington",
+    "residents",
+    "Rusty"
+  ],
+  "The Chicken Bandits": [
+    "cities",
+    "Cluckington",
+    "residents",
+    "The Chicken Bandits"
+  ],
+  "Colonel Strut": [
+    "cities",
+    "Cluckington",
+    "residents",
+    "Colonel Strut"
+  ],
+  "Captain Cluckbeak": [
+    "cities",
+    "Feather Falls",
+    "residents",
+    "Captain Cluckbeak"
+  ],
+  "Madame Feathers": [
+    "cities",
+    "Feather Falls",
+    "residents",
+    "Madame Feathers"
+  ],
+  "The Chickening": [
+    "cities",
+    "Feather Falls",
+    "residents",
+    "The Chickening"
+  ],
+  "Doctor Rooster": [
+    "cities",
+    "Feather Falls",
+    "residents",
+    "Doctor Rooster"
+  ],
+  "The Feathered Bandit": [
+    "cities",
+    "Feather Falls",
+    "residents",
+    "The Feathered Bandit"
+  ],
+  "Mayor Clucksworth": [
+    "cities",
+    "Feather Falls",
+    "residents",
+    "Mayor Clucksworth"
   ]
 }

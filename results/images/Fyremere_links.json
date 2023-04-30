@@ -1,1083 +1,296 @@
 {
-  "world_names": [],
-  "world_description": [],
-  "races": [],
-  "creatures": [
-    [
-      "The Krynn",
-      [
-        "races"
-      ],
-      535
-    ],
-    [
-      "The Nym",
-      [
-        "races"
-      ],
-      982
-    ]
+  "The Valtari": [
+    "races"
   ],
-  "basic_cities": [],
-  "deities": [],
-  "landmarks": [
-    [
-      "The Valtari",
-      [
-        "races"
-      ],
-      537
-    ],
-    [
-      "The Krynn",
-      [
-        "races"
-      ],
-      877
-    ],
-    [
-      "The Nym",
-      [
-        "races"
-      ],
-      1197
-    ],
-    [
-      "The Ossir",
-      [
-        "races"
-      ],
-      1932
-    ],
-    [
-      "The Drog",
-      [
-        "races"
-      ],
-      1555
-    ],
-    [
-      "The Lord of the Dark Waters",
-      [
-        "deities"
-      ],
-      1447
-    ],
-    [
-      "The Watcher in the Shadows",
-      [
-        "deities"
-      ],
-      758
-    ]
+  "The Krynn": [
+    "races"
   ],
-  "beliefs": [
-    [
-      "The Krynn",
-      [
-        "races"
-      ],
-      1621
-    ],
-    [
-      "The Ossir",
-      [
-        "races"
-      ],
-      1963
-    ]
+  "The Nym": [
+    "races"
   ],
-  "cities Havenstead city_description": [],
-  "cities Havenstead basic_residents": [
-    [
-      "Captain Jax",
-      [
-        "cities",
-        "Skyreach",
-        "residents",
-        "Captain Jax"
-      ],
-      2
-    ],
-    [
-      "Ayala",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Ayala"
-      ],
-      256
-    ],
-    [
-      "Keth",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Keth"
-      ],
-      464
-    ],
-    [
-      "Seraphina",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Seraphina"
-      ],
-      734
-    ],
-    [
-      "Zarek",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Zarek"
-      ],
-      1029
-    ],
-    [
-      "Thalia",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Thalia"
-      ],
-      1246
-    ],
-    [
-      "Malakai",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Malakai"
-      ],
-      1437
-    ],
-    [
-      "Riven",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Riven"
-      ],
-      1707
-    ],
-    [
-      "Lirien",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Lirien"
-      ],
-      1992
-    ],
-    [
-      "Zephyr",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Zephyr"
-      ],
-      2209
-    ],
-    [
-      "Jax",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Jax"
-      ],
-      10
-    ]
+  "The Ossir": [
+    "races"
   ],
-  "cities Havenstead lore": [
-    [
-      "The Valtari",
-      [
-        "races"
-      ],
-      597
-    ],
-    [
-      "The Nym",
-      [
-        "races"
-      ],
-      265
-    ],
-    [
-      "Captain Jax",
-      [
-        "cities",
-        "Skyreach",
-        "residents",
-        "Captain Jax"
-      ],
-      105
-    ],
-    [
-      "Ayala",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Ayala"
-      ],
-      463
-    ],
-    [
-      "Keth",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Keth"
-      ],
-      782
-    ],
-    [
-      "Seraphina",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Seraphina"
-      ],
-      1311
-    ],
-    [
-      "Zarek",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Zarek"
-      ],
-      791
-    ],
-    [
-      "Thalia",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Thalia"
-      ],
-      655
-    ],
-    [
-      "Riven",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Riven"
-      ],
-      1097
-    ],
-    [
-      "Lirien",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Lirien"
-      ],
-      1325
-    ],
-    [
-      "Zephyr",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Zephyr"
-      ],
-      1107
-    ],
-    [
-      "Jax",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Jax"
-      ],
-      113
-    ]
+  "The Drog": [
+    "races"
   ],
-  "cities Havenstead residents Captain Jax": [
-    [
-      "Captain Jax",
-      [
-        "cities",
-        "Skyreach",
-        "residents",
-        "Captain Jax"
-      ],
-      0
-    ],
-    [
-      "Jax",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Jax"
-      ],
-      8
-    ]
+  "The Glint": [
+    "creatures"
   ],
-  "cities Havenstead residents Ayala": [],
-  "cities Havenstead residents Keth": [],
-  "cities Havenstead residents Seraphina": [],
-  "cities Havenstead residents Zarek": [],
-  "cities Havenstead residents Thalia": [],
-  "cities Havenstead residents Malakai": [],
-  "cities Havenstead residents Riven": [
-    [
-      "Riven",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Riven"
-      ],
-      0
-    ]
+  "The Shadowstalker": [
+    "creatures"
   ],
-  "cities Havenstead residents Lirien": [],
-  "cities Havenstead residents Zephyr": [
-    [
-      "Zephyr",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Zephyr"
-      ],
-      0
-    ]
+  "The Rockspinner": [
+    "creatures"
   ],
-  "cities Greenhaven city_description": [
-    [
-      "The Valtari",
-      [
-        "races"
-      ],
-      487
-    ]
+  "The Skywhisperer": [
+    "creatures"
   ],
-  "cities Greenhaven basic_residents": [
-    [
-      "Zephyr",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Zephyr"
-      ],
-      851
-    ],
-    [
-      "Aiden Harlow",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Aiden Harlow"
-      ],
-      2
-    ],
-    [
-      "Lyrisa",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Lyrisa"
-      ],
-      454
-    ],
-    [
-      "Jax",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Jax"
-      ],
-      1287
-    ],
-    [
-      "Sylphina",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Sylphina"
-      ],
-      1735
-    ]
+  "The Frostbite": [
+    "creatures"
   ],
-  "cities Greenhaven lore": [
-    [
-      "Zephyr",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Zephyr"
-      ],
-      275
-    ],
-    [
-      "Lyrisa",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Lyrisa"
-      ],
-      264
-    ],
-    [
-      "Jax",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Jax"
-      ],
-      451
-    ],
-    [
-      "Sylphina",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Sylphina"
-      ],
-      901
-    ]
+  "The Sunseeker": [
+    "creatures"
   ],
-  "cities Greenhaven residents Aiden Harlow": [],
-  "cities Greenhaven residents Lyrisa": [],
-  "cities Greenhaven residents Zephyr": [],
-  "cities Greenhaven residents Jax": [],
-  "cities Greenhaven residents Sylphina": [],
-  "cities Ironhold city_description": [
-    [
-      "The Krynn",
-      [
-        "races"
-      ],
-      506
-    ]
+  "The Whirlpooler": [
+    "creatures"
   ],
-  "cities Ironhold basic_residents": [
-    [
-      "Keth",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Keth"
-      ],
-      420
-    ],
-    [
-      "Victor \"Ironhand\" Tormund",
-      [
-        "cities",
-        "Ironhold",
-        "residents",
-        "Victor \"Ironhand\" Tormund"
-      ],
-      2
-    ],
-    [
-      "Kethra Bloodclaw",
-      [
-        "cities",
-        "Ironhold",
-        "residents",
-        "Kethra Bloodclaw"
-      ],
-      420
-    ],
-    [
-      "Zara Starweaver",
-      [
-        "cities",
-        "Ironhold",
-        "residents",
-        "Zara Starweaver"
-      ],
-      749
-    ],
-    [
-      "Thokk Stonefist",
-      [
-        "cities",
-        "Ironhold",
-        "residents",
-        "Thokk Stonefist"
-      ],
-      1064
-    ],
-    [
-      "Sylvi Greensong",
-      [
-        "cities",
-        "Ironhold",
-        "residents",
-        "Sylvi Greensong"
-      ],
-      1429
-    ],
-    [
-      "Kaelen Shadowblade",
-      [
-        "cities",
-        "Ironhold",
-        "residents",
-        "Kaelen Shadowblade"
-      ],
-      1819
-    ],
-    [
-      "Nessa Brightwing",
-      [
-        "cities",
-        "Ironhold",
-        "residents",
-        "Nessa Brightwing"
-      ],
-      2187
-    ],
-    [
-      "Zara",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Zara"
-      ],
-      749
-    ]
+  "The Great Mother of the Forest": [
+    "deities"
   ],
-  "cities Ironhold lore": [
-    [
-      "Keth",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Keth"
-      ],
-      80
-    ],
-    [
-      "Victor \"Ironhand\" Tormund",
-      [
-        "cities",
-        "Ironhold",
-        "residents",
-        "Victor \"Ironhand\" Tormund"
-      ],
-      50
-    ],
-    [
-      "Kethra Bloodclaw",
-      [
-        "cities",
-        "Ironhold",
-        "residents",
-        "Kethra Bloodclaw"
-      ],
-      80
-    ],
-    [
-      "Zara Starweaver",
-      [
-        "cities",
-        "Ironhold",
-        "residents",
-        "Zara Starweaver"
-      ],
-      414
-    ],
-    [
-      "Thokk Stonefist",
-      [
-        "cities",
-        "Ironhold",
-        "residents",
-        "Thokk Stonefist"
-      ],
-      237
-    ],
-    [
-      "Sylvi Greensong",
-      [
-        "cities",
-        "Ironhold",
-        "residents",
-        "Sylvi Greensong"
-      ],
-      661
-    ],
-    [
-      "Kaelen Shadowblade",
-      [
-        "cities",
-        "Ironhold",
-        "residents",
-        "Kaelen Shadowblade"
-      ],
-      681
-    ],
-    [
-      "Nessa Brightwing",
-      [
-        "cities",
-        "Ironhold",
-        "residents",
-        "Nessa Brightwing"
-      ],
-      892
-    ],
-    [
-      "Zara",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Zara"
-      ],
-      414
-    ]
+  "The Lord of the Dark Waters": [
+    "deities"
   ],
-  "cities Ironhold residents Victor \"Ironhand\" Tormund": [],
-  "cities Ironhold residents Kethra Bloodclaw": [
-    [
-      "Keth",
-      [
-        "cities",
-        "Havenstead",
-        "residents",
-        "Keth"
-      ],
-      0
-    ]
+  "The Weaver of Dreams": [
+    "deities"
   ],
-  "cities Ironhold residents Zara Starweaver": [
-    [
-      "Zara",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Zara"
-      ],
-      0
-    ]
+  "The Watcher in the Shadows": [
+    "deities"
   ],
-  "cities Ironhold residents Thokk Stonefist": [],
-  "cities Ironhold residents Sylvi Greensong": [],
-  "cities Ironhold residents Kaelen Shadowblade": [],
-  "cities Ironhold residents Nessa Brightwing": [],
-  "cities Marshwatch city_description": [],
-  "cities Marshwatch basic_residents": [
-    [
-      "Riven",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Riven"
-      ],
-      613
-    ],
-    [
-      "Althea",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Althea"
-      ],
-      2
-    ],
-    [
-      "Grom",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Grom"
-      ],
-      327
-    ],
-    [
-      "Klarth",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Klarth"
-      ],
-      916
-    ],
-    [
-      "Ren",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Ren"
-      ],
-      1210
-    ],
-    [
-      "Voss",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Voss"
-      ],
-      1413
-    ],
-    [
-      "Throg",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Throg"
-      ],
-      1680
-    ],
-    [
-      "Zara",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Zara"
-      ],
-      1950
-    ]
+  "The Lady of the Eternal Flame": [
+    "deities"
   ],
-  "cities Marshwatch lore": [
-    [
-      "The Drog",
-      [
-        "races"
-      ],
-      651
-    ],
-    [
-      "Riven",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Riven"
-      ],
-      116
-    ],
-    [
-      "Althea",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Althea"
-      ],
-      108
-    ],
-    [
-      "Grom",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Grom"
-      ],
-      201
-    ],
-    [
-      "Klarth",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Klarth"
-      ],
-      543
-    ],
-    [
-      "Ren",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Ren"
-      ],
-      210
-    ],
-    [
-      "Voss",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Voss"
-      ],
-      1627
-    ],
-    [
-      "Throg",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Throg"
-      ],
-      127
-    ],
-    [
-      "Zara",
-      [
-        "cities",
-        "Marshwatch",
-        "residents",
-        "Zara"
-      ],
-      534
-    ]
+  "The Keeper of the Secrets Beyond": [
+    "deities"
   ],
-  "cities Marshwatch residents Althea": [],
-  "cities Marshwatch residents Grom": [],
-  "cities Marshwatch residents Riven": [],
-  "cities Marshwatch residents Klarth": [],
-  "cities Marshwatch residents Ren": [],
-  "cities Marshwatch residents Voss": [],
-  "cities Marshwatch residents Throg": [],
-  "cities Marshwatch residents Zara": [],
-  "cities Skyreach city_description": [
-    [
-      "The Ossir",
-      [
-        "races"
-      ],
-      857
-    ]
+  "The Bringer of the Endless Night": [
+    "deities"
   ],
-  "cities Skyreach basic_residents": [
-    [
-      "Captain Jax",
-      [
-        "cities",
-        "Skyreach",
-        "residents",
-        "Captain Jax"
-      ],
-      2
-    ],
-    [
-      "Zephyr",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Zephyr"
-      ],
-      362
-    ],
-    [
-      "Jax",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Jax"
-      ],
-      10
-    ],
-    [
-      "Lady Zephyr",
-      [
-        "cities",
-        "Skyreach",
-        "residents",
-        "Lady Zephyr"
-      ],
-      357
-    ],
-    [
-      "Kael the Engineer",
-      [
-        "cities",
-        "Skyreach",
-        "residents",
-        "Kael the Engineer"
-      ],
-      709
-    ],
-    [
-      "Myst the Trickster",
-      [
-        "cities",
-        "Skyreach",
-        "residents",
-        "Myst the Trickster"
-      ],
-      1069
-    ],
-    [
-      "Aria the Seer",
-      [
-        "cities",
-        "Skyreach",
-        "residents",
-        "Aria the Seer"
-      ],
-      1429
-    ],
-    [
-      "Mordekai the Protector",
-      [
-        "cities",
-        "Skyreach",
-        "residents",
-        "Mordekai the Protector"
-      ],
-      1755
-    ]
+  "The Ruins of the Endless Night": [
+    "landmarks"
   ],
-  "cities Skyreach lore": [
-    [
-      "Captain Jax",
-      [
-        "cities",
-        "Skyreach",
-        "residents",
-        "Captain Jax"
-      ],
-      15
-    ],
-    [
-      "Zephyr",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Zephyr"
-      ],
-      163
-    ],
-    [
-      "Jax",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Jax"
-      ],
-      23
-    ],
-    [
-      "Lady Zephyr",
-      [
-        "cities",
-        "Skyreach",
-        "residents",
-        "Lady Zephyr"
-      ],
-      158
-    ],
-    [
-      "Kael the Engineer",
-      [
-        "cities",
-        "Skyreach",
-        "residents",
-        "Kael the Engineer"
-      ],
-      171
-    ],
-    [
-      "Myst the Trickster",
-      [
-        "cities",
-        "Skyreach",
-        "residents",
-        "Myst the Trickster"
-      ],
-      388
-    ],
-    [
-      "Aria the Seer",
-      [
-        "cities",
-        "Skyreach",
-        "residents",
-        "Aria the Seer"
-      ],
-      194
-    ],
-    [
-      "Mordekai the Protector",
-      [
-        "cities",
-        "Skyreach",
-        "residents",
-        "Mordekai the Protector"
-      ],
-      411
-    ]
+  "The Shrine of the Weaver": [
+    "landmarks"
   ],
-  "cities Skyreach residents Captain Jax": [
-    [
-      "Jax",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Jax"
-      ],
-      8
-    ]
+  "The Caverns of the Watcher": [
+    "landmarks"
   ],
-  "cities Skyreach residents Lady Zephyr": [
-    [
-      "Zephyr",
-      [
-        "cities",
-        "Greenhaven",
-        "residents",
-        "Zephyr"
-      ],
-      5
-    ]
+  "The Temple of the Great Mother": [
+    "landmarks"
   ],
-  "cities Skyreach residents Kael the Engineer": [],
-  "cities Skyreach residents Myst the Trickster": [],
-  "cities Skyreach residents Aria the Seer": [],
-  "cities Skyreach residents Mordekai the Protector": []
+  "The Sunken City of the Dark Waters": [
+    "landmarks"
+  ],
+  "The Tower of the Eternal Flame": [
+    "landmarks"
+  ],
+  "The Way of the Earth": [
+    "beliefs"
+  ],
+  "The Path of the Flame": [
+    "beliefs"
+  ],
+  "The Dreamweavers' Guild": [
+    "beliefs"
+  ],
+  "The Followers of the Watcher": [
+    "beliefs"
+  ],
+  "The Tidecallers' Brotherhood": [
+    "beliefs"
+  ],
+  "The Seekers of the Unknown": [
+    "beliefs"
+  ],
+  "The Harbingers of the End": [
+    "beliefs"
+  ],
+  "Captain Jax": [
+    "cities",
+    "Skyreach",
+    "residents",
+    "Captain Jax"
+  ],
+  "Ayala": [
+    "cities",
+    "Havenstead",
+    "residents",
+    "Ayala"
+  ],
+  "Keth": [
+    "cities",
+    "Havenstead",
+    "residents",
+    "Keth"
+  ],
+  "Seraphina": [
+    "cities",
+    "Havenstead",
+    "residents",
+    "Seraphina"
+  ],
+  "Zarek": [
+    "cities",
+    "Havenstead",
+    "residents",
+    "Zarek"
+  ],
+  "Thalia": [
+    "cities",
+    "Havenstead",
+    "residents",
+    "Thalia"
+  ],
+  "Malakai": [
+    "cities",
+    "Havenstead",
+    "residents",
+    "Malakai"
+  ],
+  "Riven": [
+    "cities",
+    "Marshwatch",
+    "residents",
+    "Riven"
+  ],
+  "Lirien": [
+    "cities",
+    "Havenstead",
+    "residents",
+    "Lirien"
+  ],
+  "Zephyr": [
+    "cities",
+    "Greenhaven",
+    "residents",
+    "Zephyr"
+  ],
+  "Aiden Harlow": [
+    "cities",
+    "Greenhaven",
+    "residents",
+    "Aiden Harlow"
+  ],
+  "Lyrisa": [
+    "cities",
+    "Greenhaven",
+    "residents",
+    "Lyrisa"
+  ],
+  "Jax": [
+    "cities",
+    "Greenhaven",
+    "residents",
+    "Jax"
+  ],
+  "Sylphina": [
+    "cities",
+    "Greenhaven",
+    "residents",
+    "Sylphina"
+  ],
+  "Victor \"Ironhand\" Tormund": [
+    "cities",
+    "Ironhold",
+    "residents",
+    "Victor \"Ironhand\" Tormund"
+  ],
+  "Kethra Bloodclaw": [
+    "cities",
+    "Ironhold",
+    "residents",
+    "Kethra Bloodclaw"
+  ],
+  "Zara Starweaver": [
+    "cities",
+    "Ironhold",
+    "residents",
+    "Zara Starweaver"
+  ],
+  "Thokk Stonefist": [
+    "cities",
+    "Ironhold",
+    "residents",
+    "Thokk Stonefist"
+  ],
+  "Sylvi Greensong": [
+    "cities",
+    "Ironhold",
+    "residents",
+    "Sylvi Greensong"
+  ],
+  "Kaelen Shadowblade": [
+    "cities",
+    "Ironhold",
+    "residents",
+    "Kaelen Shadowblade"
+  ],
+  "Nessa Brightwing": [
+    "cities",
+    "Ironhold",
+    "residents",
+    "Nessa Brightwing"
+  ],
+  "Althea": [
+    "cities",
+    "Marshwatch",
+    "residents",
+    "Althea"
+  ],
+  "Grom": [
+    "cities",
+    "Marshwatch",
+    "residents",
+    "Grom"
+  ],
+  "Klarth": [
+    "cities",
+    "Marshwatch",
+    "residents",
+    "Klarth"
+  ],
+  "Ren": [
+    "cities",
+    "Marshwatch",
+    "residents",
+    "Ren"
+  ],
+  "Voss": [
+    "cities",
+    "Marshwatch",
+    "residents",
+    "Voss"
+  ],
+  "Throg": [
+    "cities",
+    "Marshwatch",
+    "residents",
+    "Throg"
+  ],
+  "Zara": [
+    "cities",
+    "Marshwatch",
+    "residents",
+    "Zara"
+  ],
+  "Lady Zephyr": [
+    "cities",
+    "Skyreach",
+    "residents",
+    "Lady Zephyr"
+  ],
+  "Kael the Engineer": [
+    "cities",
+    "Skyreach",
+    "residents",
+    "Kael the Engineer"
+  ],
+  "Myst the Trickster": [
+    "cities",
+    "Skyreach",
+    "residents",
+    "Myst the Trickster"
+  ],
+  "Aria the Seer": [
+    "cities",
+    "Skyreach",
+    "residents",
+    "Aria the Seer"
+  ],
+  "Mordekai the Protector": [
+    "cities",
+    "Skyreach",
+    "residents",
+    "Mordekai the Protector"
+  ]
 }
