@@ -1,0 +1,401 @@
+{
+  "The Aurums": [
+    "races"
+  ],
+  "The Valtorians": [
+    "races"
+  ],
+  "The Gorgons": [
+    "races"
+  ],
+  "The Celestials": [
+    "races"
+  ],
+  "The Dwarves": [
+    "races"
+  ],
+  "The Merfolk": [
+    "races"
+  ],
+  "Skywhales": [
+    "creatures"
+  ],
+  "Glimmerbeasts": [
+    "creatures"
+  ],
+  "Ironclaws": [
+    "creatures"
+  ],
+  "Crystalfangs": [
+    "creatures"
+  ],
+  "Steamgoblins": [
+    "creatures"
+  ],
+  "Shadowcats": [
+    "creatures"
+  ],
+  "Glowworms": [
+    "creatures"
+  ],
+  "Woodwraiths": [
+    "creatures"
+  ],
+  "The Clockwork Oracle": [
+    "deities"
+  ],
+  "The Steam Titan": [
+    "deities"
+  ],
+  "The Alchemic Mother": [
+    "deities"
+  ],
+  "The Timekeeper": [
+    "deities"
+  ],
+  "The Iron Maiden": [
+    "deities"
+  ],
+  "The Brass Automaton": [
+    "deities"
+  ],
+  "The Grand Observatory of the Celestial Heavens": [
+    "landmarks"
+  ],
+  "The Labyrinth of the Alchemic Mother": [
+    "landmarks"
+  ],
+  "The Ruins of the Titan's Forge": [
+    "landmarks"
+  ],
+  "The Library of the Clockwork Oracle": [
+    "landmarks"
+  ],
+  "The Temple of the Iron Maiden": [
+    "landmarks"
+  ],
+  "The Tomb of the Timekeeper": [
+    "landmarks"
+  ],
+  "Clockworkism": [
+    "beliefs"
+  ],
+  "Alchemism": [
+    "beliefs"
+  ],
+  "Titanism": [
+    "beliefs"
+  ],
+  "Timeism": [
+    "beliefs"
+  ],
+  "Automatonism": [
+    "beliefs"
+  ],
+  "Thorne Ironfist": [
+    "cities",
+    "Ironhaven",
+    "residents",
+    "Thorne Ironfist"
+  ],
+  "Lysandra Valtoria": [
+    "cities",
+    "Ironhaven",
+    "residents",
+    "Lysandra Valtoria"
+  ],
+  "Marcus Blackwood": [
+    "cities",
+    "Ironhaven",
+    "residents",
+    "Marcus Blackwood"
+  ],
+  "Kiera Nightshade": [
+    "cities",
+    "Ironhaven",
+    "residents",
+    "Kiera Nightshade"
+  ],
+  "Erisa Celestia": [
+    "cities",
+    "Ironhaven",
+    "residents",
+    "Erisa Celestia"
+  ],
+  "Thaddeus Stonefist": [
+    "cities",
+    "Ironhaven",
+    "residents",
+    "Thaddeus Stonefist"
+  ],
+  "Victoria Irons": [
+    "cities",
+    "Clockwork Village",
+    "residents",
+    "Victoria Irons"
+  ],
+  "Marcus Darkwater": [
+    "cities",
+    "Clockwork Village",
+    "residents",
+    "Marcus Darkwater"
+  ],
+  "Ada Lovelace": [
+    "cities",
+    "Clockwork Village",
+    "residents",
+    "Ada Lovelace"
+  ],
+  "Frederick Dwarvenstone": [
+    "cities",
+    "Clockwork Village",
+    "residents",
+    "Frederick Dwarvenstone"
+  ],
+  "Celeste Skywing": [
+    "cities",
+    "Clockwork Village",
+    "residents",
+    "Celeste Skywing"
+  ],
+  "Ignatius Firebrand": [
+    "cities",
+    "Clockwork Village",
+    "residents",
+    "Ignatius Firebrand"
+  ],
+  "Isadora Blackwood": [
+    "cities",
+    "Clockwork Village",
+    "residents",
+    "Isadora Blackwood"
+  ],
+  "Sariel Silverwind": [
+    "cities",
+    "Clockwork Village",
+    "residents",
+    "Sariel Silverwind"
+  ],
+  "Captain Aurora Swift": [
+    "cities",
+    "Skyport",
+    "residents",
+    "Captain Aurora Swift"
+  ],
+  "Professor Arcturus Stone": [
+    "cities",
+    "Skyport",
+    "residents",
+    "Professor Arcturus Stone"
+  ],
+  "Lady Seraphina Blackwood": [
+    "cities",
+    "Skyport",
+    "residents",
+    "Lady Seraphina Blackwood"
+  ],
+  "Captain Orion Black": [
+    "cities",
+    "Skyport",
+    "residents",
+    "Captain Orion Black"
+  ],
+  "Doctor Octavia Steele": [
+    "cities",
+    "Skyport",
+    "residents",
+    "Doctor Octavia Steele"
+  ],
+  "Commander Atlas Steelheart": [
+    "cities",
+    "Skyport",
+    "residents",
+    "Commander Atlas Steelheart"
+  ],
+  "Captain Alistair Blackwood": [
+    "cities",
+    "Steamhaven",
+    "residents",
+    "Captain Alistair Blackwood"
+  ],
+  "Professor Miriam Tinker": [
+    "cities",
+    "Steamhaven",
+    "residents",
+    "Professor Miriam Tinker"
+  ],
+  "Lady Victoria Irons": [
+    "cities",
+    "Steamhaven",
+    "residents",
+    "Lady Victoria Irons"
+  ],
+  "Grommash \"Grom\" Grommson": [
+    "cities",
+    "Steamhaven",
+    "residents",
+    "Grommash \"Grom\" Grommson"
+  ],
+  "Amber \"The Clockwork Thief\" Windrider": [
+    "cities",
+    "Steamhaven",
+    "residents",
+    "Amber \"The Clockwork Thief\" Windrider"
+  ],
+  "Doctor Victor Von Steam": [
+    "cities",
+    "Steamhaven",
+    "residents",
+    "Doctor Victor Von Steam"
+  ],
+  "Captain Zephyr": [
+    "cities",
+    "Steamhaven",
+    "residents",
+    "Captain Zephyr"
+  ],
+  "Lady Seraphina": [
+    "cities",
+    "Steamhaven",
+    "residents",
+    "Lady Seraphina"
+  ],
+  "Professor Amara Goldstein": [
+    "cities",
+    "Alchemic Academy",
+    "residents",
+    "Professor Amara Goldstein"
+  ],
+  "Captain Rurik Stonefist": [
+    "cities",
+    "Alchemic Academy",
+    "residents",
+    "Captain Rurik Stonefist"
+  ],
+  "Lady Seraphina Blackheart": [
+    "cities",
+    "Alchemic Academy",
+    "residents",
+    "Lady Seraphina Blackheart"
+  ],
+  "Doctor Marcus Evergreen": [
+    "cities",
+    "Alchemic Academy",
+    "residents",
+    "Doctor Marcus Evergreen"
+  ],
+  "Professor Lysandra Nightshade": [
+    "cities",
+    "Alchemic Academy",
+    "residents",
+    "Professor Lysandra Nightshade"
+  ],
+  "Sir Cedric Ironheart": [
+    "cities",
+    "Alchemic Academy",
+    "residents",
+    "Sir Cedric Ironheart"
+  ],
+  "Griswald Ironbeard": [
+    "cities",
+    "Emberwood",
+    "residents",
+    "Griswald Ironbeard"
+  ],
+  "Aric Copperhammer": [
+    "cities",
+    "Emberwood",
+    "residents",
+    "Aric Copperhammer"
+  ],
+  "Delilah Stonefoot": [
+    "cities",
+    "Emberwood",
+    "residents",
+    "Delilah Stonefoot"
+  ],
+  "Thorne Blackheart": [
+    "cities",
+    "Emberwood",
+    "residents",
+    "Thorne Blackheart"
+  ],
+  "Kaelin Firestone": [
+    "cities",
+    "Emberwood",
+    "residents",
+    "Kaelin Firestone"
+  ],
+  "Captain Finnegan": [
+    "cities",
+    "Aqua Bay",
+    "residents",
+    "Captain Finnegan"
+  ],
+  "Lady Aurelia": [
+    "cities",
+    "Aqua Bay",
+    "residents",
+    "Lady Aurelia"
+  ],
+  "Captain Nemo": [
+    "cities",
+    "Aqua Bay",
+    "residents",
+    "Captain Nemo"
+  ],
+  "Doctor Jekyll": [
+    "cities",
+    "Aqua Bay",
+    "residents",
+    "Doctor Jekyll"
+  ],
+  "Professor Moriarty": [
+    "cities",
+    "Aqua Bay",
+    "residents",
+    "Professor Moriarty"
+  ],
+  "Captain Ahab": [
+    "cities",
+    "Aqua Bay",
+    "residents",
+    "Captain Ahab"
+  ],
+  "Medusa": [
+    "cities",
+    "Serpent's Den",
+    "residents",
+    "Medusa"
+  ],
+  "Perseus": [
+    "cities",
+    "Serpent's Den",
+    "residents",
+    "Perseus"
+  ],
+  "Euryale": [
+    "cities",
+    "Serpent's Den",
+    "residents",
+    "Euryale"
+  ],
+  "Stheno": [
+    "cities",
+    "Serpent's Den",
+    "residents",
+    "Stheno"
+  ],
+  "Polydectes": [
+    "cities",
+    "Serpent's Den",
+    "residents",
+    "Polydectes"
+  ],
+  "Andromeda": [
+    "cities",
+    "Serpent's Den",
+    "residents",
+    "Andromeda"
+  ]
+}

@@ -2,12 +2,16 @@
 API_KEY.txt
 
 # High rez images
-imgs/results/*/*.png
+results/images/*/*.png
+
+# Old files
+imgs/results/*
 
 # Temp files
 *~
 results/basic/
 cache/
+geckodriver.log
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

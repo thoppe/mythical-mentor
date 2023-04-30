@@ -1,0 +1,248 @@
+{
+  "The Gloomfolk": [
+    "races"
+  ],
+  "The Stoneborn": [
+    "races"
+  ],
+  "The Ironclad": [
+    "races"
+  ],
+  "The Bonekin": [
+    "races"
+  ],
+  "Nightstalkers": [
+    "creatures"
+  ],
+  "Bloodthorns": [
+    "creatures"
+  ],
+  "Mistwalkers": [
+    "creatures"
+  ],
+  "Shadowhounds": [
+    "creatures"
+  ],
+  "Bogdwellers": [
+    "creatures"
+  ],
+  "Nightwings": [
+    "creatures"
+  ],
+  "Stonecrushers": [
+    "creatures"
+  ],
+  "Ghostflames": [
+    "creatures"
+  ],
+  "Thunderbeasts": [
+    "creatures"
+  ],
+  "Icefiends": [
+    "creatures"
+  ],
+  "The Eternal Night": [
+    "deities"
+  ],
+  "The Blood Queen": [
+    "deities"
+  ],
+  "The Ironsmith": [
+    "deities"
+  ],
+  "The Moon Weaver": [
+    "deities"
+  ],
+  "The Swamp Mother": [
+    "deities"
+  ],
+  "The Mountain King": [
+    "deities"
+  ],
+  "The Whispering Wind": [
+    "deities"
+  ],
+  "The Crumbling Citadel of the Blood Queen": [
+    "landmarks"
+  ],
+  "The Forgotten Temple of the Moon Weaver": [
+    "landmarks"
+  ],
+  "The Iron Mines of the Ironsmith": [
+    "landmarks"
+  ],
+  "The Swamp of the Whispering Wind": [
+    "landmarks"
+  ],
+  "The Peak of the Mountain King": [
+    "landmarks"
+  ],
+  "The Ruins of the Swamp Mother's Palace": [
+    "landmarks"
+  ],
+  "Night Worship": [
+    "beliefs"
+  ],
+  "Blood Cult": [
+    "beliefs"
+  ],
+  "Technoism": [
+    "beliefs"
+  ],
+  "Weaverism": [
+    "beliefs"
+  ],
+  "Swampism": [
+    "beliefs"
+  ],
+  "Mountainism": [
+    "beliefs"
+  ],
+  "Whisperism": [
+    "beliefs"
+  ],
+  "Erisa Gloom": [
+    "cities",
+    "Sanguine Hollow",
+    "residents",
+    "Erisa Gloom"
+  ],
+  "Kael Stoneborn": [
+    "cities",
+    "Sanguine Hollow",
+    "residents",
+    "Kael Stoneborn"
+  ],
+  "Viktor Ironclad": [
+    "cities",
+    "Sanguine Hollow",
+    "residents",
+    "Viktor Ironclad"
+  ],
+  "Lyra Bonekin": [
+    "cities",
+    "Sanguine Hollow",
+    "residents",
+    "Lyra Bonekin"
+  ],
+  "Malachi Shadow": [
+    "cities",
+    "Sanguine Hollow",
+    "residents",
+    "Malachi Shadow"
+  ],
+  "Aria Nightshade": [
+    "cities",
+    "Blackwood",
+    "residents",
+    "Aria Nightshade"
+  ],
+  "Thorne Ironfist": [
+    "cities",
+    "Blackwood",
+    "residents",
+    "Thorne Ironfist"
+  ],
+  "Freya Silverwind": [
+    "cities",
+    "Blackwood",
+    "residents",
+    "Freya Silverwind"
+  ],
+  "Kaela Darkwater": [
+    "cities",
+    "Blackwood",
+    "residents",
+    "Kaela Darkwater"
+  ],
+  "Arinthia Moonstone": [
+    "cities",
+    "Blackwood",
+    "residents",
+    "Arinthia Moonstone"
+  ],
+  "Kael": [
+    "cities",
+    "Ironclad Keep",
+    "residents",
+    "Kael"
+  ],
+  "Lirien": [
+    "cities",
+    "Ironclad Keep",
+    "residents",
+    "Lirien"
+  ],
+  "Valtair": [
+    "cities",
+    "Ironclad Keep",
+    "residents",
+    "Valtair"
+  ],
+  "Selene Nightshade": [
+    "cities",
+    "Shadow's Edge",
+    "residents",
+    "Selene Nightshade"
+  ],
+  "Lucius Blackwood": [
+    "cities",
+    "Shadow's Edge",
+    "residents",
+    "Lucius Blackwood"
+  ],
+  "Isadora Grimwood": [
+    "cities",
+    "Shadow's Edge",
+    "residents",
+    "Isadora Grimwood"
+  ],
+  "Thorne Nightshade": [
+    "cities",
+    "Shadow's Edge",
+    "residents",
+    "Thorne Nightshade"
+  ],
+  "Lysandra Stoneborn": [
+    "cities",
+    "Shadow's Edge",
+    "residents",
+    "Lysandra Stoneborn"
+  ],
+  "Darian": [
+    "cities",
+    "Grimhold",
+    "residents",
+    "Darian"
+  ],
+  "Isadora": [
+    "cities",
+    "Grimhold",
+    "residents",
+    "Isadora"
+  ],
+  "Thorne": [
+    "cities",
+    "Grimhold",
+    "residents",
+    "Thorne"
+  ],
+  "Jakob": [
+    "cities",
+    "Grimhold",
+    "residents",
+    "Jakob"
+  ],
+  "Lyra": [
+    "cities",
+    "Grimhold",
+    "residents",
+    "Lyra"
+  ],
+  "Dante": [
+    "cities",
+    "Grimhold",
+    "residents",
+    "Dante"
+  ]
+}

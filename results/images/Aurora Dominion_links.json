@@ -1,0 +1,455 @@
+{
+  "The Luminescent": [
+    "races"
+  ],
+  "The Scaleborn": [
+    "races"
+  ],
+  "The Wraiths": [
+    "races"
+  ],
+  "The Stoneborn": [
+    "races"
+  ],
+  "The Skyborn": [
+    "races"
+  ],
+  "The Shadowborn": [
+    "races"
+  ],
+  "The Flameborn": [
+    "races"
+  ],
+  "The Sparkhopper": [
+    "creatures"
+  ],
+  "The Gloomwing": [
+    "creatures"
+  ],
+  "The Sunstalker": [
+    "creatures"
+  ],
+  "The Frostbite": [
+    "creatures"
+  ],
+  "The Crystalweaver": [
+    "creatures"
+  ],
+  "The Stormbringer": [
+    "creatures"
+  ],
+  "The Shadowstalker": [
+    "creatures"
+  ],
+  "The Unseen Watcher": [
+    "deities"
+  ],
+  "The Endless Storm": [
+    "deities"
+  ],
+  "The Burning Sun": [
+    "deities"
+  ],
+  "The Whispering Wind": [
+    "deities"
+  ],
+  "The Silent Sentinel": [
+    "deities"
+  ],
+  "The Shadowed One": [
+    "deities"
+  ],
+  "The Radiant One": [
+    "deities"
+  ],
+  "The Everlasting Flame": [
+    "deities"
+  ],
+  "The Forgotten Citadel of the Unseen Watcher": [
+    "landmarks"
+  ],
+  "The Temple of the Endless Storm": [
+    "landmarks"
+  ],
+  "The Ruins of the Burning Sun": [
+    "landmarks"
+  ],
+  "The Whispering Woods": [
+    "landmarks"
+  ],
+  "The Stonehenge of the Silent Sentinel": [
+    "landmarks"
+  ],
+  "The Shadowed Catacombs": [
+    "landmarks"
+  ],
+  "The Radiant Fountain of the Everlasting Flame": [
+    "landmarks"
+  ],
+  "The Cult of the Endless Storm": [
+    "beliefs"
+  ],
+  "The Church of the Burning Sun": [
+    "beliefs"
+  ],
+  "The Order of the Unseen Watcher": [
+    "beliefs"
+  ],
+  "The Cult of the Whispering Wind": [
+    "beliefs"
+  ],
+  "The Church of the Silent Sentinel": [
+    "beliefs"
+  ],
+  "The Cult of the Shadowed One": [
+    "beliefs"
+  ],
+  "The Church of the Radiant One": [
+    "beliefs"
+  ],
+  "The Order of the Everlasting Flame": [
+    "beliefs"
+  ],
+  "Kaela Brightwing": [
+    "cities",
+    "Starhaven",
+    "residents",
+    "Kaela Brightwing"
+  ],
+  "Thorne Blackstone": [
+    "cities",
+    "Starhaven",
+    "residents",
+    "Thorne Blackstone"
+  ],
+  "Eira Frostheart": [
+    "cities",
+    "Starhaven",
+    "residents",
+    "Eira Frostheart"
+  ],
+  "Gaius Ironheart": [
+    "cities",
+    "Starhaven",
+    "residents",
+    "Gaius Ironheart"
+  ],
+  "Sylas Reefborn": [
+    "cities",
+    "Starhaven",
+    "residents",
+    "Sylas Reefborn"
+  ],
+  "Sister Aria": [
+    "cities",
+    "Starhaven",
+    "residents",
+    "Sister Aria"
+  ],
+  "Captain Rourke": [
+    "cities",
+    "Starhaven",
+    "residents",
+    "Captain Rourke"
+  ],
+  "Tyrell Stonefist": [
+    "cities",
+    "Starhaven",
+    "residents",
+    "Tyrell Stonefist"
+  ],
+  "Aria Seaheart, Skyborn": [
+    "cities",
+    "Storm's End",
+    "residents",
+    "Aria Seaheart, Skyborn"
+  ],
+  "Thorne Ironscale, Scaleborn": [
+    "cities",
+    "Storm's End",
+    "residents",
+    "Thorne Ironscale, Scaleborn"
+  ],
+  "Lucien Darkwind, Wraith": [
+    "cities",
+    "Storm's End",
+    "residents",
+    "Lucien Darkwind, Wraith"
+  ],
+  "Celeste Fireheart, Flameborn": [
+    "cities",
+    "Storm's End",
+    "residents",
+    "Celeste Fireheart, Flameborn"
+  ],
+  "Brother Ezekiel, Luminescent": [
+    "cities",
+    "Storm's End",
+    "residents",
+    "Brother Ezekiel, Luminescent"
+  ],
+  "Vesper Nightshade, Shadowborn": [
+    "cities",
+    "Storm's End",
+    "residents",
+    "Vesper Nightshade, Shadowborn"
+  ],
+  "Kael Wildheart, Freeholder": [
+    "cities",
+    "Storm's End",
+    "residents",
+    "Kael Wildheart, Freeholder"
+  ],
+  "Luminia \"Lumi\" Everglow": [
+    "cities",
+    "Sunflower Village",
+    "residents",
+    "Luminia \"Lumi\" Everglow"
+  ],
+  "Shade \"Shadow\" Nightshade": [
+    "cities",
+    "Sunflower Village",
+    "residents",
+    "Shade \"Shadow\" Nightshade"
+  ],
+  "Reverend Ezekiel \"Zeke\" Lightbringer": [
+    "cities",
+    "Sunflower Village",
+    "residents",
+    "Reverend Ezekiel \"Zeke\" Lightbringer"
+  ],
+  "Finnegan \"Finn\" Seaborn": [
+    "cities",
+    "Sunflower Village",
+    "residents",
+    "Finnegan \"Finn\" Seaborn"
+  ],
+  "Ophelia \"Ophie\" Firesong": [
+    "cities",
+    "Sunflower Village",
+    "residents",
+    "Ophelia \"Ophie\" Firesong"
+  ],
+  "Felix \"Flick\" Starlight": [
+    "cities",
+    "Sunflower Village",
+    "residents",
+    "Felix \"Flick\" Starlight"
+  ],
+  "Davin \"Dagger\" Sharp": [
+    "cities",
+    "Sunflower Village",
+    "residents",
+    "Davin \"Dagger\" Sharp"
+  ],
+  "Kael Fireheart": [
+    "cities",
+    "Frosthold",
+    "residents",
+    "Kael Fireheart"
+  ],
+  "Lyra Stonewing": [
+    "cities",
+    "Frosthold",
+    "residents",
+    "Lyra Stonewing"
+  ],
+  "Malakai Frostborn": [
+    "cities",
+    "Frosthold",
+    "residents",
+    "Malakai Frostborn"
+  ],
+  "Sable Shadowcaster": [
+    "cities",
+    "Frosthold",
+    "residents",
+    "Sable Shadowcaster"
+  ],
+  "Father Enoch": [
+    "cities",
+    "Frosthold",
+    "residents",
+    "Father Enoch"
+  ],
+  "The Raven": [
+    "cities",
+    "Frosthold",
+    "residents",
+    "The Raven"
+  ],
+  "Kaela Blackthorn": [
+    "cities",
+    "Shadowport",
+    "residents",
+    "Kaela Blackthorn"
+  ],
+  "Riven Nightshade": [
+    "cities",
+    "Shadowport",
+    "residents",
+    "Riven Nightshade"
+  ],
+  "Leon Stoneheart": [
+    "cities",
+    "Shadowport",
+    "residents",
+    "Leon Stoneheart"
+  ],
+  "Seraphine Skywing": [
+    "cities",
+    "Shadowport",
+    "residents",
+    "Seraphine Skywing"
+  ],
+  "Father Gabriel": [
+    "cities",
+    "Shadowport",
+    "residents",
+    "Father Gabriel"
+  ],
+  "Jasper Frost": [
+    "cities",
+    "Shadowport",
+    "residents",
+    "Jasper Frost"
+  ],
+  "The Black Hand": [
+    "cities",
+    "Shadowport",
+    "residents",
+    "The Black Hand"
+  ],
+  "Kaela the Luminescent": [
+    "cities",
+    "Brightwater Bay",
+    "residents",
+    "Kaela the Luminescent"
+  ],
+  "Riven the Scaleborn": [
+    "cities",
+    "Brightwater Bay",
+    "residents",
+    "Riven the Scaleborn"
+  ],
+  "Lyris the Skyborn": [
+    "cities",
+    "Brightwater Bay",
+    "residents",
+    "Lyris the Skyborn"
+  ],
+  "Zephyr the Shadowborn": [
+    "cities",
+    "Brightwater Bay",
+    "residents",
+    "Zephyr the Shadowborn"
+  ],
+  "Jorah the Flameborn": [
+    "cities",
+    "Brightwater Bay",
+    "residents",
+    "Jorah the Flameborn"
+  ],
+  "Celeste the Wraith": [
+    "cities",
+    "Brightwater Bay",
+    "residents",
+    "Celeste the Wraith"
+  ],
+  "Father Sebastian the Human": [
+    "cities",
+    "Brightwater Bay",
+    "residents",
+    "Father Sebastian the Human"
+  ],
+  "Ishaq the Freeholder": [
+    "cities",
+    "Brightwater Bay",
+    "residents",
+    "Ishaq the Freeholder"
+  ],
+  "Aria Sunfire": [
+    "cities",
+    "Emberwood",
+    "residents",
+    "Aria Sunfire"
+  ],
+  "Jaxon Nightshade": [
+    "cities",
+    "Emberwood",
+    "residents",
+    "Jaxon Nightshade"
+  ],
+  "Sirin Frost": [
+    "cities",
+    "Emberwood",
+    "residents",
+    "Sirin Frost"
+  ],
+  "Zephyr Stoneheart": [
+    "cities",
+    "Emberwood",
+    "residents",
+    "Zephyr Stoneheart"
+  ],
+  "Father Roderick": [
+    "cities",
+    "Emberwood",
+    "residents",
+    "Father Roderick"
+  ],
+  "Kaida Emberwing": [
+    "cities",
+    "Emberwood",
+    "residents",
+    "Kaida Emberwing"
+  ],
+  "Lysander Silvermoon": [
+    "cities",
+    "Emberwood",
+    "residents",
+    "Lysander Silvermoon"
+  ],
+  "Mara Longstride": [
+    "cities",
+    "Emberwood",
+    "residents",
+    "Mara Longstride"
+  ],
+  "Captain Kaela": [
+    "cities",
+    "Crystal Lake",
+    "residents",
+    "Captain Kaela"
+  ],
+  "Thorne Nightshade": [
+    "cities",
+    "Crystal Lake",
+    "residents",
+    "Thorne Nightshade"
+  ],
+  "Sister Helena": [
+    "cities",
+    "Crystal Lake",
+    "residents",
+    "Sister Helena"
+  ],
+  "Zephyr \"Z\" Stone": [
+    "cities",
+    "Crystal Lake",
+    "residents",
+    "Zephyr \"Z\" Stone"
+  ],
+  "Freeholder Althea": [
+    "cities",
+    "Crystal Lake",
+    "residents",
+    "Freeholder Althea"
+  ],
+  "The Oracle": [
+    "cities",
+    "Crystal Lake",
+    "residents",
+    "The Oracle"
+  ]
+}

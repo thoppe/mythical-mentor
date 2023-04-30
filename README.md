@@ -1,5 +1,5 @@
 # Mythical Mentor
-Use AI to generate works and mythos automatically
+Use AI to generate worlds and mythos automatically.
 
 ```mermaid
 flowchart TD
@@ -7,16 +7,11 @@ flowchart TD
     WorldDesc --> Races
     Races --> Creatures
     Races --> Cities
-    Races --> Languages
     WorldDesc --> Deities
-    style Deities fill:#f9f
-
+    
+    Deities --> Beliefs
     Deities --> Landmarks
     Races --> Landmarks
-
-    Deities --> Beliefs
-    Languages --> Beliefs
-    style Beliefs fill:#f9f
 
     subgraph city [ ]
       Cities --> CITY1(City Description)
@@ -24,3 +19,10 @@ flowchart TD
       CITY2 --> CITY3(City Lore)
     end
 ```
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://thoppe-mythical-mentor-streamlit-app-4taw1v.streamlit.app/)
+
+### To do
+
++ Allow for different SD models
++ Add in real hyperlinks in the app
