@@ -2,7 +2,7 @@
 API_KEY.txt
 
 # High rez images
-imgs/results/*/*.png
+results/images/*/*.png
 
 # Old files
 imgs/results/*

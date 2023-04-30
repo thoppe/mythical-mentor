@@ -17,3 +17,10 @@ lint:
 
 streamlit:
 	streamlit run streamlit_app.py
+
+commit_worlds:
+	git add results/images/*.csv
+	git add results/images/*.json
+	git add results/worldbuilding/*.json
+	find results/images/ -name "*.jpg" | xargs -I {} git add {}
+

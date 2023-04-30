@@ -1,0 +1,1256 @@
+{
+  "world_names": [],
+  "world_description": [],
+  "races": [],
+  "creatures": [
+    [
+      "The Aelvari",
+      [
+        "races"
+      ],
+      1370
+    ],
+    [
+      "The Quilith",
+      [
+        "races"
+      ],
+      511
+    ],
+    [
+      "The Nyrathi",
+      [
+        "races"
+      ],
+      794
+    ]
+  ],
+  "basic_cities": [],
+  "deities": [],
+  "landmarks": [
+    [
+      "The Aelvari",
+      [
+        "races"
+      ],
+      327
+    ],
+    [
+      "The Drogath",
+      [
+        "races"
+      ],
+      884
+    ],
+    [
+      "The Nyrathi",
+      [
+        "races"
+      ],
+      2612
+    ],
+    [
+      "Solara, the Sun Queen",
+      [
+        "deities"
+      ],
+      1147
+    ]
+  ],
+  "beliefs": [],
+  "cities Arkturia city_description": [],
+  "cities Arkturia basic_residents": [
+    [
+      "Lyra Silvermist",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Lyra Silvermist"
+      ],
+      2
+    ],
+    [
+      "Vorn Ironfist",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Vorn Ironfist"
+      ],
+      322
+    ],
+    [
+      "Eira Frostblade",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Eira Frostblade"
+      ],
+      698
+    ],
+    [
+      "Grak Bloodfang",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Grak Bloodfang"
+      ],
+      1031
+    ],
+    [
+      "Celeste Moonshadow",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Celeste Moonshadow"
+      ],
+      1339
+    ],
+    [
+      "Thorgar Stonefist",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Thorgar Stonefist"
+      ],
+      1691
+    ],
+    [
+      "Isolde Starweaver",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Isolde Starweaver"
+      ],
+      2008
+    ],
+    [
+      "Korgoth Skullcrusher",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Korgoth Skullcrusher"
+      ],
+      2307
+    ]
+  ],
+  "cities Arkturia lore": [
+    [
+      "Lyra Silvermist",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Lyra Silvermist"
+      ],
+      120
+    ],
+    [
+      "Vorn Ironfist",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Vorn Ironfist"
+      ],
+      140
+    ],
+    [
+      "Eira Frostblade",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Eira Frostblade"
+      ],
+      938
+    ],
+    [
+      "Grak Bloodfang",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Grak Bloodfang"
+      ],
+      823
+    ],
+    [
+      "Celeste Moonshadow",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Celeste Moonshadow"
+      ],
+      800
+    ],
+    [
+      "Thorgar Stonefist",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Thorgar Stonefist"
+      ],
+      1374
+    ],
+    [
+      "Isolde Starweaver",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Isolde Starweaver"
+      ],
+      1079
+    ],
+    [
+      "Korgoth Skullcrusher",
+      [
+        "cities",
+        "Arkturia",
+        "residents",
+        "Korgoth Skullcrusher"
+      ],
+      1587
+    ]
+  ],
+  "cities Arkturia residents Lyra Silvermist": [],
+  "cities Arkturia residents Vorn Ironfist": [],
+  "cities Arkturia residents Eira Frostblade": [],
+  "cities Arkturia residents Grak Bloodfang": [],
+  "cities Arkturia residents Celeste Moonshadow": [],
+  "cities Arkturia residents Thorgar Stonefist": [],
+  "cities Arkturia residents Isolde Starweaver": [],
+  "cities Arkturia residents Korgoth Skullcrusher": [],
+  "cities Drakonholm city_description": [
+    [
+      "The Gorgoth",
+      [
+        "races"
+      ],
+      848
+    ]
+  ],
+  "cities Drakonholm basic_residents": [
+    [
+      "Gorgar the Great",
+      [
+        "cities",
+        "Drakonholm",
+        "residents",
+        "Gorgar the Great"
+      ],
+      2
+    ],
+    [
+      "Zara the Wise",
+      [
+        "cities",
+        "Drakonholm",
+        "residents",
+        "Zara the Wise"
+      ],
+      353
+    ],
+    [
+      "Thokk the Mercenary",
+      [
+        "cities",
+        "Drakonholm",
+        "residents",
+        "Thokk the Mercenary"
+      ],
+      678
+    ],
+    [
+      "Kaela the Artisan",
+      [
+        "cities",
+        "Drakonholm",
+        "residents",
+        "Kaela the Artisan"
+      ],
+      982
+    ],
+    [
+      "Grimgar the Outcast",
+      [
+        "cities",
+        "Drakonholm",
+        "residents",
+        "Grimgar the Outcast"
+      ],
+      1271
+    ],
+    [
+      "Nessa the Wanderer",
+      [
+        "cities",
+        "Drakonholm",
+        "residents",
+        "Nessa the Wanderer"
+      ],
+      1641
+    ]
+  ],
+  "cities Drakonholm lore": [
+    [
+      "Gorgar the Great",
+      [
+        "cities",
+        "Drakonholm",
+        "residents",
+        "Gorgar the Great"
+      ],
+      125
+    ],
+    [
+      "Zara the Wise",
+      [
+        "cities",
+        "Drakonholm",
+        "residents",
+        "Zara the Wise"
+      ],
+      470
+    ],
+    [
+      "Thokk the Mercenary",
+      [
+        "cities",
+        "Drakonholm",
+        "residents",
+        "Thokk the Mercenary"
+      ],
+      642
+    ],
+    [
+      "Kaela the Artisan",
+      [
+        "cities",
+        "Drakonholm",
+        "residents",
+        "Kaela the Artisan"
+      ],
+      815
+    ],
+    [
+      "Grimgar the Outcast",
+      [
+        "cities",
+        "Drakonholm",
+        "residents",
+        "Grimgar the Outcast"
+      ],
+      1012
+    ],
+    [
+      "Nessa the Wanderer",
+      [
+        "cities",
+        "Drakonholm",
+        "residents",
+        "Nessa the Wanderer"
+      ],
+      1194
+    ]
+  ],
+  "cities Drakonholm residents Gorgar the Great": [],
+  "cities Drakonholm residents Zara the Wise": [],
+  "cities Drakonholm residents Thokk the Mercenary": [],
+  "cities Drakonholm residents Kaela the Artisan": [],
+  "cities Drakonholm residents Grimgar the Outcast": [],
+  "cities Drakonholm residents Nessa the Wanderer": [],
+  "cities Eiluvia city_description": [],
+  "cities Eiluvia basic_residents": [
+    [
+      "Kaelin Stormblade",
+      [
+        "cities",
+        "Eiluvia",
+        "residents",
+        "Kaelin Stormblade"
+      ],
+      2
+    ],
+    [
+      "Lirien Nightshade",
+      [
+        "cities",
+        "Eiluvia",
+        "residents",
+        "Lirien Nightshade"
+      ],
+      408
+    ],
+    [
+      "Tarkus Ironfist",
+      [
+        "cities",
+        "Eiluvia",
+        "residents",
+        "Tarkus Ironfist"
+      ],
+      749
+    ],
+    [
+      "Raelle Brightspark",
+      [
+        "cities",
+        "Eiluvia",
+        "residents",
+        "Raelle Brightspark"
+      ],
+      1164
+    ],
+    [
+      "Darian Shadowblade",
+      [
+        "cities",
+        "Eiluvia",
+        "residents",
+        "Darian Shadowblade"
+      ],
+      1547
+    ]
+  ],
+  "cities Eiluvia lore": [
+    [
+      "Kaelin Stormblade",
+      [
+        "cities",
+        "Eiluvia",
+        "residents",
+        "Kaelin Stormblade"
+      ],
+      109
+    ],
+    [
+      "Lirien Nightshade",
+      [
+        "cities",
+        "Eiluvia",
+        "residents",
+        "Lirien Nightshade"
+      ],
+      128
+    ],
+    [
+      "Tarkus Ironfist",
+      [
+        "cities",
+        "Eiluvia",
+        "residents",
+        "Tarkus Ironfist"
+      ],
+      644
+    ],
+    [
+      "Raelle Brightspark",
+      [
+        "cities",
+        "Eiluvia",
+        "residents",
+        "Raelle Brightspark"
+      ],
+      346
+    ],
+    [
+      "Darian Shadowblade",
+      [
+        "cities",
+        "Eiluvia",
+        "residents",
+        "Darian Shadowblade"
+      ],
+      151
+    ]
+  ],
+  "cities Eiluvia residents Kaelin Stormblade": [],
+  "cities Eiluvia residents Lirien Nightshade": [],
+  "cities Eiluvia residents Tarkus Ironfist": [],
+  "cities Eiluvia residents Raelle Brightspark": [],
+  "cities Eiluvia residents Darian Shadowblade": [],
+  "cities Fyrestead city_description": [
+    [
+      "The Nyrathi",
+      [
+        "races"
+      ],
+      743
+    ]
+  ],
+  "cities Fyrestead basic_residents": [
+    [
+      "Arcturus the Wise",
+      [
+        "cities",
+        "Fyrestead",
+        "residents",
+        "Arcturus the Wise"
+      ],
+      2
+    ],
+    [
+      "Zephyr the Mysterious",
+      [
+        "cities",
+        "Fyrestead",
+        "residents",
+        "Zephyr the Mysterious"
+      ],
+      356
+    ],
+    [
+      "Thorne the Dark",
+      [
+        "cities",
+        "Fyrestead",
+        "residents",
+        "Thorne the Dark"
+      ],
+      740
+    ],
+    [
+      "Lyra the Serene",
+      [
+        "cities",
+        "Fyrestead",
+        "residents",
+        "Lyra the Serene"
+      ],
+      1083
+    ],
+    [
+      "Vayne the Cursed",
+      [
+        "cities",
+        "Fyrestead",
+        "residents",
+        "Vayne the Cursed"
+      ],
+      1408
+    ],
+    [
+      "Isadora the Ambitious",
+      [
+        "cities",
+        "Fyrestead",
+        "residents",
+        "Isadora the Ambitious"
+      ],
+      1805
+    ]
+  ],
+  "cities Fyrestead lore": [
+    [
+      "The Nyrathi",
+      [
+        "races"
+      ],
+      163
+    ],
+    [
+      "Arcturus the Wise",
+      [
+        "cities",
+        "Fyrestead",
+        "residents",
+        "Arcturus the Wise"
+      ],
+      312
+    ],
+    [
+      "Zephyr the Mysterious",
+      [
+        "cities",
+        "Fyrestead",
+        "residents",
+        "Zephyr the Mysterious"
+      ],
+      484
+    ],
+    [
+      "Thorne the Dark",
+      [
+        "cities",
+        "Fyrestead",
+        "residents",
+        "Thorne the Dark"
+      ],
+      961
+    ],
+    [
+      "Lyra the Serene",
+      [
+        "cities",
+        "Fyrestead",
+        "residents",
+        "Lyra the Serene"
+      ],
+      394
+    ],
+    [
+      "Vayne the Cursed",
+      [
+        "cities",
+        "Fyrestead",
+        "residents",
+        "Vayne the Cursed"
+      ],
+      1565
+    ],
+    [
+      "Isadora the Ambitious",
+      [
+        "cities",
+        "Fyrestead",
+        "residents",
+        "Isadora the Ambitious"
+      ],
+      1411
+    ]
+  ],
+  "cities Fyrestead residents Arcturus the Wise": [],
+  "cities Fyrestead residents Zephyr the Mysterious": [],
+  "cities Fyrestead residents Thorne the Dark": [],
+  "cities Fyrestead residents Lyra the Serene": [],
+  "cities Fyrestead residents Vayne the Cursed": [],
+  "cities Fyrestead residents Isadora the Ambitious": [],
+  "cities Ironhold city_description": [],
+  "cities Ironhold basic_residents": [
+    [
+      "Korgath the Unbreakable",
+      [
+        "cities",
+        "Ironhold",
+        "residents",
+        "Korgath the Unbreakable"
+      ],
+      2
+    ],
+    [
+      "Sylphia Brightspark",
+      [
+        "cities",
+        "Ironhold",
+        "residents",
+        "Sylphia Brightspark"
+      ],
+      317
+    ],
+    [
+      "Thorgar Ironfist",
+      [
+        "cities",
+        "Ironhold",
+        "residents",
+        "Thorgar Ironfist"
+      ],
+      691
+    ],
+    [
+      "Vaela Nightshade",
+      [
+        "cities",
+        "Ironhold",
+        "residents",
+        "Vaela Nightshade"
+      ],
+      1031
+    ],
+    [
+      "Grimnir Stonefist",
+      [
+        "cities",
+        "Ironhold",
+        "residents",
+        "Grimnir Stonefist"
+      ],
+      1391
+    ],
+    [
+      "Arintha Whisperwind",
+      [
+        "cities",
+        "Ironhold",
+        "residents",
+        "Arintha Whisperwind"
+      ],
+      1717
+    ],
+    [
+      "Zorath the Dark",
+      [
+        "cities",
+        "Ironhold",
+        "residents",
+        "Zorath the Dark"
+      ],
+      2055
+    ]
+  ],
+  "cities Ironhold lore": [
+    [
+      "The Quilith",
+      [
+        "races"
+      ],
+      518
+    ],
+    [
+      "Korgath the Unbreakable",
+      [
+        "cities",
+        "Ironhold",
+        "residents",
+        "Korgath the Unbreakable"
+      ],
+      148
+    ],
+    [
+      "Sylphia Brightspark",
+      [
+        "cities",
+        "Ironhold",
+        "residents",
+        "Sylphia Brightspark"
+      ],
+      497
+    ],
+    [
+      "Thorgar Ironfist",
+      [
+        "cities",
+        "Ironhold",
+        "residents",
+        "Thorgar Ironfist"
+      ],
+      668
+    ],
+    [
+      "Vaela Nightshade",
+      [
+        "cities",
+        "Ironhold",
+        "residents",
+        "Vaela Nightshade"
+      ],
+      1059
+    ],
+    [
+      "Grimnir Stonefist",
+      [
+        "cities",
+        "Ironhold",
+        "residents",
+        "Grimnir Stonefist"
+      ],
+      916
+    ],
+    [
+      "Arintha Whisperwind",
+      [
+        "cities",
+        "Ironhold",
+        "residents",
+        "Arintha Whisperwind"
+      ],
+      1308
+    ],
+    [
+      "Zorath the Dark",
+      [
+        "cities",
+        "Ironhold",
+        "residents",
+        "Zorath the Dark"
+      ],
+      1546
+    ]
+  ],
+  "cities Ironhold residents Korgath the Unbreakable": [],
+  "cities Ironhold residents Sylphia Brightspark": [],
+  "cities Ironhold residents Thorgar Ironfist": [],
+  "cities Ironhold residents Vaela Nightshade": [],
+  "cities Ironhold residents Grimnir Stonefist": [],
+  "cities Ironhold residents Arintha Whisperwind": [],
+  "cities Ironhold residents Zorath the Dark": [],
+  "cities Sunhaven city_description": [
+    [
+      "The Aelvari",
+      [
+        "races"
+      ],
+      1909
+    ]
+  ],
+  "cities Sunhaven basic_residents": [
+    [
+      "Aria Nightshade",
+      [
+        "cities",
+        "Sunhaven",
+        "residents",
+        "Aria Nightshade"
+      ],
+      2
+    ],
+    [
+      "Theron Brightwing",
+      [
+        "cities",
+        "Sunhaven",
+        "residents",
+        "Theron Brightwing"
+      ],
+      302
+    ],
+    [
+      "Kaela Stormcaller",
+      [
+        "cities",
+        "Sunhaven",
+        "residents",
+        "Kaela Stormcaller"
+      ],
+      556
+    ],
+    [
+      "Garret Ironfist",
+      [
+        "cities",
+        "Sunhaven",
+        "residents",
+        "Garret Ironfist"
+      ],
+      849
+    ],
+    [
+      "Lirien Seafoam",
+      [
+        "cities",
+        "Sunhaven",
+        "residents",
+        "Lirien Seafoam"
+      ],
+      1129
+    ],
+    [
+      "Valtor Blackheart",
+      [
+        "cities",
+        "Sunhaven",
+        "residents",
+        "Valtor Blackheart"
+      ],
+      1416
+    ],
+    [
+      "Lyra Fireheart",
+      [
+        "cities",
+        "Sunhaven",
+        "residents",
+        "Lyra Fireheart"
+      ],
+      1704
+    ],
+    [
+      "Arinthia Moonstone",
+      [
+        "cities",
+        "Sunhaven",
+        "residents",
+        "Arinthia Moonstone"
+      ],
+      2054
+    ]
+  ],
+  "cities Sunhaven lore": [
+    [
+      "Aria Nightshade",
+      [
+        "cities",
+        "Sunhaven",
+        "residents",
+        "Aria Nightshade"
+      ],
+      265
+    ],
+    [
+      "Theron Brightwing",
+      [
+        "cities",
+        "Sunhaven",
+        "residents",
+        "Theron Brightwing"
+      ],
+      936
+    ],
+    [
+      "Kaela Stormcaller",
+      [
+        "cities",
+        "Sunhaven",
+        "residents",
+        "Kaela Stormcaller"
+      ],
+      1069
+    ],
+    [
+      "Garret Ironfist",
+      [
+        "cities",
+        "Sunhaven",
+        "residents",
+        "Garret Ironfist"
+      ],
+      567
+    ],
+    [
+      "Valtor Blackheart",
+      [
+        "cities",
+        "Sunhaven",
+        "residents",
+        "Valtor Blackheart"
+      ],
+      1277
+    ],
+    [
+      "Lyra Fireheart",
+      [
+        "cities",
+        "Sunhaven",
+        "residents",
+        "Lyra Fireheart"
+      ],
+      285
+    ],
+    [
+      "Arinthia Moonstone",
+      [
+        "cities",
+        "Sunhaven",
+        "residents",
+        "Arinthia Moonstone"
+      ],
+      1820
+    ]
+  ],
+  "cities Sunhaven residents Aria Nightshade": [],
+  "cities Sunhaven residents Theron Brightwing": [],
+  "cities Sunhaven residents Kaela Stormcaller": [],
+  "cities Sunhaven residents Garret Ironfist": [],
+  "cities Sunhaven residents Lirien Seafoam": [],
+  "cities Sunhaven residents Valtor Blackheart": [],
+  "cities Sunhaven residents Lyra Fireheart": [],
+  "cities Sunhaven residents Arinthia Moonstone": [],
+  "cities Thundercliff city_description": [],
+  "cities Thundercliff basic_residents": [
+    [
+      "Grommash the Bold",
+      [
+        "cities",
+        "Thundercliff",
+        "residents",
+        "Grommash the Bold"
+      ],
+      2
+    ],
+    [
+      "Sylviel the Swift",
+      [
+        "cities",
+        "Thundercliff",
+        "residents",
+        "Sylviel the Swift"
+      ],
+      369
+    ],
+    [
+      "Galadriel the Wise",
+      [
+        "cities",
+        "Thundercliff",
+        "residents",
+        "Galadriel the Wise"
+      ],
+      708
+    ],
+    [
+      "Krogar the Grim",
+      [
+        "cities",
+        "Thundercliff",
+        "residents",
+        "Krogar the Grim"
+      ],
+      1020
+    ],
+    [
+      "Valeria the Fair",
+      [
+        "cities",
+        "Thundercliff",
+        "residents",
+        "Valeria the Fair"
+      ],
+      1366
+    ],
+    [
+      "Zorath the Vengeful",
+      [
+        "cities",
+        "Thundercliff",
+        "residents",
+        "Zorath the Vengeful"
+      ],
+      1683
+    ]
+  ],
+  "cities Thundercliff lore": [
+    [
+      "The Gorgoth",
+      [
+        "races"
+      ],
+      32
+    ],
+    [
+      "Grommash the Bold",
+      [
+        "cities",
+        "Thundercliff",
+        "residents",
+        "Grommash the Bold"
+      ],
+      60
+    ],
+    [
+      "Sylviel the Swift",
+      [
+        "cities",
+        "Thundercliff",
+        "residents",
+        "Sylviel the Swift"
+      ],
+      672
+    ],
+    [
+      "Galadriel the Wise",
+      [
+        "cities",
+        "Thundercliff",
+        "residents",
+        "Galadriel the Wise"
+      ],
+      324
+    ],
+    [
+      "Krogar the Grim",
+      [
+        "cities",
+        "Thundercliff",
+        "residents",
+        "Krogar the Grim"
+      ],
+      1042
+    ],
+    [
+      "Valeria the Fair",
+      [
+        "cities",
+        "Thundercliff",
+        "residents",
+        "Valeria the Fair"
+      ],
+      1195
+    ],
+    [
+      "Zorath the Vengeful",
+      [
+        "cities",
+        "Thundercliff",
+        "residents",
+        "Zorath the Vengeful"
+      ],
+      891
+    ]
+  ],
+  "cities Thundercliff residents Grommash the Bold": [],
+  "cities Thundercliff residents Sylviel the Swift": [],
+  "cities Thundercliff residents Galadriel the Wise": [],
+  "cities Thundercliff residents Krogar the Grim": [],
+  "cities Thundercliff residents Valeria the Fair": [],
+  "cities Thundercliff residents Zorath the Vengeful": [],
+  "cities Verdantia city_description": [],
+  "cities Verdantia basic_residents": [
+    [
+      "Aelarin the Wise",
+      [
+        "cities",
+        "Verdantia",
+        "residents",
+        "Aelarin the Wise"
+      ],
+      2
+    ],
+    [
+      "Nyra the Enchantress",
+      [
+        "cities",
+        "Verdantia",
+        "residents",
+        "Nyra the Enchantress"
+      ],
+      370
+    ],
+    [
+      "Drogathar the Mercenary",
+      [
+        "cities",
+        "Verdantia",
+        "residents",
+        "Drogathar the Mercenary"
+      ],
+      764
+    ],
+    [
+      "Aelora the Artisan",
+      [
+        "cities",
+        "Verdantia",
+        "residents",
+        "Aelora the Artisan"
+      ],
+      1156
+    ],
+    [
+      "Thirin the Hunter",
+      [
+        "cities",
+        "Verdantia",
+        "residents",
+        "Thirin the Hunter"
+      ],
+      1496
+    ],
+    [
+      "Quillan the Mechanic",
+      [
+        "cities",
+        "Verdantia",
+        "residents",
+        "Quillan the Mechanic"
+      ],
+      1870
+    ],
+    [
+      "Lirien the Bard",
+      [
+        "cities",
+        "Verdantia",
+        "residents",
+        "Lirien the Bard"
+      ],
+      2235
+    ]
+  ],
+  "cities Verdantia lore": [
+    [
+      "The Nyrathi",
+      [
+        "races"
+      ],
+      811
+    ],
+    [
+      "Aelarin the Wise",
+      [
+        "cities",
+        "Verdantia",
+        "residents",
+        "Aelarin the Wise"
+      ],
+      183
+    ],
+    [
+      "Nyra the Enchantress",
+      [
+        "cities",
+        "Verdantia",
+        "residents",
+        "Nyra the Enchantress"
+      ],
+      204
+    ],
+    [
+      "Drogathar the Mercenary",
+      [
+        "cities",
+        "Verdantia",
+        "residents",
+        "Drogathar the Mercenary"
+      ],
+      562
+    ],
+    [
+      "Aelora the Artisan",
+      [
+        "cities",
+        "Verdantia",
+        "residents",
+        "Aelora the Artisan"
+      ],
+      413
+    ],
+    [
+      "Thirin the Hunter",
+      [
+        "cities",
+        "Verdantia",
+        "residents",
+        "Thirin the Hunter"
+      ],
+      980
+    ],
+    [
+      "Quillan the Mechanic",
+      [
+        "cities",
+        "Verdantia",
+        "residents",
+        "Quillan the Mechanic"
+      ],
+      1097
+    ],
+    [
+      "Lirien the Bard",
+      [
+        "cities",
+        "Verdantia",
+        "residents",
+        "Lirien the Bard"
+      ],
+      483
+    ]
+  ],
+  "cities Verdantia residents Aelarin the Wise": [],
+  "cities Verdantia residents Nyra the Enchantress": [],
+  "cities Verdantia residents Drogathar the Mercenary": [],
+  "cities Verdantia residents Aelora the Artisan": [],
+  "cities Verdantia residents Thirin the Hunter": [],
+  "cities Verdantia residents Quillan the Mechanic": [],
+  "cities Verdantia residents Lirien the Bard": []
+}
