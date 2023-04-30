@@ -1,5 +1,5 @@
 # Mythical Mentor
-Use AI to generate worlds and mythos automatically
+Use AI to generate worlds and mythos automatically.
 
 ```mermaid
 flowchart TD
@@ -21,3 +21,8 @@ flowchart TD
 ```
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://thoppe-mythical-mentor-streamlit-app-4taw1v.streamlit.app/)
+
+### To do
+
++ Allow for different SD models
++ Add in real hyperlinks in the app
