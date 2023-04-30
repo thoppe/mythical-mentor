@@ -2,14 +2,14 @@
 #topic = "chickens"
 #topic = "amazonian_justice"
 #topic = "gothic"
-topic = "crashland"
+topic = "archipelago"
 
 all:
 	python P0_build_world.py --topic $(topic) 
 	python P1_build_cities.py --topic $(topic)
-#	python Q0_generate_images.py --topic $(topic)
-#	cd imgs/ && python P0_generate_images.py
-#	cd imgs/ && python imgs/P1_spindown_images.py
+	python Q0_generate_images.py --topic $(topic)
+	python Q1_downscale_images.py
+	python Q2_build_hyperlinks.py --topic $(topic)
 
 lint:
 	black *.py imgs worldbuilder --line-length 80

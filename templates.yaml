@@ -35,7 +35,7 @@ negative_prompt : ((sfw)), easynegative, badhandv4, greyscale, monochrome, water
 
 ---
 key : steampunk_time
-world_name : 
+world_name : Alchemic Dominion
 prompt : Steampunk world that has advanced tech and time travel, but is always at war with the past. Automations but no robots
 style_prompt : scifi, futuristic, illustration, high contrast, cinematic, detailed, atmospheric, 8k, by Jim Burns
 negative_prompt : ((sfw)), easynegative, badhandv4, greyscale, monochrome, water mark, signature, bad anatomy, bad proportions, deformed, poorly drawn hands, extra fingers, extra limbs, blurry

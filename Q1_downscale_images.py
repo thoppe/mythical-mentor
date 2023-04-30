@@ -13,7 +13,6 @@ for f_png in load_dest.glob("**/*.png"):
 
 
 def compute(f_png):
-
     png_image = Image.open(f_png)
 
     # Convert the image to RGB mode (if it's not already in RGB mode)
@@ -24,4 +23,4 @@ def compute(f_png):
     print(f_jpg)
 
 
-Pipe(F_TARGET)(compute, -1)
+Pipe(F_TARGET)(compute, 1)

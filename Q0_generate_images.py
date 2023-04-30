@@ -73,7 +73,7 @@ for k, v in world_step(world, []):
     else:
         ITR.append((k, v))
 
-save_dest = Path("results") / "images" / world_name
+save_dest = Path("results") / "images" / world_name.replace(" ", "_")
 save_dest.mkdir(exist_ok=True, parents=True)
 
 df = pd.DataFrame(data=ITR, columns=["key", "prompt"])

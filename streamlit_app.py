@@ -15,7 +15,8 @@ st.set_page_config(
 load_dest = Path("results") / "worldbuilding"
 F_JSON = sorted(list(load_dest.glob("**/*.json")))
 
-@st.cache_resource 
+
+#@st.cache_resource
 def load_data(F_JSON):
     JS = [json.load(open(f)) for f in F_JSON]
     return JS
@@ -80,7 +81,6 @@ if f_world_csv.exists():
     dx["key"] = [" ".join((eval(x))) for x in dx["key"]]
 else:
     dx = pd.DataFrame(columns=["key", "f_save", "prompt"])
-
 
 def write_images(img_key, dx, show_description=True):
 
@@ -179,6 +179,15 @@ st.write(
    Made with 💙 by [@metasemantic](https://twitter.com/metasemantic),
 """
 )
+
+if len(hi) == 0:
+    js['meta']['negative_prompt'] = dx['negative_prompt'].values[0]
+    js['meta']['style_prompt'] = dx['style_prompt'].values[0]
+    with st.expander('Worldbuilding parameters'):
+        st.write(js['meta'])
+
+    
+
 
 # with st.sidebar.expander("meta"):
 #    st.write(f"_Mythical schema version: {schema_version:d}_")
