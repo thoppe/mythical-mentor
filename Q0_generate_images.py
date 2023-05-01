@@ -145,7 +145,9 @@ def generate_image(ptext, ntext, stext):
     time.sleep(1)
 
     # Clear the directory
-    save_dest = Path("SD_image_gen_app") / "stable-diffusion-webui" / "log" / "images"
+    save_dest = (
+        Path("SD_image_gen_app") / "stable-diffusion-webui" / "log" / "images"
+    )
     for f in save_dest.glob("*.png"):
         if f.is_file():
             f.unlink()

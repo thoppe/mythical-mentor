@@ -108,9 +108,8 @@ def write_images(img_key, dx, show_description=True):
             st.image(img, width=400)
 
         if show_description:
-            # hyperlinks
-            for k, v in hyperlinks.items():
 
+            for k, v in hyperlinks.items():
                 k = k.replace("The", "").strip()
 
                 if k not in text:
@@ -189,7 +188,6 @@ for key in DESCRIPTION_KEYS:
     if key in world:
         # Look for an image
         write_images(hi + [key], dx)
-        st.write(world[key])
 
 
 st.write(
