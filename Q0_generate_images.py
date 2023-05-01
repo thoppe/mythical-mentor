@@ -55,7 +55,15 @@ IGNORED_KEYS = [
 ]
 
 CLOSEUP_KEYS = ["races", "creatures", "resident_description"]
-subareas = ["races", "creatures", "landmarks", "lore", "deities", "beliefs", "relics"]
+subareas = [
+    "races",
+    "creatures",
+    "landmarks",
+    "lore",
+    "deities",
+    "beliefs",
+    "relics",
+]
 ITR = []
 
 world = js["content"]
@@ -80,7 +88,7 @@ save_dest.mkdir(exist_ok=True, parents=True)
 df = pd.DataFrame(data=ITR, columns=["key", "prompt"])
 
 # Adjust the image generation for relics because we added them later
-idx = np.array(['relics' in key for key in df['key']])
+idx = np.array(["relics" in key for key in df["key"]])
 df_move = df[idx].copy()
 df = df[~idx].append(df[idx])
 
@@ -134,6 +142,7 @@ driver = webdriver.Firefox()
 driver.get(url)
 WebDriverWait(driver, 5)
 time.sleep(4)
+
 
 def generate_image(ptext, ntext, stext):
     elements = driver.find_elements(By.XPATH, "//*[@placeholder]")

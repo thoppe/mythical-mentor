@@ -4,6 +4,15 @@ from pathlib import Path
 from worldbuilder.utils import load_multi_yaml, recover_bulleted_list
 from wasabi import msg as MSG
 
+LIST_CONTENT = [
+    "races",
+    "creatures",
+    "deities",
+    "landmarks",
+    "beliefs",
+    "relics",
+]
+
 parser = argparse.ArgumentParser(
     description="Generate an world from a base idea."
 )
@@ -37,7 +46,6 @@ def world_step(d, prior_keys=None):
             yield x
 
 
-LIST_CONTENT = ["races", "creatures", "deities", "landmarks", "beliefs"]
 world = js["content"]
 linkables = {}
 

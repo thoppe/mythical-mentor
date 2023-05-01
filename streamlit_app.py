@@ -16,7 +16,7 @@ load_dest = Path("results") / "worldbuilding"
 F_JSON = sorted(list(load_dest.glob("**/*.json")))
 
 
-# @st.cache_resource
+@st.cache_resource
 def load_data(F_JSON):
     JS = [json.load(open(f)) for f in F_JSON]
     return JS
