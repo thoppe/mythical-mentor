@@ -2,13 +2,25 @@
 Use AI to generate worlds and mythos automatically.
 
 ```mermaid
+%%{ init : { "theme" : "default", "flowchart" : { "curve" : "linear" }}}%%
+
 flowchart TD
     WName(World Name) --> WorldDesc(World Description)
     WorldDesc --> Races
+    WorldDesc --> Creatures
+    WorldDesc --> Landmarks
+    WorldDesc --> Deities
+    WorldDesc --> Cities
+    WorldDesc --> Beliefs
+
     Races --> Creatures
     Races --> Cities
-    WorldDesc --> Deities
-    
+    Races --> Deities
+    Races --> Beliefs
+    Races --> CITY2
+    Races --> CITY3
+    WorldDesc --> CITY3
+
     Deities --> Beliefs
     Deities --> Landmarks
     Races --> Landmarks
