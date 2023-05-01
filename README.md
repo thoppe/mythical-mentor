@@ -12,18 +12,23 @@ flowchart TD
     WorldDesc --> Deities
     WorldDesc --> Cities
     WorldDesc --> Beliefs
+    WorldDesc --> Relics
+    WorldDesc --> CITY3
 
     Races --> Creatures
     Races --> Cities
     Races --> Deities
     Races --> Beliefs
+    Races --> Relics
     Races --> CITY2
     Races --> CITY3
-    WorldDesc --> CITY3
+    Races --> Landmarks
 
     Deities --> Beliefs
     Deities --> Landmarks
-    Races --> Landmarks
+    Deities --> Relics
+
+    Landmarks --> Relics
 
     subgraph city [ ]
       Cities --> CITY1(City Description)

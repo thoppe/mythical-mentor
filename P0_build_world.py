@@ -78,6 +78,7 @@ print(WORLD(schema["basic_cities"]))
 print(WORLD(schema["deities"]))
 print(WORLD(schema["landmarks"]))
 print(WORLD(schema["beliefs"]))
+print(WORLD(schema["relics"]))
 
 ############################################################################
 # Save the output to the "basic" folder for the next round

@@ -55,7 +55,7 @@ IGNORED_KEYS = [
 ]
 
 CLOSEUP_KEYS = ["races", "creatures", "resident_description"]
-subareas = ["races", "creatures", "landmarks", "lore", "deities", "beliefs"]
+subareas = ["races", "creatures", "landmarks", "lore", "deities", "beliefs", "relics"]
 ITR = []
 
 world = js["content"]
@@ -76,7 +76,15 @@ for k, v in world_step(world, []):
 save_dest = Path("results") / "images" / world_name.replace(" ", "_")
 save_dest.mkdir(exist_ok=True, parents=True)
 
+
 df = pd.DataFrame(data=ITR, columns=["key", "prompt"])
+
+# Adjust the image generation for relics because we added them later
+idx = np.array(['relics' in key for key in df['key']])
+df_move = df[idx].copy()
+df = df[~idx].append(df[idx])
+
+
 df["f_save"] = [save_dest / f"{k:06d}.png" for k in range(len(df))]
 
 
@@ -125,7 +133,7 @@ driver = webdriver.Firefox()
 # navigate to the webpage that contains the form
 driver.get(url)
 WebDriverWait(driver, 5)
-
+time.sleep(4)
 
 def generate_image(ptext, ntext, stext):
     elements = driver.find_elements(By.XPATH, "//*[@placeholder]")

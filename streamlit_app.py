@@ -48,7 +48,7 @@ with st.sidebar:
 js = JS[NAMES.index(category)]
 world = js["content"]
 starter_prompt = js["meta"]["main_topic"]
-schema_version = int(js["meta"]["mythical_mentor_schema_version"])
+schema_version = js["meta"]["mythical_mentor_schema_version"]
 
 IGNORED_KEYS = [
     "world_description",
