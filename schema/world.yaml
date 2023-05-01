@@ -60,3 +60,10 @@ key: "relics"
 prompt: "List some of the major relics that can be found in the world of {world_name} in a bulleted list. Do not include relices found in books, games, or real-life. Give each relic a long descriptive name. Connect some of the relics to the deities or landmarks previously mentioned. Describe the history of the relic and how the races interact with it. Describe the power of the relics in great detail. If the relic is blessed or cursed describe that in great detial. Return the results in a bulleted list only."
 short_prompt: "List some of the relics of {world_name}"
 messages: ["world_description", "races", "deities", "landmarks"]
+
+---
+
+key: emoji
+prompt: Return a single emoji that best exemplifies the topics. Only return one emoji and no other text. {topic} Don't describe why the emoji was chosen, list only the emoji. If there are multiple items, describe them all collectively. Do not list an emoji for each bulleted item, just one emoji
+short_prompt: List a single emoji that describes this item.
+messages: []

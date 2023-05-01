@@ -151,5 +151,766 @@
     "mythical_mentor_schema_version": 2.1,
     "main_topic": "Magical world set on an archipelago with perpetual auroras, geopolitics, magic weather, fanatical religious sects, freeholders, and gangs",
     "world_name": "Aurora Dominion"
-  }
+  },
+  "emoji": [
+    [
+      [
+        "world_names"
+      ],
+      "\ud83c\udf1f"
+    ],
+    [
+      [
+        "world_description"
+      ],
+      "\ud83c\udf0c"
+    ],
+    [
+      [
+        "races"
+      ],
+      "\ud83e\udddd\u200d\u2642\ufe0f (Elf)"
+    ],
+    [
+      [
+        "creatures"
+      ],
+      "\ud83d\udc3e (paw prints)"
+    ],
+    [
+      [
+        "basic_cities"
+      ],
+      "\ud83c\udfd9\ufe0f (cityscape)"
+    ],
+    [
+      [
+        "deities"
+      ],
+      "\ud83d\udc41\ufe0f - The Unseen Watcher, The Shadowed One"
+    ],
+    [
+      [
+        "landmarks"
+      ],
+      "\ud83c\udff0"
+    ],
+    [
+      [
+        "beliefs"
+      ],
+      "\ud83d\ude4f"
+    ],
+    [
+      [
+        "relics"
+      ],
+      "\ud83d\udcaa"
+    ],
+    [
+      [
+        "cities",
+        "Starhaven",
+        "city_description"
+      ],
+      "\ud83c\udf07"
+    ],
+    [
+      [
+        "cities",
+        "Starhaven",
+        "basic_residents"
+      ],
+      "\ud83d\udd25"
+    ],
+    [
+      [
+        "cities",
+        "Starhaven",
+        "lore"
+      ],
+      "\ud83d\udca5 (explosion)"
+    ],
+    [
+      [
+        "cities",
+        "Starhaven",
+        "residents",
+        "Kaela Brightwing"
+      ],
+      "\ud83d\ude80"
+    ],
+    [
+      [
+        "cities",
+        "Starhaven",
+        "residents",
+        "Thorne Blackstone"
+      ],
+      "\ud83d\udde1\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Starhaven",
+        "residents",
+        "Eira Frostheart"
+      ],
+      "\ud83c\udfb5"
+    ],
+    [
+      [
+        "cities",
+        "Starhaven",
+        "residents",
+        "Gaius Ironheart"
+      ],
+      "\ud83e\uddd1\u200d\ud83c\udfed"
+    ],
+    [
+      [
+        "cities",
+        "Starhaven",
+        "residents",
+        "Sylas Reefborn"
+      ],
+      "\ud83c\udf0a"
+    ],
+    [
+      [
+        "cities",
+        "Starhaven",
+        "residents",
+        "Sister Aria"
+      ],
+      "\ud83d\udc51"
+    ],
+    [
+      [
+        "cities",
+        "Starhaven",
+        "residents",
+        "Captain Rourke"
+      ],
+      "\ud83e\uddd4\ud83c\udffb\u200d\u2642\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Starhaven",
+        "residents",
+        "Tyrell Stonefist"
+      ],
+      "\ud83d\udcaa"
+    ],
+    [
+      [
+        "cities",
+        "Storm's End",
+        "city_description"
+      ],
+      "\ud83c\udf0a"
+    ],
+    [
+      [
+        "cities",
+        "Storm's End",
+        "basic_residents"
+      ],
+      "\ud83c\udff4\u200d\u2620\ufe0f (Pirate Flag)"
+    ],
+    [
+      [
+        "cities",
+        "Storm's End",
+        "lore"
+      ],
+      "\ud83d\udd25 (flame emoji)"
+    ],
+    [
+      [
+        "cities",
+        "Storm's End",
+        "residents",
+        "Aria Seaheart, Skyborn"
+      ],
+      "\ud83c\udf0a"
+    ],
+    [
+      [
+        "cities",
+        "Storm's End",
+        "residents",
+        "Thorne Ironscale, Scaleborn"
+      ],
+      "\ud83c\udf0a"
+    ],
+    [
+      [
+        "cities",
+        "Storm's End",
+        "residents",
+        "Lucien Darkwind, Wraith"
+      ],
+      "\ud83d\udde1\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Storm's End",
+        "residents",
+        "Celeste Fireheart, Flameborn"
+      ],
+      "\ud83d\udd25"
+    ],
+    [
+      [
+        "cities",
+        "Storm's End",
+        "residents",
+        "Brother Ezekiel, Luminescent"
+      ],
+      "\ud83e\uddd9\u200d\u2642\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Storm's End",
+        "residents",
+        "Vesper Nightshade, Shadowborn"
+      ],
+      "\ud83e\udd87"
+    ],
+    [
+      [
+        "cities",
+        "Storm's End",
+        "residents",
+        "Kael Wildheart, Freeholder"
+      ],
+      "\ud83c\udf33"
+    ],
+    [
+      [
+        "cities",
+        "Sunflower Village",
+        "city_description"
+      ],
+      "\ud83c\udf3b"
+    ],
+    [
+      [
+        "cities",
+        "Sunflower Village",
+        "basic_residents"
+      ],
+      "\ud83c\udf1f (star)"
+    ],
+    [
+      [
+        "cities",
+        "Sunflower Village",
+        "lore"
+      ],
+      "\ud83c\udf0a - The Great Flood, The Aurora Crisis"
+    ],
+    [
+      [
+        "cities",
+        "Sunflower Village",
+        "residents",
+        "Luminia \"Lumi\" Everglow"
+      ],
+      "\ud83c\udf1f"
+    ],
+    [
+      [
+        "cities",
+        "Sunflower Village",
+        "residents",
+        "Shade \"Shadow\" Nightshade"
+      ],
+      "\ud83c\udf11"
+    ],
+    [
+      [
+        "cities",
+        "Sunflower Village",
+        "residents",
+        "Reverend Ezekiel \"Zeke\" Lightbringer"
+      ],
+      "\ud83d\udc40"
+    ],
+    [
+      [
+        "cities",
+        "Sunflower Village",
+        "residents",
+        "Finnegan \"Finn\" Seaborn"
+      ],
+      "\ud83c\udf0a"
+    ],
+    [
+      [
+        "cities",
+        "Sunflower Village",
+        "residents",
+        "Ophelia \"Ophie\" Firesong"
+      ],
+      "\ud83d\udd25"
+    ],
+    [
+      [
+        "cities",
+        "Sunflower Village",
+        "residents",
+        "Felix \"Flick\" Starlight"
+      ],
+      "\ud83e\uddd1\u200d\ud83d\udd2c"
+    ],
+    [
+      [
+        "cities",
+        "Sunflower Village",
+        "residents",
+        "Davin \"Dagger\" Sharp"
+      ],
+      "\ud83d\udde1\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Frosthold",
+        "city_description"
+      ],
+      "\ud83c\udfd4\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Frosthold",
+        "basic_residents"
+      ],
+      "\ud83d\udde1\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Frosthold",
+        "lore"
+      ],
+      "\u2744\ufe0f (snowflake)"
+    ],
+    [
+      [
+        "cities",
+        "Frosthold",
+        "residents",
+        "Kael Fireheart"
+      ],
+      "\ud83d\udd25"
+    ],
+    [
+      [
+        "cities",
+        "Frosthold",
+        "residents",
+        "Lyra Stonewing"
+      ],
+      "\ud83c\udfa8"
+    ],
+    [
+      [
+        "cities",
+        "Frosthold",
+        "residents",
+        "Malakai Frostborn"
+      ],
+      "\ud83d\udcaa"
+    ],
+    [
+      [
+        "cities",
+        "Frosthold",
+        "residents",
+        "Sable Shadowcaster"
+      ],
+      "\ud83d\udde1\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Frosthold",
+        "residents",
+        "Father Enoch"
+      ],
+      "\ud83c\udf1f"
+    ],
+    [
+      [
+        "cities",
+        "Frosthold",
+        "residents",
+        "The Raven"
+      ],
+      "\ud83e\udd85"
+    ],
+    [
+      [
+        "cities",
+        "Shadowport",
+        "city_description"
+      ],
+      "\ud83c\udff4\u200d\u2620\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Shadowport",
+        "basic_residents"
+      ],
+      "\ud83d\udd2a (knife)"
+    ],
+    [
+      [
+        "cities",
+        "Shadowport",
+        "lore"
+      ],
+      "\ud83d\udd25 (fire emoji)"
+    ],
+    [
+      [
+        "cities",
+        "Shadowport",
+        "residents",
+        "Kaela Blackthorn"
+      ],
+      "\ud83d\udcab"
+    ],
+    [
+      [
+        "cities",
+        "Shadowport",
+        "residents",
+        "Riven Nightshade"
+      ],
+      "\ud83d\udde1\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Shadowport",
+        "residents",
+        "Leon Stoneheart"
+      ],
+      "\ud83d\udd28"
+    ],
+    [
+      [
+        "cities",
+        "Shadowport",
+        "residents",
+        "Seraphine Skywing"
+      ],
+      "\ud83e\udda2"
+    ],
+    [
+      [
+        "cities",
+        "Shadowport",
+        "residents",
+        "Father Gabriel"
+      ],
+      "\ud83e\uddd4\u200d\u2642\ufe0f (Man with beard)"
+    ],
+    [
+      [
+        "cities",
+        "Shadowport",
+        "residents",
+        "Jasper Frost"
+      ],
+      "\ud83d\udcbc"
+    ],
+    [
+      [
+        "cities",
+        "Shadowport",
+        "residents",
+        "The Black Hand"
+      ],
+      "\ud83d\udc64 (mysterious figure)"
+    ],
+    [
+      [
+        "cities",
+        "Brightwater Bay",
+        "city_description"
+      ],
+      "\ud83c\udf0a"
+    ],
+    [
+      [
+        "cities",
+        "Brightwater Bay",
+        "basic_residents"
+      ],
+      "\ud83d\udd75\ufe0f\u200d\u2640\ufe0f (detective/spy)"
+    ],
+    [
+      [
+        "cities",
+        "Brightwater Bay",
+        "lore"
+      ],
+      "\ud83d\udde1\ufe0f (Sword)"
+    ],
+    [
+      [
+        "cities",
+        "Brightwater Bay",
+        "residents",
+        "Kaela the Luminescent"
+      ],
+      "\ud83c\udf1f"
+    ],
+    [
+      [
+        "cities",
+        "Brightwater Bay",
+        "residents",
+        "Riven the Scaleborn"
+      ],
+      "\ud83c\udf0a"
+    ],
+    [
+      [
+        "cities",
+        "Brightwater Bay",
+        "residents",
+        "Lyris the Skyborn"
+      ],
+      "\ud83c\udf1f"
+    ],
+    [
+      [
+        "cities",
+        "Brightwater Bay",
+        "residents",
+        "Zephyr the Shadowborn"
+      ],
+      "\ud83e\uddb8\u200d\u2642\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Brightwater Bay",
+        "residents",
+        "Jorah the Flameborn"
+      ],
+      "\ud83d\udd25"
+    ],
+    [
+      [
+        "cities",
+        "Brightwater Bay",
+        "residents",
+        "Celeste the Wraith"
+      ],
+      "\ud83d\udc7b"
+    ],
+    [
+      [
+        "cities",
+        "Brightwater Bay",
+        "residents",
+        "Father Sebastian the Human"
+      ],
+      "\ud83d\udc40"
+    ],
+    [
+      [
+        "cities",
+        "Brightwater Bay",
+        "residents",
+        "Ishaq the Freeholder"
+      ],
+      "\ud83d\udcb0"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "city_description"
+      ],
+      "\ud83c\udf33"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "basic_residents"
+      ],
+      "\ud83d\udd25 (fire)"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "lore"
+      ],
+      "\ud83d\udd25 (fire emoji)"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "residents",
+        "Aria Sunfire"
+      ],
+      "\ud83d\udd25"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "residents",
+        "Jaxon Nightshade"
+      ],
+      "\ud83e\udd87"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "residents",
+        "Sirin Frost"
+      ],
+      "\ud83c\udf1f"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "residents",
+        "Zephyr Stoneheart"
+      ],
+      "\ud83d\uddff"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "residents",
+        "Father Roderick"
+      ],
+      "\ud83d\ude4f"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "residents",
+        "Kaida Emberwing"
+      ],
+      "\ud83e\udd85"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "residents",
+        "Lysander Silvermoon"
+      ],
+      "\ud83e\uddd9\u200d\u2642\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "residents",
+        "Mara Longstride"
+      ],
+      "\ud83c\udff9"
+    ],
+    [
+      [
+        "cities",
+        "Crystal Lake",
+        "city_description"
+      ],
+      "\ud83c\udf0a"
+    ],
+    [
+      [
+        "cities",
+        "Crystal Lake",
+        "basic_residents"
+      ],
+      "\ud83c\udf0a"
+    ],
+    [
+      [
+        "cities",
+        "Crystal Lake",
+        "lore"
+      ],
+      "\ud83c\udf0a (wave)"
+    ],
+    [
+      [
+        "cities",
+        "Crystal Lake",
+        "residents",
+        "Captain Kaela"
+      ],
+      "\ud83d\udc1f"
+    ],
+    [
+      [
+        "cities",
+        "Crystal Lake",
+        "residents",
+        "Thorne Nightshade"
+      ],
+      "\ud83e\uddd9\u200d\u2642\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Crystal Lake",
+        "residents",
+        "Sister Helena"
+      ],
+      "\ud83d\udc41\ufe0f (eye)"
+    ],
+    [
+      [
+        "cities",
+        "Crystal Lake",
+        "residents",
+        "Zephyr \"Z\" Stone"
+      ],
+      "\ud83d\udcab"
+    ],
+    [
+      [
+        "cities",
+        "Crystal Lake",
+        "residents",
+        "Freeholder Althea"
+      ],
+      "\ud83d\udc51"
+    ],
+    [
+      [
+        "cities",
+        "Crystal Lake",
+        "residents",
+        "The Oracle"
+      ],
+      "\ud83d\udd2e"
+    ]
+  ]
 }

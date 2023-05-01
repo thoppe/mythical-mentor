@@ -144,6 +144,8 @@ if not any([x in world for x in DESCRIPTION_KEYS]):
 
 ####################################################################
 
+button_emoji_keys = {}
+
 if not isinstance(world, str):
     cols = itertools.cycle(st.columns(3))
     keys = [key for key in world.keys() if key not in IGNORED_KEYS]
@@ -162,17 +164,33 @@ if not isinstance(world, str):
             if hi[-1] == "cities":
                 img_key = " ".join(hi + [key, "city_description"])
             elif hi[-1] == "residents":
-                img_key = " ".join(
-                    hi
-                    + [
-                        key,
-                    ]
-                )
+                img_key = " ".join(hi + [key])
 
         write_images(img_key, dx, show_description=False)
 
+        search_key = [key]
+        if key == "cities":
+            search_key = ["basic_cities"]
+
+        if len(hi) == 1 and hi[0] == "cities":
+            search_key = [key, "city_description"]
+
+        if len(hi) == 2 and hi[0] == "cities" and key == "residents":
+            search_key = ["basic_residents"]
+
+        emoji_key = hi + search_key
+
+        button_text = f"{key}"
+
+        if "emoji" in js:
+            for row in js["emoji"]:
+                if emoji_key == row[0]:
+                    emoji = row[1].split()[0]
+                    new_key = f"{emoji} {key}"
+                    button_text = f"{emoji} {key}"
+
         button = location.button(
-            key,
+            button_text,
             on_click=nav_button_callback,
             key=uuid.uuid4(),
             args=(key,),

@@ -9,6 +9,7 @@ for name in programs:
 
     os.system(f"python P0_build_world.py --topic '{name}'")
     os.system(f"python P1_build_cities.py --topic '{name}'")
+    os.system(f"python P2_add_emoji.py --topic '{name}'")
     os.system(f"python Q0_generate_images.py --topic '{name}'")
     os.system("python Q1_downscale_images.py")
     os.system(f"python Q2_build_hyperlinks.py --topic '{name}'")

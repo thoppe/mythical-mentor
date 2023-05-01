@@ -97,5 +97,397 @@
     "mythical_mentor_schema_version": 2.1,
     "main_topic": "gothic world with very low technology. Vampires and dark spirits roam the world, but there is very little magic for others. The humans live in fear crowded in small, filthy, villages",
     "world_name": "Sablehaven"
-  }
+  },
+  "emoji": [
+    [
+      [
+        "world_names"
+      ],
+      "\ud83c\udf11 (new moon face)"
+    ],
+    [
+      [
+        "world_description"
+      ],
+      "\ud83c\udf11"
+    ],
+    [
+      [
+        "races"
+      ],
+      "\ud83e\udd16"
+    ],
+    [
+      [
+        "creatures"
+      ],
+      "\ud83d\udc7b"
+    ],
+    [
+      [
+        "basic_cities"
+      ],
+      "\ud83c\udff0 (castle) - all locations are fortified or protected in some way."
+    ],
+    [
+      [
+        "deities"
+      ],
+      "\ud83c\udf11 (Black Circle) for The Eternal Night, representing darkness and the night."
+    ],
+    [
+      [
+        "landmarks"
+      ],
+      "\ud83c\udff0"
+    ],
+    [
+      [
+        "beliefs"
+      ],
+      "\ud83d\ude4f - Folded hands emoji to represent all belief systems and their worship practices."
+    ],
+    [
+      [
+        "relics"
+      ],
+      "\ud83d\udc8e"
+    ],
+    [
+      [
+        "cities",
+        "Sanguine Hollow",
+        "city_description"
+      ],
+      "\ud83c\udf33"
+    ],
+    [
+      [
+        "cities",
+        "Sanguine Hollow",
+        "basic_residents"
+      ],
+      "\ud83d\udc7b (ghost) - represents the haunting and mysterious atmosphere of Sanguine Hollow, as well as the danger posed by the vampires and dark spirits."
+    ],
+    [
+      [
+        "cities",
+        "Sanguine Hollow",
+        "lore"
+      ],
+      "\ud83e\udddb\u200d\u2642\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Sanguine Hollow",
+        "residents",
+        "Erisa Gloom"
+      ],
+      "\ud83d\udc7b"
+    ],
+    [
+      [
+        "cities",
+        "Sanguine Hollow",
+        "residents",
+        "Kael Stoneborn"
+      ],
+      "\ud83d\udcaa"
+    ],
+    [
+      [
+        "cities",
+        "Sanguine Hollow",
+        "residents",
+        "Viktor Ironclad"
+      ],
+      "\ud83e\udd16 (Robot Face)"
+    ],
+    [
+      [
+        "cities",
+        "Sanguine Hollow",
+        "residents",
+        "Lyra Bonekin"
+      ],
+      "\ud83d\udde1\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Sanguine Hollow",
+        "residents",
+        "Malachi Shadow"
+      ],
+      "\ud83d\udc3e (paw prints)"
+    ],
+    [
+      [
+        "cities",
+        "Blackwood",
+        "city_description"
+      ],
+      "\ud83c\udf33"
+    ],
+    [
+      [
+        "cities",
+        "Blackwood",
+        "basic_residents"
+      ],
+      "\ud83e\udddd\u200d\u2640\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Blackwood",
+        "lore"
+      ],
+      "\ud83d\udd25 (fire)"
+    ],
+    [
+      [
+        "cities",
+        "Blackwood",
+        "residents",
+        "Aria Nightshade"
+      ],
+      "\ud83e\udddb\u200d\u2640\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Blackwood",
+        "residents",
+        "Thorne Ironfist"
+      ],
+      "\ud83d\udcaa"
+    ],
+    [
+      [
+        "cities",
+        "Blackwood",
+        "residents",
+        "Freya Silverwind"
+      ],
+      "\ud83c\udf3f"
+    ],
+    [
+      [
+        "cities",
+        "Blackwood",
+        "residents",
+        "Kaela Darkwater"
+      ],
+      "\ud83c\udff9"
+    ],
+    [
+      [
+        "cities",
+        "Blackwood",
+        "residents",
+        "Arinthia Moonstone"
+      ],
+      "\ud83c\udf3f"
+    ],
+    [
+      [
+        "cities",
+        "Ironclad Keep",
+        "city_description"
+      ],
+      "\ud83c\udff0"
+    ],
+    [
+      [
+        "cities",
+        "Ironclad Keep",
+        "basic_residents"
+      ],
+      "\ud83d\udde1\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Ironclad Keep",
+        "lore"
+      ],
+      "\ud83e\udd16"
+    ],
+    [
+      [
+        "cities",
+        "Ironclad Keep",
+        "residents",
+        "Kael"
+      ],
+      "\ud83e\udd16"
+    ],
+    [
+      [
+        "cities",
+        "Ironclad Keep",
+        "residents",
+        "Lirien"
+      ],
+      "\ud83e\udd87"
+    ],
+    [
+      [
+        "cities",
+        "Ironclad Keep",
+        "residents",
+        "Valtair"
+      ],
+      "\ud83d\udc80"
+    ],
+    [
+      [
+        "cities",
+        "Shadow's Edge",
+        "city_description"
+      ],
+      "\ud83c\udf03"
+    ],
+    [
+      [
+        "cities",
+        "Shadow's Edge",
+        "basic_residents"
+      ],
+      "\ud83d\udc51 (crown)"
+    ],
+    [
+      [
+        "cities",
+        "Shadow's Edge",
+        "lore"
+      ],
+      "\ud83d\udde1\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Shadow's Edge",
+        "residents",
+        "Selene Nightshade"
+      ],
+      "\ud83e\udd89"
+    ],
+    [
+      [
+        "cities",
+        "Shadow's Edge",
+        "residents",
+        "Lucius Blackwood"
+      ],
+      "\ud83e\udd87"
+    ],
+    [
+      [
+        "cities",
+        "Shadow's Edge",
+        "residents",
+        "Isadora Grimwood"
+      ],
+      "\ud83e\uddd9\u200d\u2640\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Shadow's Edge",
+        "residents",
+        "Thorne Nightshade"
+      ],
+      "\ud83d\udda4"
+    ],
+    [
+      [
+        "cities",
+        "Shadow's Edge",
+        "residents",
+        "Lysandra Stoneborn"
+      ],
+      "\ud83d\uddff"
+    ],
+    [
+      [
+        "cities",
+        "Grimhold",
+        "city_description"
+      ],
+      "\ud83c\udf32"
+    ],
+    [
+      [
+        "cities",
+        "Grimhold",
+        "basic_residents"
+      ],
+      "\ud83d\udde1\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Grimhold",
+        "lore"
+      ],
+      "\ud83e\udd87"
+    ],
+    [
+      [
+        "cities",
+        "Grimhold",
+        "residents",
+        "Darian"
+      ],
+      "\ud83d\udde1\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Grimhold",
+        "residents",
+        "Isadora"
+      ],
+      "\ud83c\udf3f (Herbal medicine and natural beauty)"
+    ],
+    [
+      [
+        "cities",
+        "Grimhold",
+        "residents",
+        "Thorne"
+      ],
+      "\ud83e\uddd9\u200d\u2642\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Grimhold",
+        "residents",
+        "Jakob"
+      ],
+      "\ud83d\udd28"
+    ],
+    [
+      [
+        "cities",
+        "Grimhold",
+        "residents",
+        "Lyra"
+      ],
+      "\ud83c\udfb6 (musical note)"
+    ],
+    [
+      [
+        "cities",
+        "Grimhold",
+        "residents",
+        "Dante"
+      ],
+      "\ud83c\udf3e"
+    ]
+  ]
 }

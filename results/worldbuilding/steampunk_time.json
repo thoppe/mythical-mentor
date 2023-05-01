@@ -145,5 +145,712 @@
     "mythical_mentor_schema_version": 2.1,
     "main_topic": "Steampunk world that has advanced tech and time travel, but is always at war with the past. Automations but no robots",
     "world_name": "Alchemic Dominion"
-  }
+  },
+  "emoji": [
+    [
+      [
+        "world_names"
+      ],
+      "\ud83d\udd70\ufe0f (analog clock)"
+    ],
+    [
+      [
+        "world_description"
+      ],
+      "\ud83e\uddd9\u200d\u2642\ufe0f"
+    ],
+    [
+      [
+        "races"
+      ],
+      "\ud83c\udf0e (globe)"
+    ],
+    [
+      [
+        "creatures"
+      ],
+      "\ud83e\udd84 (unicorn)"
+    ],
+    [
+      [
+        "basic_cities"
+      ],
+      "\ud83c\udfed"
+    ],
+    [
+      [
+        "deities"
+      ],
+      "\ud83d\udc41\ufe0f (Eye)"
+    ],
+    [
+      [
+        "landmarks"
+      ],
+      "\ud83c\udff0"
+    ],
+    [
+      [
+        "beliefs"
+      ],
+      "\ud83d\ude4f"
+    ],
+    [
+      [
+        "relics"
+      ],
+      "\ud83d\udc8e"
+    ],
+    [
+      [
+        "cities",
+        "Ironhaven",
+        "city_description"
+      ],
+      "\ud83c\udfed"
+    ],
+    [
+      [
+        "cities",
+        "Ironhaven",
+        "basic_residents"
+      ],
+      "\ud83d\udee0\ufe0f (Hammer and Wrench) - representing the industrial and technological focus of the characters."
+    ],
+    [
+      [
+        "cities",
+        "Ironhaven",
+        "lore"
+      ],
+      "\ud83d\udd25 (fire emoji) for all five topics, symbolizing the intense and dramatic events that occurred in Ironhaven."
+    ],
+    [
+      [
+        "cities",
+        "Ironhaven",
+        "residents",
+        "Thorne Ironfist"
+      ],
+      "\ud83e\ude93"
+    ],
+    [
+      [
+        "cities",
+        "Ironhaven",
+        "residents",
+        "Lysandra Valtoria"
+      ],
+      "\ud83d\udde1\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Ironhaven",
+        "residents",
+        "Marcus Blackwood"
+      ],
+      "\ud83d\udd27"
+    ],
+    [
+      [
+        "cities",
+        "Ironhaven",
+        "residents",
+        "Kiera Nightshade"
+      ],
+      "\ud83d\udc0d"
+    ],
+    [
+      [
+        "cities",
+        "Ironhaven",
+        "residents",
+        "Erisa Celestia"
+      ],
+      "\ud83e\udda2"
+    ],
+    [
+      [
+        "cities",
+        "Ironhaven",
+        "residents",
+        "Thaddeus Stonefist"
+      ],
+      "\ud83d\udd27"
+    ],
+    [
+      [
+        "cities",
+        "Clockwork Village",
+        "city_description"
+      ],
+      "\ud83d\udd70\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Clockwork Village",
+        "basic_residents"
+      ],
+      "\ud83d\udd70\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Clockwork Village",
+        "lore"
+      ],
+      "\ud83d\udd70\ufe0f (clock emoji)"
+    ],
+    [
+      [
+        "cities",
+        "Clockwork Village",
+        "residents",
+        "Victoria Irons"
+      ],
+      "\ud83d\udd70\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Clockwork Village",
+        "residents",
+        "Marcus Darkwater"
+      ],
+      "\ud83d\udd70\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Clockwork Village",
+        "residents",
+        "Ada Lovelace"
+      ],
+      "\ud83e\uddd0"
+    ],
+    [
+      [
+        "cities",
+        "Clockwork Village",
+        "residents",
+        "Frederick Dwarvenstone"
+      ],
+      "\ud83e\uddd4\ud83c\udffb\u200d\u2642\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Clockwork Village",
+        "residents",
+        "Celeste Skywing"
+      ],
+      "\ud83d\ude80"
+    ],
+    [
+      [
+        "cities",
+        "Clockwork Village",
+        "residents",
+        "Ignatius Firebrand"
+      ],
+      "\ud83d\udd25"
+    ],
+    [
+      [
+        "cities",
+        "Clockwork Village",
+        "residents",
+        "Isadora Blackwood"
+      ],
+      "\ud83e\udddc\u200d\u2640\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Clockwork Village",
+        "residents",
+        "Sariel Silverwind"
+      ],
+      "\ud83e\uddea"
+    ],
+    [
+      [
+        "cities",
+        "Skyport",
+        "city_description"
+      ],
+      "\ud83d\udee9\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Skyport",
+        "basic_residents"
+      ],
+      "\ud83d\ude80"
+    ],
+    [
+      [
+        "cities",
+        "Skyport",
+        "lore"
+      ],
+      "\ud83d\udd25 (fire)"
+    ],
+    [
+      [
+        "cities",
+        "Skyport",
+        "residents",
+        "Captain Aurora Swift"
+      ],
+      "\ud83d\ude80"
+    ],
+    [
+      [
+        "cities",
+        "Skyport",
+        "residents",
+        "Professor Arcturus Stone"
+      ],
+      "\ud83e\uddd9\u200d\u2642\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Skyport",
+        "residents",
+        "Lady Seraphina Blackwood"
+      ],
+      "\ud83d\udc8e"
+    ],
+    [
+      [
+        "cities",
+        "Skyport",
+        "residents",
+        "Captain Orion Black"
+      ],
+      "\ud83d\udee9\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Skyport",
+        "residents",
+        "Doctor Octavia Steele"
+      ],
+      "\ud83e\uddbe"
+    ],
+    [
+      [
+        "cities",
+        "Skyport",
+        "residents",
+        "Commander Atlas Steelheart"
+      ],
+      "\ud83d\udcaa"
+    ],
+    [
+      [
+        "cities",
+        "Steamhaven",
+        "city_description"
+      ],
+      "\ud83c\udf3f"
+    ],
+    [
+      [
+        "cities",
+        "Steamhaven",
+        "basic_residents"
+      ],
+      "\ud83d\ude80 (Rocket)"
+    ],
+    [
+      [
+        "cities",
+        "Steamhaven",
+        "lore"
+      ],
+      "\ud83d\udd25"
+    ],
+    [
+      [
+        "cities",
+        "Steamhaven",
+        "residents",
+        "Captain Alistair Blackwood"
+      ],
+      "\ud83d\udee9\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Steamhaven",
+        "residents",
+        "Professor Miriam Tinker"
+      ],
+      "\ud83d\udd27"
+    ],
+    [
+      [
+        "cities",
+        "Steamhaven",
+        "residents",
+        "Lady Victoria Irons"
+      ],
+      "\ud83d\udc8e"
+    ],
+    [
+      [
+        "cities",
+        "Steamhaven",
+        "residents",
+        "Grommash \"Grom\" Grommson"
+      ],
+      "\ud83d\udd28"
+    ],
+    [
+      [
+        "cities",
+        "Steamhaven",
+        "residents",
+        "Amber \"The Clockwork Thief\" Windrider"
+      ],
+      "\ud83d\udd75\ufe0f\u200d\u2640\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Steamhaven",
+        "residents",
+        "Doctor Victor Von Steam"
+      ],
+      "\ud83e\uddea"
+    ],
+    [
+      [
+        "cities",
+        "Steamhaven",
+        "residents",
+        "Captain Zephyr"
+      ],
+      "\ud83e\udd96"
+    ],
+    [
+      [
+        "cities",
+        "Steamhaven",
+        "residents",
+        "Lady Seraphina"
+      ],
+      "\ud83e\udda2"
+    ],
+    [
+      [
+        "cities",
+        "Alchemic Academy",
+        "city_description"
+      ],
+      "\ud83c\udfeb"
+    ],
+    [
+      [
+        "cities",
+        "Alchemic Academy",
+        "basic_residents"
+      ],
+      "\ud83e\uddd1\u200d\ud83d\udd2c (scientist)"
+    ],
+    [
+      [
+        "cities",
+        "Alchemic Academy",
+        "lore"
+      ],
+      "\ud83d\udd70\ufe0f (for The Time Travel Controversy and The Alchemic Plague)"
+    ],
+    [
+      [
+        "cities",
+        "Alchemic Academy",
+        "residents",
+        "Professor Amara Goldstein"
+      ],
+      "\ud83e\uddd9\u200d\u2640\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Alchemic Academy",
+        "residents",
+        "Captain Rurik Stonefist"
+      ],
+      "\ud83e\uddbe (robot)"
+    ],
+    [
+      [
+        "cities",
+        "Alchemic Academy",
+        "residents",
+        "Lady Seraphina Blackheart"
+      ],
+      "\ud83d\udc0d"
+    ],
+    [
+      [
+        "cities",
+        "Alchemic Academy",
+        "residents",
+        "Doctor Marcus Evergreen"
+      ],
+      "\ud83e\uddea"
+    ],
+    [
+      [
+        "cities",
+        "Alchemic Academy",
+        "residents",
+        "Professor Lysandra Nightshade"
+      ],
+      "\ud83d\udc0d"
+    ],
+    [
+      [
+        "cities",
+        "Alchemic Academy",
+        "residents",
+        "Sir Cedric Ironheart"
+      ],
+      "\ud83d\udde1\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "city_description"
+      ],
+      "\ud83d\udd25 (fire)"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "basic_residents"
+      ],
+      "\ud83d\udd27"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "lore"
+      ],
+      "\ud83d\udca5 (explosion)"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "residents",
+        "Griswald Ironbeard"
+      ],
+      "\ud83d\udd27"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "residents",
+        "Aric Copperhammer"
+      ],
+      "\ud83d\udee0\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "residents",
+        "Delilah Stonefoot"
+      ],
+      "\ud83c\udf3f"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "residents",
+        "Thorne Blackheart"
+      ],
+      "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Emberwood",
+        "residents",
+        "Kaelin Firestone"
+      ],
+      "\ud83e\udddd\u200d\u2640\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Aqua Bay",
+        "city_description"
+      ],
+      "\ud83c\udf0a"
+    ],
+    [
+      [
+        "cities",
+        "Aqua Bay",
+        "basic_residents"
+      ],
+      "\ud83c\udf0a"
+    ],
+    [
+      [
+        "cities",
+        "Aqua Bay",
+        "lore"
+      ],
+      "\ud83c\udf0a (ocean wave)"
+    ],
+    [
+      [
+        "cities",
+        "Aqua Bay",
+        "residents",
+        "Captain Finnegan"
+      ],
+      "\ud83c\udff4\u200d\u2620\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Aqua Bay",
+        "residents",
+        "Lady Aurelia"
+      ],
+      "\ud83e\udddc\u200d\u2640\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Aqua Bay",
+        "residents",
+        "Captain Nemo"
+      ],
+      "\ud83c\udf0a"
+    ],
+    [
+      [
+        "cities",
+        "Aqua Bay",
+        "residents",
+        "Doctor Jekyll"
+      ],
+      "\ud83e\uddea"
+    ],
+    [
+      [
+        "cities",
+        "Aqua Bay",
+        "residents",
+        "Professor Moriarty"
+      ],
+      "\ud83d\udd70\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Aqua Bay",
+        "residents",
+        "Captain Ahab"
+      ],
+      "\ud83c\udf0a"
+    ],
+    [
+      [
+        "cities",
+        "Serpent's Den",
+        "city_description"
+      ],
+      "\ud83d\udc0d"
+    ],
+    [
+      [
+        "cities",
+        "Serpent's Den",
+        "basic_residents"
+      ],
+      "\ud83d\udc0d"
+    ],
+    [
+      [
+        "cities",
+        "Serpent's Den",
+        "lore"
+      ],
+      "\ud83d\udde1\ufe0f (Sword)"
+    ],
+    [
+      [
+        "cities",
+        "Serpent's Den",
+        "residents",
+        "Medusa"
+      ],
+      "\ud83d\udc0d"
+    ],
+    [
+      [
+        "cities",
+        "Serpent's Den",
+        "residents",
+        "Perseus"
+      ],
+      "\ud83d\udde1\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Serpent's Den",
+        "residents",
+        "Euryale"
+      ],
+      "\ud83d\udc0d"
+    ],
+    [
+      [
+        "cities",
+        "Serpent's Den",
+        "residents",
+        "Stheno"
+      ],
+      "\ud83d\udc0d"
+    ],
+    [
+      [
+        "cities",
+        "Serpent's Den",
+        "residents",
+        "Polydectes"
+      ],
+      "\ud83d\udcaa"
+    ],
+    [
+      [
+        "cities",
+        "Serpent's Den",
+        "residents",
+        "Andromeda"
+      ],
+      "\ud83d\udc0d"
+    ]
+  ]
 }

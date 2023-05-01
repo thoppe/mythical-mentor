@@ -155,5 +155,802 @@
     "mythical_mentor_schema_version": 2.1,
     "main_topic": "everything is a chicken. All creatures are some form of chicken. There is no magic. There are no humans. It is a pre-industrial. Chickens are dumb animials. Chickens can't fly. There are chickens with jobs, wild chicken creatures, and cute chicken pets",
     "world_name": "Henhaven"
-  }
+  },
+  "emoji": [
+    [
+      [
+        "world_names"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "world_description"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "races"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "creatures"
+      ],
+      "\ud83d\udc3e (Paw prints)"
+    ],
+    [
+      [
+        "basic_cities"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "deities"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "landmarks"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "beliefs"
+      ],
+      "\ud83d\udd4a\ufe0f"
+    ],
+    [
+      [
+        "relics"
+      ],
+      "\ud83e\udd9a"
+    ],
+    [
+      [
+        "cities",
+        "Cluckingham",
+        "city_description"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Cluckingham",
+        "basic_residents"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Cluckingham",
+        "lore"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Cluckingham",
+        "residents",
+        "Colonel Sanders"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Cluckingham",
+        "residents",
+        "Blackbeak"
+      ],
+      "\ud83e\udd85"
+    ],
+    [
+      [
+        "cities",
+        "Cluckingham",
+        "residents",
+        "Henrietta"
+      ],
+      "\ud83d\udc13"
+    ],
+    [
+      [
+        "cities",
+        "Cluckingham",
+        "residents",
+        "Sir Cluckles"
+      ],
+      "\ud83d\udc13"
+    ],
+    [
+      [
+        "cities",
+        "Cluckingham",
+        "residents",
+        "Pecky"
+      ],
+      "\ud83d\udc26"
+    ],
+    [
+      [
+        "cities",
+        "Cluckingham",
+        "residents",
+        "Fluffy"
+      ],
+      "\ud83d\udc25"
+    ],
+    [
+      [
+        "cities",
+        "Cluckingham",
+        "residents",
+        "Eggbert"
+      ],
+      "\ud83d\udc14\ud83e\uddea"
+    ],
+    [
+      [
+        "cities",
+        "Cluckingham",
+        "residents",
+        "Lady Cluckington"
+      ],
+      "\ud83e\udda2"
+    ],
+    [
+      [
+        "cities",
+        "Roosterville",
+        "city_description"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Roosterville",
+        "basic_residents"
+      ],
+      "\ud83d\udc14 (chicken)"
+    ],
+    [
+      [
+        "cities",
+        "Roosterville",
+        "lore"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Roosterville",
+        "residents",
+        "Cluckington the Wise, Feathered Fowl"
+      ],
+      "\ud83d\udc13"
+    ],
+    [
+      [
+        "cities",
+        "Roosterville",
+        "residents",
+        "Henrietta the Huntress, Beaked Bird"
+      ],
+      "\ud83e\udd85"
+    ],
+    [
+      [
+        "cities",
+        "Roosterville",
+        "residents",
+        "Igor the Inventor, Feathered Fowl"
+      ],
+      "\ud83d\udc14\ud83d\udee0\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Roosterville",
+        "residents",
+        "Mildred the Matchmaker, Crested Chicken"
+      ],
+      "\ud83d\udc95"
+    ],
+    [
+      [
+        "cities",
+        "Roosterville",
+        "residents",
+        "Slash the Scavenger, Feathered Fowl"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Roosterville",
+        "residents",
+        "Ferdinand the Farmer, Plumed Poultry"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Roosterville",
+        "residents",
+        "Greta the Gossip, Feathered Fowl"
+      ],
+      "\ud83d\udc26"
+    ],
+    [
+      [
+        "cities",
+        "Roosterville",
+        "residents",
+        "Sparky the Adventurer, Taloned Turkey"
+      ],
+      "\ud83d\udc13"
+    ],
+    [
+      [
+        "cities",
+        "Roosterville",
+        "residents",
+        "Bubbles the Beauty, Plumed Poultry"
+      ],
+      "\ud83d\udc8e"
+    ],
+    [
+      [
+        "cities",
+        "Roosterville",
+        "residents",
+        "Ziggy the Zen, Feathered Fowl"
+      ],
+      "\ud83d\udc14\ud83d\udcab"
+    ],
+    [
+      [
+        "cities",
+        "Talon Town",
+        "city_description"
+      ],
+      "\ud83d\udc13\ud83e\udd83 (chicken and turkey)"
+    ],
+    [
+      [
+        "cities",
+        "Talon Town",
+        "basic_residents"
+      ],
+      "\ud83d\udc14 for all of the chicken-related topics."
+    ],
+    [
+      [
+        "cities",
+        "Talon Town",
+        "lore"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Talon Town",
+        "residents",
+        "Cluckbeard the Wise - Crested Chicken"
+      ],
+      "\ud83d\udc13"
+    ],
+    [
+      [
+        "cities",
+        "Talon Town",
+        "residents",
+        "Fang the Fierce - Taloned Turkey"
+      ],
+      "\ud83e\udd85"
+    ],
+    [
+      [
+        "cities",
+        "Talon Town",
+        "residents",
+        "Henrietta the Healer - Crested Chicken"
+      ],
+      "\ud83d\udc13"
+    ],
+    [
+      [
+        "cities",
+        "Talon Town",
+        "residents",
+        "Scratchy the Scavenger - Taloned Turkey"
+      ],
+      "\ud83e\udd83"
+    ],
+    [
+      [
+        "cities",
+        "Talon Town",
+        "residents",
+        "Peepers the Pet - Feathered Fowl"
+      ],
+      "\ud83d\udc40"
+    ],
+    [
+      [
+        "cities",
+        "Talon Town",
+        "residents",
+        "Squawk the Scoundrel - Taloned Turkey"
+      ],
+      "\ud83e\udd85"
+    ],
+    [
+      [
+        "cities",
+        "Talon Town",
+        "residents",
+        "Fluffy the Fashionista - Plumed Poultry"
+      ],
+      "\ud83d\udc83"
+    ],
+    [
+      [
+        "cities",
+        "Talon Town",
+        "residents",
+        "Gobbles the Gourmet - Taloned Turkey"
+      ],
+      "\ud83d\udc68\u200d\ud83c\udf73"
+    ],
+    [
+      [
+        "cities",
+        "Wattleburg",
+        "city_description"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Wattleburg",
+        "basic_residents"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Wattleburg",
+        "lore"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Wattleburg",
+        "residents",
+        "Henrietta the Wise"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Wattleburg",
+        "residents",
+        "Colonel Cluck"
+      ],
+      "\ud83d\udc13"
+    ],
+    [
+      [
+        "cities",
+        "Wattleburg",
+        "residents",
+        "Professor Peck"
+      ],
+      "\ud83e\udd9a"
+    ],
+    [
+      [
+        "cities",
+        "Wattleburg",
+        "residents",
+        "Chickadee the Thief"
+      ],
+      "\ud83e\udd9c"
+    ],
+    [
+      [
+        "cities",
+        "Wattleburg",
+        "residents",
+        "Mayor Cluckington"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Wattleburg",
+        "residents",
+        "Henny Penny"
+      ],
+      "\ud83d\udc13"
+    ],
+    [
+      [
+        "cities",
+        "Wattleburg",
+        "residents",
+        "Clucky the Adventurer"
+      ],
+      "\ud83e\udd9a"
+    ],
+    [
+      [
+        "cities",
+        "Wattleburg",
+        "residents",
+        "Colonel Sanders"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Beaksville",
+        "city_description"
+      ],
+      "\ud83e\udd9c (bird)"
+    ],
+    [
+      [
+        "cities",
+        "Beaksville",
+        "basic_residents"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Beaksville",
+        "lore"
+      ],
+      "\ud83d\udc14 (chicken)"
+    ],
+    [
+      [
+        "cities",
+        "Beaksville",
+        "residents",
+        "Captain Cluckbeard"
+      ],
+      "\ud83e\udd9c"
+    ],
+    [
+      [
+        "cities",
+        "Beaksville",
+        "residents",
+        "Lady Featherbottom"
+      ],
+      "\ud83d\udc51"
+    ],
+    [
+      [
+        "cities",
+        "Beaksville",
+        "residents",
+        "Mayor Scratch"
+      ],
+      "\ud83e\udd85"
+    ],
+    [
+      [
+        "cities",
+        "Beaksville",
+        "residents",
+        "Baroness Cluckington"
+      ],
+      "\ud83d\udc13"
+    ],
+    [
+      [
+        "cities",
+        "Beaksville",
+        "residents",
+        "Professor Peck"
+      ],
+      "\ud83e\uddd1\u200d\ud83c\udfeb"
+    ],
+    [
+      [
+        "cities",
+        "Crested Heights",
+        "city_description"
+      ],
+      "\ud83c\udfde\ufe0f"
+    ],
+    [
+      [
+        "cities",
+        "Crested Heights",
+        "basic_residents"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Crested Heights",
+        "lore"
+      ],
+      "\ud83d\udde1\ufe0f (sword)"
+    ],
+    [
+      [
+        "cities",
+        "Crested Heights",
+        "residents",
+        "Redbeak"
+      ],
+      "\ud83e\udd85"
+    ],
+    [
+      [
+        "cities",
+        "Crested Heights",
+        "residents",
+        "Goldfeather"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Crested Heights",
+        "residents",
+        "Nightwing"
+      ],
+      "\ud83e\udd89"
+    ],
+    [
+      [
+        "cities",
+        "Crested Heights",
+        "residents",
+        "Thunderstrike"
+      ],
+      "\ud83d\udcaa"
+    ],
+    [
+      [
+        "cities",
+        "Crested Heights",
+        "residents",
+        "Princess Plumage"
+      ],
+      "\ud83e\udd9a"
+    ],
+    [
+      [
+        "cities",
+        "Crested Heights",
+        "residents",
+        "Blackheart"
+      ],
+      "\ud83d\udda4"
+    ],
+    [
+      [
+        "cities",
+        "Crested Heights",
+        "residents",
+        "Lightning Talon"
+      ],
+      "\ud83e\udd85"
+    ],
+    [
+      [
+        "cities",
+        "Crested Heights",
+        "residents",
+        "Shadowclaw"
+      ],
+      "\ud83d\udc26"
+    ],
+    [
+      [
+        "cities",
+        "Cluckington",
+        "city_description"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Cluckington",
+        "basic_residents"
+      ],
+      "\ud83d\udc13"
+    ],
+    [
+      [
+        "cities",
+        "Cluckington",
+        "lore"
+      ],
+      "\ud83d\udc13 (chicken emoji)"
+    ],
+    [
+      [
+        "cities",
+        "Cluckington",
+        "residents",
+        "Sir Cluckington"
+      ],
+      "\ud83d\udc13"
+    ],
+    [
+      [
+        "cities",
+        "Cluckington",
+        "residents",
+        "Rusty"
+      ],
+      "\ud83e\udd83"
+    ],
+    [
+      [
+        "cities",
+        "Cluckington",
+        "residents",
+        "Henrietta"
+      ],
+      "\ud83e\uddf5"
+    ],
+    [
+      [
+        "cities",
+        "Cluckington",
+        "residents",
+        "The Chicken Bandits"
+      ],
+      "\ud83d\udc13"
+    ],
+    [
+      [
+        "cities",
+        "Cluckington",
+        "residents",
+        "Colonel Strut"
+      ],
+      "\ud83e\udd83"
+    ],
+    [
+      [
+        "cities",
+        "Cluckington",
+        "residents",
+        "Fluffy"
+      ],
+      "\ud83d\udc25"
+    ],
+    [
+      [
+        "cities",
+        "Feather Falls",
+        "city_description"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Feather Falls",
+        "basic_residents"
+      ],
+      "\ud83d\udc13 (rooster)"
+    ],
+    [
+      [
+        "cities",
+        "Feather Falls",
+        "lore"
+      ],
+      "\ud83d\udc14 (chicken)"
+    ],
+    [
+      [
+        "cities",
+        "Feather Falls",
+        "residents",
+        "Captain Cluckbeak"
+      ],
+      "\ud83e\udd9a"
+    ],
+    [
+      [
+        "cities",
+        "Feather Falls",
+        "residents",
+        "Madame Feathers"
+      ],
+      "\ud83e\udd9a"
+    ],
+    [
+      [
+        "cities",
+        "Feather Falls",
+        "residents",
+        "Professor Peck"
+      ],
+      "\ud83e\udd9c"
+    ],
+    [
+      [
+        "cities",
+        "Feather Falls",
+        "residents",
+        "The Chickening"
+      ],
+      "\ud83d\udc14"
+    ],
+    [
+      [
+        "cities",
+        "Feather Falls",
+        "residents",
+        "Lady Cluckington"
+      ],
+      "\ud83d\udc13"
+    ],
+    [
+      [
+        "cities",
+        "Feather Falls",
+        "residents",
+        "Doctor Rooster"
+      ],
+      "\ud83e\udd86"
+    ],
+    [
+      [
+        "cities",
+        "Feather Falls",
+        "residents",
+        "The Feathered Bandit"
+      ],
+      "\ud83e\udd9a (peacock)"
+    ],
+    [
+      [
+        "cities",
+        "Feather Falls",
+        "residents",
+        "Mayor Clucksworth"
+      ],
+      "\ud83d\udc13"
+    ]
+  ]
 }
